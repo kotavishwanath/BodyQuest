@@ -1,0 +1,402 @@
+[
+  {
+    "id": "skull",
+    "meshName": "skull",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "⛑️",
+    "names": { "common": "Skull", "scientific": "Cranium and facial bones" },
+    "content": {
+      "young": {
+        "what": "Your skull is the bony helmet inside your head.",
+        "does": "It keeps your brain safe and gives your face its shape.",
+        "funFact": "A baby's skull has soft spots that slowly close up as the baby grows!"
+      },
+      "junior": {
+        "what": "The skull is the bony framework of the head: cranial bones around the brain and facial bones at the front.",
+        "does": "The cranium protects the brain, while the facial bones support the eyes, nose and teeth and give the chewing muscles somewhere to attach.",
+        "funFact": "Most skull bones are joined by wiggly seams called sutures, which lock them together like puzzle pieces.",
+        "worksWith": ["brain", "mandible", "eyes"],
+        "details": "The skull has 22 bones: 8 cranial bones and 14 facial bones. Only the lower jaw can move freely."
+      }
+    }
+  },
+  {
+    "id": "mandible",
+    "meshName": "mandible",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "😬",
+    "names": { "common": "Jaw bone", "scientific": "Mandible", "pronunciation": "MAN-dih-bul" },
+    "content": {
+      "young": {
+        "what": "Your jaw bone is the bone of your chin that holds your bottom teeth.",
+        "does": "It moves up and down so you can chew, talk and sing.",
+        "funFact": "Your jaw bone is the only bone in your skull that you can move!"
+      },
+      "junior": {
+        "what": "The mandible is the U-shaped bone of the lower jaw.",
+        "does": "Strong chewing muscles pull it up to bite, and it can also slide from side to side to grind food.",
+        "funFact": "The mandible is the largest and strongest bone of the face.",
+        "worksWith": ["skull", "jaw-muscles", "mouth"],
+        "details": "It holds the lower teeth and joins the skull at the jaw joint, just in front of each ear."
+      }
+    }
+  },
+  {
+    "id": "vertebral-column",
+    "meshName": "spine",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Backbone", "scientific": "Vertebral column", "pronunciation": "VER-tuh-brul" },
+    "content": {
+      "young": {
+        "what": "Your backbone is a tall stack of small bones down the middle of your back.",
+        "does": "It holds you up straight and lets you bend and twist.",
+        "funFact": "It is made of lots of small bones called vertebrae, stacked like building blocks!"
+      },
+      "junior": {
+        "what": "The vertebral column, or spine, is a flexible column of bones called vertebrae running from the skull to the pelvis.",
+        "does": "It supports the head and body, protects the spinal cord inside it, and lets you bend and twist. Soft discs between the vertebrae work as shock absorbers.",
+        "funFact": "A baby has 33 vertebrae, but some join together while growing up, so an adult has 26.",
+        "worksWith": ["skull", "rib-cage", "pelvis", "brain"],
+        "details": "From top to bottom there are 7 neck (cervical), 12 chest (thoracic) and 5 lower-back (lumbar) vertebrae, then the sacrum and coccyx."
+      }
+    }
+  },
+  {
+    "id": "rib-cage",
+    "meshName": "ribs",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🛡️",
+    "names": { "common": "Rib cage", "scientific": "Ribs" },
+    "content": {
+      "young": {
+        "what": "Your ribs are curved bones that wrap around your chest like a cage.",
+        "does": "They protect your heart and lungs and move when you breathe.",
+        "funFact": "Most people have 12 pairs of ribs. That's 24 ribs!"
+      },
+      "junior": {
+        "what": "The rib cage is made of 12 pairs of ribs, joined to the thoracic vertebrae at the back and, for most ribs, to the breastbone at the front.",
+        "does": "It protects the heart and lungs. Muscles between the ribs lift them when you breathe in, making the chest bigger.",
+        "funFact": "The lowest two pairs are called 'floating ribs' because they are not attached to the breastbone.",
+        "worksWith": ["sternum", "vertebral-column", "lungs", "heart"],
+        "details": "Pairs 1–7 join the breastbone directly by cartilage (true ribs). Pairs 8–10 join through the cartilage of the rib above (false ribs). Pairs 11–12 float free at the front."
+      }
+    }
+  },
+  {
+    "id": "sternum",
+    "meshName": "sternum",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🗡️",
+    "names": { "common": "Breastbone", "scientific": "Sternum", "pronunciation": "STER-num" },
+    "content": {
+      "young": {
+        "what": "Your breastbone is a flat bone in the middle of your chest.",
+        "does": "Your ribs join onto it to make a strong shield for your heart.",
+        "funFact": "Press gently in the middle of your chest and you can feel your breastbone!"
+      },
+      "junior": {
+        "what": "The sternum is a flat, dagger-shaped bone at the front of the chest.",
+        "does": "It anchors the ribs through strips of cartilage and helps protect the heart.",
+        "funFact": "It has three parts: the manubrium (handle), the body (blade) and the xiphoid process (tip).",
+        "worksWith": ["rib-cage", "clavicle", "heart"],
+        "details": "The collarbones join the top of the sternum, linking your arms to the chest skeleton."
+      }
+    }
+  },
+  {
+    "id": "clavicle",
+    "meshName": "clavicles",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "〰️",
+    "names": { "common": "Collarbone", "scientific": "Clavicle", "pronunciation": "KLAV-ih-kul" },
+    "content": {
+      "young": {
+        "what": "Your collarbones are two thin bones across the top of your chest.",
+        "does": "They hold your shoulders out to the sides so your arms can move freely.",
+        "funFact": "You can feel your collarbone just under the skin near your neck!"
+      },
+      "junior": {
+        "what": "The clavicle is a long, S-shaped bone between the breastbone and the shoulder blade.",
+        "does": "It works like a strut, holding the shoulder away from the body and passing forces from the arm to the trunk.",
+        "funFact": "The clavicle is the first bone in the body to start hardening before birth.",
+        "worksWith": ["sternum", "scapula", "humerus"],
+        "details": "Together, the clavicle and the scapula form the pectoral (shoulder) girdle."
+      }
+    }
+  },
+  {
+    "id": "scapula",
+    "meshName": "scapulae",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🔺",
+    "names": { "common": "Shoulder blade", "scientific": "Scapula", "pronunciation": "SKAP-yoo-luh" },
+    "content": {
+      "young": {
+        "what": "Your shoulder blades are two flat, triangle-shaped bones on your upper back.",
+        "does": "They help your arms swing, reach and lift.",
+        "funFact": "Your shoulder blades slide around on your back when you move your arms!"
+      },
+      "junior": {
+        "what": "The scapula is a large, flat, triangular bone on the upper back, lying over the 2nd to 7th ribs.",
+        "does": "Its shallow glenoid cavity forms the shoulder joint with the humerus, and many shoulder and back muscles attach to it.",
+        "funFact": "The scapula is held in place mostly by muscles rather than joints, which is why the shoulder can move so freely.",
+        "worksWith": ["clavicle", "humerus", "deltoid", "trapezius"],
+        "details": "A ridge on its back, the spine of the scapula, ends in the acromion, the bony tip of your shoulder."
+      }
+    }
+  },
+  {
+    "id": "humerus",
+    "meshName": "humeri",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Upper arm bone", "scientific": "Humerus", "pronunciation": "HYOO-mer-us" },
+    "content": {
+      "young": {
+        "what": "This is the bone inside the top part of your arm.",
+        "does": "It helps you lift and swing your arm.",
+        "funFact": "The tingly 'funny bone' feeling happens near the bottom end of this bone!"
+      },
+      "junior": {
+        "what": "The humerus is the long bone of the upper arm, from the shoulder to the elbow.",
+        "does": "Its rounded head fits into the shoulder blade to make a ball-and-socket joint, and its lower end forms the elbow's hinge joint with the radius and ulna.",
+        "funFact": "The 'funny bone' feeling comes from bumping the ulnar nerve where it passes the humerus at the elbow.",
+        "worksWith": ["scapula", "radius", "ulna", "biceps", "triceps"],
+        "details": "The deltoid, biceps and triceps muscles all attach to the humerus."
+      }
+    }
+  },
+  {
+    "id": "radius",
+    "meshName": "radii",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Forearm bone (thumb side)", "scientific": "Radius", "pronunciation": "RAY-dee-us" },
+    "content": {
+      "young": {
+        "what": "The radius is one of two bones in your forearm, on the thumb side.",
+        "does": "It lets you turn your hand over, palm up and palm down.",
+        "funFact": "When you turn a doorknob, your radius rolls around the other forearm bone!"
+      },
+      "junior": {
+        "what": "The radius is the forearm bone on the thumb side.",
+        "does": "It rotates around the ulna so you can turn your palm up (supination) and down (pronation).",
+        "funFact": "The radius is the forearm bone that is most often broken, usually by falling onto an outstretched hand.",
+        "worksWith": ["ulna", "humerus", "hand-bones"],
+        "details": "At the wrist, the radius joins the carpal bones, so it carries most of the load from the hand."
+      }
+    }
+  },
+  {
+    "id": "ulna",
+    "meshName": "ulnae",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Forearm bone (little-finger side)", "scientific": "Ulna", "pronunciation": "UL-nuh" },
+    "content": {
+      "young": {
+        "what": "The ulna is the other forearm bone, on the little-finger side.",
+        "does": "It makes the hinge of your elbow with your upper arm bone.",
+        "funFact": "The pointy bump of your elbow is the top of your ulna!"
+      },
+      "junior": {
+        "what": "The ulna is the forearm bone on the little-finger side.",
+        "does": "Its hook-shaped top wraps around the humerus to form the elbow's hinge joint, and it stays still while the radius rotates.",
+        "funFact": "The point of your elbow is a part of the ulna called the olecranon.",
+        "worksWith": ["radius", "humerus", "triceps"],
+        "details": "The triceps muscle attaches to the olecranon and pulls on it to straighten the arm."
+      }
+    }
+  },
+  {
+    "id": "hand-bones",
+    "meshName": "hand_bones",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "hands",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🖐️",
+    "names": { "common": "Hand bones", "scientific": "Carpals, metacarpals and phalanges" },
+    "content": {
+      "young": {
+        "what": "Your hand has lots of small bones in the wrist, palm and fingers.",
+        "does": "They let your hand bend in many places so you can grip and wiggle.",
+        "funFact": "Each hand has 27 bones. More than a quarter of all your bones are in your hands!"
+      },
+      "junior": {
+        "what": "The hand skeleton has 27 bones: 8 carpals in the wrist, 5 metacarpals in the palm and 14 phalanges in the fingers.",
+        "does": "Many small bones linked by movable joints make the hand flexible enough for writing, gripping and other fine movements.",
+        "funFact": "Your hands and feet together contain more than half of all the bones in your body.",
+        "worksWith": ["radius", "ulna", "hands"],
+        "details": "The thumb has only 2 phalanges; each of the other fingers has 3."
+      }
+    }
+  },
+  {
+    "id": "pelvis",
+    "meshName": "pelvis",
+    "system": "skeletal",
+    "layer": 3,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🥣",
+    "names": { "common": "Hip bones", "scientific": "Pelvis", "pronunciation": "PEL-vis" },
+    "content": {
+      "young": {
+        "what": "Your hip bones make a strong bowl shape at the bottom of your tummy.",
+        "does": "They hold up the top half of your body and join onto your legs.",
+        "funFact": "Put your hands on your hips and you are touching the top of your pelvis!"
+      },
+      "junior": {
+        "what": "The pelvis is a ring of bones made of two hip bones joined at the front and the sacrum at the back.",
+        "does": "It carries the weight of the upper body to the legs, protects organs such as the bladder, and forms the hip joints.",
+        "funFact": "Each hip bone starts as three separate bones, the ilium, ischium and pubis, which fuse together as you grow.",
+        "worksWith": ["vertebral-column", "femur", "gluteus-maximus"],
+        "details": "A deep cup on each side, the acetabulum, holds the ball-shaped head of the femur."
+      }
+    }
+  },
+  {
+    "id": "femur",
+    "meshName": "femurs",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Thigh bone", "scientific": "Femur", "pronunciation": "FEE-mur" },
+    "content": {
+      "young": {
+        "what": "Your thigh bone is the long bone in the top part of your leg.",
+        "does": "It holds up your body when you stand, walk and jump.",
+        "funFact": "It is the longest and strongest bone in your whole body!"
+      },
+      "junior": {
+        "what": "The femur is the bone of the thigh, running from the hip to the knee.",
+        "does": "Its ball-shaped head fits into the pelvis at the hip, and its lower end forms the knee joint with the tibia.",
+        "funFact": "Your femur is roughly a quarter of your height.",
+        "worksWith": ["pelvis", "patella", "tibia", "quadriceps", "hamstrings"],
+        "details": "Inside the femur is bone marrow, which makes new blood cells."
+      }
+    }
+  },
+  {
+    "id": "patella",
+    "meshName": "patellae",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🔘",
+    "names": { "common": "Kneecap", "scientific": "Patella", "pronunciation": "puh-TEL-uh" },
+    "content": {
+      "young": {
+        "what": "Your kneecap is a small, round bone at the front of your knee.",
+        "does": "It protects your knee and helps your leg straighten.",
+        "funFact": "Babies' kneecaps are made of soft cartilage and slowly turn into bone!"
+      },
+      "junior": {
+        "what": "The patella is a small, triangular bone at the front of the knee joint.",
+        "does": "It sits inside the tendon of the quadriceps muscle and works like a pulley, making it easier to straighten the knee.",
+        "funFact": "The patella is the largest sesamoid bone, a type of bone that grows inside a tendon.",
+        "worksWith": ["femur", "tibia", "quadriceps"],
+        "details": "Strong ligaments inside the knee, such as the anterior cruciate ligament (ACL), hold the femur and tibia together."
+      }
+    }
+  },
+  {
+    "id": "tibia",
+    "meshName": "tibiae",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Shin bone", "scientific": "Tibia", "pronunciation": "TIB-ee-uh" },
+    "content": {
+      "young": {
+        "what": "Your shin bone is the big bone at the front of your lower leg.",
+        "does": "It carries your weight from your knee down to your ankle.",
+        "funFact": "You can feel your shin bone right under the skin at the front of your leg!"
+      },
+      "junior": {
+        "what": "The tibia is the larger, inner bone of the lower leg.",
+        "does": "It carries almost all of the body's weight between the knee and the ankle.",
+        "funFact": "The tibia is the second-longest bone in the body, after the femur.",
+        "worksWith": ["femur", "fibula", "patella", "foot-bones"],
+        "details": "The bump on the inside of your ankle is the lower end of the tibia."
+      }
+    }
+  },
+  {
+    "id": "fibula",
+    "meshName": "fibulae",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦴",
+    "names": { "common": "Calf bone", "scientific": "Fibula", "pronunciation": "FIB-yoo-luh" },
+    "content": {
+      "young": {
+        "what": "The fibula is a thin bone on the outside of your lower leg.",
+        "does": "It helps keep your ankle steady and gives muscles a place to hold on.",
+        "funFact": "It is much thinner than the shin bone right next to it!"
+      },
+      "junior": {
+        "what": "The fibula is the thin, outer bone of the lower leg.",
+        "does": "It carries little of the body's weight but anchors leg muscles and helps form the ankle joint.",
+        "funFact": "The bump on the outside of your ankle is the lower end of the fibula.",
+        "worksWith": ["tibia", "foot-bones", "calf-muscles"],
+        "details": "Because it carries so little weight, surgeons sometimes use a piece of the fibula to repair other bones."
+      }
+    }
+  },
+  {
+    "id": "foot-bones",
+    "meshName": "foot_bones",
+    "system": "skeletal",
+    "layer": 3,
+    "parentId": "feet",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦶",
+    "names": { "common": "Foot bones", "scientific": "Tarsals, metatarsals and phalanges" },
+    "content": {
+      "young": {
+        "what": "Your foot has lots of small bones in the ankle, the middle of the foot and the toes.",
+        "does": "They work together to balance you and push you forward when you walk.",
+        "funFact": "Each foot has 26 bones!"
+      },
+      "junior": {
+        "what": "The foot skeleton has 26 bones: 7 tarsals, 5 metatarsals and 14 phalanges.",
+        "does": "The bones form arches that spread your weight and act like springs when you walk, run and jump.",
+        "funFact": "The calcaneus, or heel bone, is the largest bone in the foot.",
+        "worksWith": ["tibia", "fibula", "achilles-tendon", "feet"],
+        "details": "The talus sits on top of the heel bone and forms the ankle joint with the tibia and fibula."
+      }
+    }
+  }
+]

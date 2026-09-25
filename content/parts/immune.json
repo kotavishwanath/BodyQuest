@@ -1,0 +1,38 @@
+[
+  {
+    "id": "spleen",
+    "meshName": "spleen",
+    "system": "immune",
+    "layer": 2,
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🛡️",
+    "names": { "common": "Spleen" },
+    "content": {
+      "junior": {
+        "what": "The spleen is a soft, fist-sized organ in the upper left of the abdomen, behind the stomach.",
+        "does": "It filters the blood, removing worn-out red blood cells, and it is a base for white blood cells that fight infections.",
+        "funFact": "The spleen keeps a store of platelets and white blood cells, ready to help heal injuries and fight germs.",
+        "worksWith": ["thymus", "heart", "liver"],
+        "details": "The spleen is part of the lymphatic system, the body's defence team. People can live without a spleen, but they may catch some infections more easily."
+      }
+    }
+  },
+  {
+    "id": "thymus",
+    "meshName": "thymus",
+    "system": "immune",
+    "layer": 2,
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🎓",
+    "names": { "common": "Thymus", "pronunciation": "THY-mus" },
+    "content": {
+      "junior": {
+        "what": "The thymus is a small gland in the chest, behind the breastbone and in front of the heart.",
+        "does": "It trains white blood cells called T cells to recognise germs and to leave the body's own cells alone.",
+        "funFact": "The thymus is largest in children and slowly shrinks after puberty.",
+        "worksWith": ["spleen", "heart", "sternum"],
+        "details": "It also makes a hormone, thymosin, so it belongs to both the immune system and the endocrine system."
+      }
+    }
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "head",
+    "meshName": "skin_head",
+    "system": "external",
+    "layer": 0,
+    "visibleInModes": ["little"],
+    "icon": "🙂",
+    "names": { "common": "Head" },
+    "content": {
+      "little": { "say": "This is your head. Can you nod it up and down?" }
+    }
+  },
+  {
+    "id": "tummy",
+    "meshName": "skin_tummy",
+    "system": "external",
+    "layer": 0,
+    "visibleInModes": ["little"],
+    "icon": "🍎",
+    "names": { "common": "Tummy" },
+    "content": {
+      "little": { "say": "This is your tummy. Pat, pat! Yummy food goes in here." }
+    }
+  },
+  {
+    "id": "arms",
+    "meshName": "skin_arms",
+    "system": "external",
+    "layer": 0,
+    "children": ["hands", "humerus", "radius", "ulna", "deltoid", "biceps", "triceps"],
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "💪",
+    "names": { "common": "Arms", "scientific": "Upper limb" },
+    "content": {
+      "young": {
+        "what": "Your arms go from your shoulders down to your hands.",
+        "does": "They help you reach, lift, throw and give big hugs.",
+        "funFact": "Your elbow works like the hinge on a door!"
+      },
+      "junior": {
+        "what": "The arm, or upper limb, runs from the shoulder to the hand.",
+        "does": "Muscles pull on bones to move it. The biceps bends the elbow and the triceps straightens it, so they work as a team.",
+        "funFact": "Your 'funny bone' is not a bone at all. It is the ulnar nerve passing close to the skin at your elbow.",
+        "worksWith": ["hands", "brain", "heart"],
+        "details": "The upper arm has one bone, the humerus. The forearm has two, the radius and the ulna."
+      },
+      "bipc": {
+        "definition": "The upper limb (forelimb) is an appendage attached to the trunk at the pectoral girdle and adapted for reaching and manipulation.",
+        "structure": "Each upper limb has 30 bones: humerus, radius and ulna, 8 carpals, 5 metacarpals and 14 phalanges. It articulates with the pectoral girdle (clavicle and scapula) at the shoulder, where the head of the humerus fits into the glenoid cavity of the scapula.",
+        "function": "The shoulder is a ball-and-socket joint that allows movement in many planes, and the elbow is a hinge joint. Antagonistic muscle pairs, such as the biceps (flexor of the elbow) and triceps (extensor), produce and control movement.",
+        "keyTerms": [
+          { "term": "Pectoral girdle", "meaning": "Clavicle and scapula; attaches the upper limb to the axial skeleton" },
+          { "term": "Glenoid cavity", "meaning": "Depression on the scapula that receives the head of the humerus" },
+          { "term": "Antagonistic muscles", "meaning": "A pair of muscles that produce opposite movements at the same joint" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "locomotion-and-movement", "topic": "Appendicular skeleton", "inSyllabus": true }
+        ],
+        "physicsLinks": [
+          {
+            "concept": "Levers and torque",
+            "explanation": "The forearm is a third-class lever: the elbow is the fulcrum and the biceps applies effort between the fulcrum and the load in the hand. This gives a low mechanical advantage but fast, wide movement of the hand.",
+            "formula": "\\tau = rF\\sin\\theta"
+          }
+        ],
+        "examTips": ["Each upper limb has 30 bones. Count them as 1 + 2 + 8 + 5 + 14."],
+        "flashcards": [
+          { "front": "Which type of joint is the shoulder joint?", "back": "Ball-and-socket (synovial) joint" }
+        ]
+      }
+    },
+    "animation": "flex"
+  },
+  {
+    "id": "hands",
+    "meshName": "skin_hands",
+    "system": "external",
+    "layer": 0,
+    "parentId": "arms",
+    "children": ["hand-bones"],
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "✋",
+    "names": { "common": "Hands" },
+    "content": {
+      "little": { "say": "These are your hands. Wave hello!" },
+      "young": {
+        "what": "Your hands are at the ends of your arms.",
+        "does": "They help you hold, draw, build and clap.",
+        "funFact": "Each of your hands has 27 bones!"
+      },
+      "junior": {
+        "what": "The hand is the end part of the upper limb: the wrist, the palm and the fingers.",
+        "does": "Muscles in the forearm pull on long tendons to bend and straighten the fingers, while small muscles in the palm make fine movements like writing.",
+        "funFact": "Your thumb can touch the tip of each of your other fingers. This is called an opposable thumb.",
+        "worksWith": ["arms", "brain"],
+        "details": "Each hand has 8 carpal bones in the wrist, 5 metacarpals in the palm and 14 phalanges in the fingers."
+      },
+      "bipc": {
+        "definition": "The hand is the distal part of the upper limb, specialised for grasping and fine manipulation.",
+        "structure": "Its skeleton consists of 8 carpals (wrist), 5 metacarpals (palm) and 14 phalanges (digits), making 27 bones. The thumb has 2 phalanges and each of the other digits has 3.",
+        "function": "Flexor and extensor muscles in the forearm act through long tendons, while intrinsic hand muscles control precise movements. The saddle joint between the carpal and first metacarpal of the thumb allows the thumb to be opposed to the other digits.",
+        "keyTerms": [
+          { "term": "Carpals", "meaning": "The 8 small bones of the wrist" },
+          { "term": "Phalanges", "meaning": "Bones of the digits; 14 in each hand" },
+          { "term": "Saddle joint", "meaning": "Synovial joint between the carpal and metacarpal of the thumb" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "locomotion-and-movement", "topic": "Appendicular skeleton", "inSyllabus": true }
+        ],
+        "examTips": ["The joint between the carpal and metacarpal of the thumb is a saddle joint, a frequently tested example."],
+        "flashcards": [
+          { "front": "How many phalanges are there in one human hand?", "back": "14" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "legs",
+    "meshName": "skin_legs",
+    "system": "external",
+    "layer": 0,
+    "children": ["feet", "femur", "patella", "tibia", "fibula", "quadriceps", "hamstrings", "calf-muscles", "sartorius"],
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦵",
+    "names": { "common": "Legs", "scientific": "Lower limb" },
+    "content": {
+      "young": {
+        "what": "Your legs go from your hips down to your feet.",
+        "does": "They carry you when you stand, walk, run and jump.",
+        "funFact": "The longest bone in your body is in your thigh!"
+      },
+      "junior": {
+        "what": "The leg, or lower limb, runs from the hip to the foot.",
+        "does": "Big muscles, like the quadriceps at the front of the thigh and the hamstrings at the back, move the hip and knee so you can walk and run.",
+        "funFact": "The femur, or thigh bone, is the longest and strongest bone in your body.",
+        "worksWith": ["feet", "brain", "heart"],
+        "details": "The kneecap, or patella, is a small bone that protects the front of the knee joint."
+      },
+      "bipc": {
+        "definition": "The lower limb (hindlimb) is an appendage attached to the trunk at the pelvic girdle and adapted for weight-bearing and locomotion.",
+        "structure": "Each lower limb has 30 bones: femur, tibia, fibula, patella, 7 tarsals, 5 metatarsals and 14 phalanges. The head of the femur articulates with the acetabulum of the pelvic girdle, which is formed by the fused ilium, ischium and pubis.",
+        "function": "The hip is a ball-and-socket joint and the knee is a hinge joint; both are synovial joints. Large antagonistic muscle groups move these joints, while the femur transmits body weight to the leg.",
+        "keyTerms": [
+          { "term": "Pelvic girdle", "meaning": "Two coxal bones, each formed by the fused ilium, ischium and pubis" },
+          { "term": "Acetabulum", "meaning": "Cavity in the pelvic girdle that receives the head of the femur" },
+          { "term": "Patella", "meaning": "Kneecap; a bone that covers the front of the knee joint" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "locomotion-and-movement", "topic": "Appendicular skeleton", "inSyllabus": true }
+        ],
+        "physicsLinks": [
+          {
+            "concept": "Stress, strain and Young's modulus",
+            "explanation": "Under small loads bone behaves elastically: stress (force per unit area) is proportional to strain (fractional change in length). Young's modulus measures this stiffness.",
+            "formula": "Y = \\frac{F/A}{\\Delta L / L}"
+          }
+        ],
+        "examTips": ["The femur is the longest bone; the stapes in the middle ear is the smallest."],
+        "flashcards": [
+          { "front": "Which three bones fuse to form each coxal bone?", "back": "Ilium, ischium and pubis" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "feet",
+    "meshName": "skin_feet",
+    "system": "external",
+    "layer": 0,
+    "parentId": "legs",
+    "children": ["foot-bones", "achilles-tendon"],
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "🦶",
+    "names": { "common": "Feet" },
+    "content": {
+      "little": { "say": "These are your feet. Stomp, stomp, stomp!" },
+      "young": {
+        "what": "Your feet are at the ends of your legs.",
+        "does": "They hold you up and help you walk, run and jump.",
+        "funFact": "Each of your feet has 26 bones!"
+      },
+      "junior": {
+        "what": "The foot is the end part of the lower limb: the ankle, the sole and the toes.",
+        "does": "Its bones form arches that work like springs, spreading your weight and cushioning each step when you walk or run.",
+        "funFact": "Your heel bone, the calcaneus, is the largest bone in your foot.",
+        "worksWith": ["legs", "brain"],
+        "details": "Each foot has 7 tarsal bones, 5 metatarsals and 14 phalanges."
+      },
+      "bipc": {
+        "definition": "The foot is the distal part of the lower limb, adapted for supporting body weight and for locomotion.",
+        "structure": "Its skeleton consists of 7 tarsals, 5 metatarsals and 14 phalanges, making 26 bones. These are arranged to form longitudinal and transverse arches.",
+        "function": "The arches distribute body weight and absorb shock. The calf muscles act on the calcaneus through the calcaneal (Achilles) tendon to raise the heel during walking.",
+        "keyTerms": [
+          { "term": "Tarsals", "meaning": "The 7 bones of the ankle" },
+          { "term": "Calcaneus", "meaning": "Heel bone; the largest tarsal" },
+          { "term": "Achilles tendon", "meaning": "Tendon that attaches the calf muscles to the calcaneus" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "locomotion-and-movement", "topic": "Appendicular skeleton", "inSyllabus": true }
+        ],
+        "examTips": ["Each lower limb has 30 bones: femur, patella, tibia, fibula, 7 tarsals, 5 metatarsals and 14 phalanges."],
+        "flashcards": [
+          { "front": "How many tarsal bones are there in one foot?", "back": "7" }
+        ]
+      }
+    }
+  }
+]

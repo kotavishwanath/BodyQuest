@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cell",
+    "name": { "junior": "Inside an animal cell" },
+    "intro": {
+      "junior": "Your body is made of about 37 trillion cells. Each one has tiny parts called organelles, and each organelle has a job, like rooms in a factory."
+    },
+    "structures": [
+      {
+        "id": "membrane",
+        "name": { "junior": "Cell membrane" },
+        "text": { "junior": "A thin, flexible skin around the cell that controls what goes in and out." }
+      },
+      {
+        "id": "nucleus",
+        "name": { "junior": "Nucleus" },
+        "text": { "junior": "The control centre. It holds DNA, the instructions for building and running the cell." }
+      },
+      {
+        "id": "nucleolus",
+        "name": { "junior": "Nucleolus" },
+        "text": { "junior": "A dense spot inside the nucleus where ribosomes are made." }
+      },
+      {
+        "id": "mitochondria",
+        "name": { "junior": "Mitochondria" },
+        "text": { "junior": "The cell's power stations. They use oxygen and glucose to release energy in cellular respiration." }
+      },
+      {
+        "id": "er",
+        "name": { "junior": "Endoplasmic reticulum" },
+        "text": { "junior": "Folded membranes around the nucleus. Rough ER, dotted with ribosomes, helps make proteins; smooth ER makes lipids." }
+      },
+      {
+        "id": "golgi",
+        "name": { "junior": "Golgi apparatus" },
+        "text": { "junior": "A stack of flattened sacs that sorts, packages and sends proteins to where they are needed, like a post office." }
+      },
+      {
+        "id": "ribosomes",
+        "name": { "junior": "Ribosomes" },
+        "text": { "junior": "Tiny machines that read instructions copied from DNA and build proteins." }
+      },
+      {
+        "id": "lysosome",
+        "name": { "junior": "Lysosomes" },
+        "text": { "junior": "Small sacs of enzymes that break down waste and worn-out cell parts." }
+      }
+    ]
+  },
+  {
+    "id": "gallery",
+    "name": { "junior": "Meet the cells" },
+    "intro": {
+      "junior": "Cells come in different shapes because they do different jobs. Compare these four."
+    },
+    "structures": [
+      {
+        "id": "neuron",
+        "name": { "junior": "Neuron (nerve cell)" },
+        "text": { "junior": "Long and branched, so it can carry electrical messages over long distances to many other cells." }
+      },
+      {
+        "id": "rbc",
+        "name": { "junior": "Red blood cell" },
+        "text": { "junior": "A flexible, dimple-shaped disc packed with haemoglobin to carry oxygen. It has no nucleus, leaving more room for haemoglobin, and it can squeeze through the narrowest capillaries." }
+      },
+      {
+        "id": "musclecell",
+        "name": { "junior": "Muscle fibre (muscle cell)" },
+        "text": { "junior": "Long and striped, with many nuclei. It contains filaments that slide together so the cell can contract." }
+      },
+      {
+        "id": "osteocyte",
+        "name": { "junior": "Osteocyte (bone cell)" },
+        "text": { "junior": "Lives inside hard bone and reaches out with many thin branches to its neighbours, helping keep the bone healthy." }
+      }
+    ]
+  }
+]

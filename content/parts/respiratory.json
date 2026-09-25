@@ -1,0 +1,99 @@
+[
+  {
+    "id": "lungs",
+    "meshName": "lungs",
+    "children": ["trachea"],
+    "system": "respiratory",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🫁",
+    "names": { "common": "Lungs" },
+    "content": {
+      "young": {
+        "what": "You have two lungs in your chest, one on each side of your heart.",
+        "does": "They fill up with air when you breathe in and pass oxygen into your blood.",
+        "funFact": "Your left lung is a little smaller to make room for your heart!"
+      },
+      "junior": {
+        "what": "The lungs are a pair of spongy organs in the chest where gases are exchanged.",
+        "does": "Air travels down the windpipe (trachea) into tubes called bronchi and tiny bronchioles, ending in millions of air sacs called alveoli. Oxygen passes into the blood there, and carbon dioxide passes out to be breathed away.",
+        "funFact": "Spread out flat, the inner surface of your lungs would cover about half a tennis court.",
+        "worksWith": ["heart", "nose"],
+        "details": "The diaphragm, a dome-shaped muscle below your lungs, flattens when you breathe in and pulls air into your lungs."
+      },
+      "bipc": {
+        "definition": "The lungs are paired respiratory organs in the thoracic chamber where gas exchange takes place between alveolar air and blood.",
+        "structure": "Each lung is covered by a double-layered pleura with pleural fluid between the layers, which reduces friction on the lung surface. The trachea divides into right and left primary bronchi, which branch repeatedly into secondary and tertiary bronchi and bronchioles, ending in thin, irregular-walled, vascularised bag-like alveoli. The thoracic chamber is closed dorsally by the vertebral column, ventrally by the sternum, laterally by the ribs and below by the dome-shaped diaphragm.",
+        "function": "Inspiration occurs when the diaphragm and external intercostal muscles contract, increasing the volume of the thoracic chamber and lowering intra-pulmonary pressure below atmospheric pressure. Normal expiration is passive, as these muscles relax. O₂ and CO₂ diffuse across the thin respiratory membrane along their partial-pressure gradients; CO₂ is about 20–25 times more soluble than O₂.",
+        "keyTerms": [
+          { "term": "Alveoli", "meaning": "Primary sites of gas exchange; thin, vascularised air sacs" },
+          { "term": "Pleura", "meaning": "Double membrane around each lung with pleural fluid between its layers" },
+          { "term": "Tidal volume", "meaning": "Volume of air inspired or expired during normal breathing (about 500 mL)" },
+          { "term": "Vital capacity", "meaning": "Maximum volume of air a person can breathe out after a forced inspiration" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "breathing-and-exchange-of-gases", "topic": "Mechanism of breathing and exchange of gases", "inSyllabus": true }
+        ],
+        "chemistryLinks": [
+          {
+            "concept": "Gas laws and partial pressure",
+            "explanation": "Boyle's law explains breathing: at constant temperature, increasing thoracic volume lowers pressure, so air flows in. Dalton's law of partial pressures explains why each gas diffuses independently from higher to lower partial pressure.",
+            "formula": "P_1 V_1 = P_2 V_2"
+          }
+        ],
+        "examTips": ["Typical partial pressures (mm Hg): alveoli pO₂ 104 and pCO₂ 40; deoxygenated blood pO₂ 40 and pCO₂ 45; oxygenated blood pO₂ 95 and pCO₂ 40."],
+        "flashcards": [
+          { "front": "Which muscles contract during normal inspiration?", "back": "The diaphragm and the external intercostal muscles" }
+        ]
+      }
+    },
+    "animation": "breathe"
+  },
+  {
+    "id": "trachea",
+    "meshName": "trachea",
+    "system": "respiratory",
+    "layer": 2,
+    "parentId": "lungs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🪠",
+    "names": { "common": "Windpipe", "scientific": "Trachea", "pronunciation": "TRAY-kee-uh" },
+    "content": {
+      "young": {
+        "what": "Your windpipe is a tube in your neck and chest that carries air.",
+        "does": "It takes the air you breathe in down to your lungs.",
+        "funFact": "Rings of bendy cartilage stop your windpipe from squashing flat!"
+      },
+      "junior": {
+        "what": "The trachea is a tube about 10–12 cm long that runs from the larynx into the chest, where it splits into two bronchi.",
+        "does": "It carries air to and from the lungs. Its lining makes sticky mucus and has tiny hairs (cilia) that sweep dust up and away from the lungs.",
+        "funFact": "C-shaped rings of cartilage keep the trachea open all the time.",
+        "worksWith": ["lungs", "larynx", "nose"],
+        "details": "Inside the lungs the two bronchi keep branching into thousands of smaller and smaller tubes."
+      }
+    }
+  },
+  {
+    "id": "larynx",
+    "meshName": "larynx",
+    "system": "respiratory",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🎤",
+    "names": { "common": "Voice box", "scientific": "Larynx", "pronunciation": "LAIR-inks" },
+    "content": {
+      "young": {
+        "what": "Your voice box is at the top of your windpipe, in the front of your neck.",
+        "does": "Air passing through it makes your voice when you talk and sing.",
+        "funFact": "Touch your throat while you hum. You can feel your voice box buzzing!"
+      },
+      "junior": {
+        "what": "The larynx is a box of cartilage at the top of the trachea that holds the vocal cords.",
+        "does": "When air from the lungs passes between the vocal cords, they vibrate and make sound. The larynx also helps stop food from going down the windpipe.",
+        "funFact": "The bump called the 'Adam's apple' is part of the larynx's thyroid cartilage.",
+        "worksWith": ["trachea", "mouth", "lungs"],
+        "details": "A flap called the epiglottis covers the entrance to the larynx when you swallow."
+      }
+    }
+  }
+]

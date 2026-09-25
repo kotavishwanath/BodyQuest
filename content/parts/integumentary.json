@@ -1,0 +1,39 @@
+[
+  {
+    "id": "skin",
+    "meshName": "skin_chest",
+    "meshNames": [
+      "skin_head",
+      "skin_neck",
+      "skin_tummy",
+      "skin_arms",
+      "skin_hands",
+      "skin_legs",
+      "skin_feet",
+      "skin_eyes",
+      "skin_nose",
+      "skin_mouth",
+      "skin_ears",
+      "hair"
+    ],
+    "system": "integumentary",
+    "layer": 0,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🧍",
+    "names": { "common": "Skin" },
+    "content": {
+      "young": {
+        "what": "Your skin is the soft, stretchy covering all over your body.",
+        "does": "It keeps germs out, lets you feel touch, and helps keep you warm or cool.",
+        "funFact": "Your skin is your body's biggest organ!"
+      },
+      "junior": {
+        "what": "The skin is the largest organ of the body. It has an outer epidermis, a dermis beneath it and a fatty layer underneath.",
+        "does": "It protects against germs and sunlight, senses touch, heat and pain, and controls body temperature by sweating.",
+        "funFact": "You shed tiny flakes of old skin all the time. A whole new outer layer grows about once a month.",
+        "worksWith": ["muscles", "brain"],
+        "details": "Skin gets its colour from a pigment called melanin. Everyone has melanin, just in different amounts."
+      }
+    }
+  }
+]

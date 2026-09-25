@@ -1,0 +1,69 @@
+[
+  {
+    "id": "kidneys",
+    "meshName": "kidneys",
+    "system": "urinary",
+    "layer": 2,
+    "children": ["ureters", "bladder"],
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🫘",
+    "names": { "common": "Kidneys", "pronunciation": "KID-neez" },
+    "content": {
+      "young": {
+        "what": "You have two bean-shaped kidneys near your back, just above your waist.",
+        "does": "They clean your blood and make wee (urine) from the waste and extra water.",
+        "funFact": "Each kidney is about the size of your fist!"
+      },
+      "junior": {
+        "what": "The kidneys are a pair of bean-shaped organs at the back of the abdomen, one on each side of the spine.",
+        "does": "They filter the blood, removing wastes such as urea along with extra water and salts to make urine. They also help control blood pressure.",
+        "funFact": "Each kidney contains about a million tiny filters called nephrons.",
+        "worksWith": ["ureters", "bladder", "heart"],
+        "details": "All of your blood passes through your kidneys many times every day."
+      }
+    }
+  },
+  {
+    "id": "ureters",
+    "meshName": "ureters",
+    "system": "urinary",
+    "layer": 2,
+    "parentId": "kidneys",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "〰️",
+    "names": { "common": "Ureters", "pronunciation": "yoo-REE-terz" },
+    "content": {
+      "junior": {
+        "what": "The ureters are two thin, muscular tubes, one running from each kidney down to the bladder.",
+        "does": "Waves of muscle contraction push urine down from the kidneys into the bladder.",
+        "funFact": "Each ureter is about 25–30 cm long.",
+        "worksWith": ["kidneys", "bladder"],
+        "details": "Urine trickles down the ureters all the time, a few drops every few seconds."
+      }
+    }
+  },
+  {
+    "id": "bladder",
+    "meshName": "bladder",
+    "system": "urinary",
+    "layer": 2,
+    "parentId": "kidneys",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🎈",
+    "names": { "common": "Bladder", "scientific": "Urinary bladder" },
+    "content": {
+      "young": {
+        "what": "Your bladder is a stretchy bag low down in your tummy.",
+        "does": "It stores wee until you are ready to go to the toilet.",
+        "funFact": "It stretches like a balloon as it fills up!"
+      },
+      "junior": {
+        "what": "The urinary bladder is a hollow, muscular bag in the lower pelvis.",
+        "does": "It stores urine and squeezes it out through the urethra. Nerves in its wall tell the brain when it is getting full.",
+        "funFact": "An adult bladder can comfortably hold about 400–500 mL of urine.",
+        "worksWith": ["kidneys", "ureters", "brain"],
+        "details": "Rings of muscle called sphincters keep the bladder closed until you decide to empty it."
+      }
+    }
+  }
+]

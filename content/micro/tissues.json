@@ -1,0 +1,218 @@
+[
+  {
+    "id": "bone",
+    "name": { "young": "Bone tissue", "junior": "Bone tissue (osseous tissue)" },
+    "intro": {
+      "young": "Bone looks solid, but up close it is full of tiny tubes and living cells!",
+      "junior": "Compact bone is built from many osteons: tiny tubes of hard bone arranged in rings around a central canal. Inside is lighter spongy bone filled with marrow."
+    },
+    "structures": [
+      {
+        "id": "osteon",
+        "name": { "young": "Bone rings", "junior": "Osteon (Haversian system)" },
+        "text": {
+          "young": "Hard bone is made of rings stacked like the rings of a tree trunk.",
+          "junior": "Each osteon is a cylinder of concentric bone layers called lamellae. Thousands of osteons packed together make compact bone strong."
+        }
+      },
+      {
+        "id": "canal",
+        "name": { "young": "Blood tube", "junior": "Central (Haversian) canal" },
+        "text": {
+          "young": "A tiny tube in the middle carries blood, so the bone gets food and oxygen.",
+          "junior": "The central canal of each osteon carries blood vessels and nerves along the bone."
+        }
+      },
+      {
+        "id": "osteocyte",
+        "name": { "young": "Bone cells", "junior": "Osteocytes" },
+        "text": {
+          "young": "Living bone cells sit in little gaps between the rings and look after the bone.",
+          "junior": "Osteocytes live in small spaces called lacunae and keep the bone healthy. Tiny channels connect them so they can share nutrients."
+        }
+      },
+      {
+        "id": "spongy",
+        "name": { "young": "Spongy bone", "junior": "Spongy (cancellous) bone" },
+        "text": {
+          "young": "Inside, bone has a light, holey pattern like a sponge. It's strong but not heavy.",
+          "junior": "Spongy bone is a lattice of thin struts called trabeculae. It keeps bones light while still spreading the load."
+        }
+      },
+      {
+        "id": "marrow",
+        "name": { "young": "Bone marrow", "junior": "Red bone marrow" },
+        "text": {
+          "young": "Soft marrow inside your bones makes new blood cells every day.",
+          "junior": "Red bone marrow fills the spaces of spongy bone and produces red blood cells, white blood cells and platelets."
+        }
+      }
+    ]
+  },
+  {
+    "id": "muscle",
+    "name": { "young": "Muscle tissue", "junior": "Skeletal muscle tissue" },
+    "intro": {
+      "young": "A muscle is made of lots of long, thin threads bundled together, like a rope.",
+      "junior": "Skeletal muscle is made of long cells called muscle fibres, grouped into bundles called fascicles. Stripes (striations) show the tiny contracting units inside."
+    },
+    "structures": [
+      {
+        "id": "fibre",
+        "name": { "young": "Muscle threads", "junior": "Muscle fibres" },
+        "text": {
+          "young": "Each thread is a long muscle cell that can get shorter to pull.",
+          "junior": "A muscle fibre is a single long cell that can be several centimetres long. It shortens (contracts) when a nerve signal arrives."
+        }
+      },
+      {
+        "id": "fascicle",
+        "name": { "young": "Muscle bundle", "junior": "Fascicle" },
+        "text": {
+          "young": "Threads are wrapped together into bundles, and bundles make a whole muscle.",
+          "junior": "Fibres are grouped into fascicles, each wrapped in connective tissue called the perimysium."
+        }
+      },
+      {
+        "id": "stripes",
+        "name": { "young": "Stripes", "junior": "Striations (sarcomeres)" },
+        "text": {
+          "young": "The stripes are tiny parts that slide together to make the muscle shorter.",
+          "junior": "The light and dark bands are rows of sarcomeres, where actin and myosin filaments slide past each other during contraction."
+        }
+      },
+      {
+        "id": "nuclei",
+        "name": { "young": "Cell control centres", "junior": "Nuclei" },
+        "text": {
+          "young": "Each muscle thread has lots of control centres along its edge.",
+          "junior": "Skeletal muscle fibres have many nuclei, pushed to the edge of the cell."
+        }
+      },
+      {
+        "id": "capillary",
+        "name": { "young": "Tiny blood tube", "junior": "Capillary" },
+        "text": {
+          "young": "Tiny blood tubes bring oxygen so the muscle has energy to work.",
+          "junior": "Capillaries run between the fibres, delivering oxygen and glucose and taking away carbon dioxide."
+        }
+      }
+    ]
+  },
+  {
+    "id": "nerve",
+    "name": { "young": "Nerve tissue", "junior": "Nervous tissue" },
+    "intro": {
+      "young": "Nerves are made of special cells called neurons that pass messages along, like runners in a relay race.",
+      "junior": "Nervous tissue is made of neurons, which carry electrical signals, and supporting glial cells. Signals pass from one neuron to the next at synapses."
+    },
+    "structures": [
+      {
+        "id": "soma",
+        "name": { "young": "Cell body", "junior": "Cell body (soma)" },
+        "text": {
+          "young": "The cell body is the neuron's control centre.",
+          "junior": "The cell body contains the nucleus and keeps the neuron alive."
+        }
+      },
+      {
+        "id": "dendrites",
+        "name": { "young": "Branches", "junior": "Dendrites" },
+        "text": {
+          "young": "Little branches catch messages from other neurons.",
+          "junior": "Dendrites are branching extensions that receive signals from other neurons."
+        }
+      },
+      {
+        "id": "axon",
+        "name": { "young": "Long tail", "junior": "Axon" },
+        "text": {
+          "young": "The long tail carries the message away, very fast.",
+          "junior": "The axon carries the electrical signal (nerve impulse) away from the cell body, sometimes for more than a metre."
+        }
+      },
+      {
+        "id": "myelin",
+        "name": { "young": "Fatty coat", "junior": "Myelin sheath" },
+        "text": {
+          "young": "A fatty coat wraps the tail, like plastic around a wire, to make messages go faster.",
+          "junior": "The myelin sheath insulates the axon. Signals jump between the gaps (nodes of Ranvier), which makes them much faster."
+        }
+      },
+      {
+        "id": "terminal",
+        "name": { "young": "Message senders", "junior": "Axon terminals and synapse" },
+        "text": {
+          "young": "At the end, the message is passed to the next cell.",
+          "junior": "Axon terminals release chemical messengers called neurotransmitters across a tiny gap, the synapse, to the next cell."
+        }
+      }
+    ]
+  },
+  {
+    "id": "skin",
+    "name": { "young": "Skin layers", "junior": "Layers of the skin" },
+    "intro": {
+      "young": "Your skin has layers, like a sandwich, and each layer has a job.",
+      "junior": "Skin has three main layers: the epidermis on top, the dermis with glands, hair follicles and nerves, and the fatty hypodermis underneath."
+    },
+    "structures": [
+      {
+        "id": "epidermis",
+        "name": { "young": "Top layer", "junior": "Epidermis" },
+        "text": {
+          "young": "The thin top layer keeps germs and water out.",
+          "junior": "The epidermis is a thin, waterproof layer of cells that are constantly replaced from below. It contains melanin, which gives skin its colour."
+        }
+      },
+      {
+        "id": "dermis",
+        "name": { "young": "Middle layer", "junior": "Dermis" },
+        "text": {
+          "young": "The thick middle layer is strong and stretchy.",
+          "junior": "The dermis contains collagen and elastic fibres, blood vessels, nerves, hair follicles and glands."
+        }
+      },
+      {
+        "id": "fat",
+        "name": { "young": "Cosy fat layer", "junior": "Hypodermis (fat)" },
+        "text": {
+          "young": "A soft fat layer keeps you warm and cushions bumps.",
+          "junior": "The hypodermis stores fat, which insulates the body and absorbs shocks."
+        }
+      },
+      {
+        "id": "hair",
+        "name": { "young": "Hair root", "junior": "Hair follicle" },
+        "text": {
+          "young": "Each hair grows from a tiny pocket in your skin.",
+          "junior": "A hair follicle is a pocket in the dermis where a hair grows. A tiny muscle can pull the hair upright, giving you goosebumps."
+        }
+      },
+      {
+        "id": "sweat",
+        "name": { "young": "Sweat gland", "junior": "Sweat gland" },
+        "text": {
+          "young": "Sweat glands make sweat to cool you down when you are hot.",
+          "junior": "Coiled sweat glands release sweat through pores. As it evaporates, it cools the body."
+        }
+      },
+      {
+        "id": "vessels",
+        "name": { "young": "Blood tubes", "junior": "Blood vessels" },
+        "text": {
+          "young": "Tiny blood tubes bring food and oxygen to your skin.",
+          "junior": "Blood vessels in the dermis widen to lose heat when you are hot and narrow to save heat when you are cold."
+        }
+      },
+      {
+        "id": "receptor",
+        "name": { "young": "Touch sensor", "junior": "Touch receptor" },
+        "text": {
+          "young": "Touch sensors tell your brain when something touches you.",
+          "junior": "Sensory receptors in the skin detect touch, pressure, vibration, heat, cold and pain, and send signals along nerves to the brain."
+        }
+      }
+    ]
+  }
+]

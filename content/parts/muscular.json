@@ -1,0 +1,403 @@
+[
+  {
+    "id": "muscles",
+    "meshName": "muscles_other",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "💪",
+    "names": { "common": "Muscles", "scientific": "Skeletal muscles" },
+    "content": {
+      "young": {
+        "what": "Muscles are stretchy bundles under your skin that are joined to your bones.",
+        "does": "They pull on your bones to make you move.",
+        "funFact": "You have more than 600 muscles in your body!"
+      },
+      "junior": {
+        "what": "Skeletal muscles are organs made of long muscle fibres, attached to bones by tough cords called tendons.",
+        "does": "Muscles can only pull, never push, so they work in pairs: when one contracts, its partner relaxes.",
+        "funFact": "Muscles make up about 40% of an adult's body weight.",
+        "worksWith": ["humerus", "femur", "brain"],
+        "details": "Skeletal muscles are voluntary: you decide when to move them. Heart muscle and the muscles of the gut work automatically."
+      }
+    }
+  },
+  {
+    "id": "deltoid",
+    "meshName": "deltoids",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🔺",
+    "names": { "common": "Shoulder muscle", "scientific": "Deltoid", "pronunciation": "DEL-toyd" },
+    "content": {
+      "young": {
+        "what": "Your shoulder muscle is the round muscle over the top of your shoulder.",
+        "does": "It lifts your arm up to wave, reach and throw.",
+        "funFact": "It is shaped like a triangle, just like the Greek letter delta!"
+      },
+      "junior": {
+        "what": "The deltoid is the thick, triangular muscle that caps the shoulder.",
+        "does": "Its front, middle and back parts lift the arm forwards, out to the side and backwards.",
+        "funFact": "It is named after the Greek letter delta (Δ) because of its triangle shape.",
+        "worksWith": ["humerus", "clavicle", "scapula"],
+        "details": "The deltoid is often used for vaccinations because it is a large muscle that is easy to reach."
+      }
+    }
+  },
+  {
+    "id": "biceps",
+    "meshName": "biceps",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "💪",
+    "names": { "common": "Biceps", "scientific": "Biceps brachii", "pronunciation": "BY-seps BRAY-kee-eye" },
+    "content": {
+      "young": {
+        "what": "Your biceps is the muscle at the front of your upper arm.",
+        "does": "It bends your elbow to lift things up.",
+        "funFact": "Make a muscle! That bump is your biceps."
+      },
+      "junior": {
+        "what": "The biceps brachii is the two-headed muscle at the front of the upper arm.",
+        "does": "It bends (flexes) the elbow and turns the palm upwards. It works as a pair with the triceps.",
+        "funFact": "'Biceps' means 'two heads': it starts from two points on the shoulder blade.",
+        "worksWith": ["triceps", "radius", "humerus"],
+        "details": "Its tendon attaches to the radius, which is why it also helps rotate the forearm."
+      }
+    },
+    "animation": "flex"
+  },
+  {
+    "id": "triceps",
+    "meshName": "triceps",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "arms",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "💪",
+    "names": { "common": "Triceps", "scientific": "Triceps brachii", "pronunciation": "TRY-seps" },
+    "content": {
+      "young": {
+        "what": "Your triceps is the muscle at the back of your upper arm.",
+        "does": "It straightens your elbow when you push or throw.",
+        "funFact": "It is your biceps' partner: when one pulls, the other relaxes!"
+      },
+      "junior": {
+        "what": "The triceps brachii is the three-headed muscle at the back of the upper arm.",
+        "does": "It straightens (extends) the elbow, doing the opposite job to the biceps.",
+        "funFact": "The triceps is bigger than the biceps. It makes up about two-thirds of the upper arm's muscle.",
+        "worksWith": ["biceps", "ulna", "humerus"],
+        "details": "Pairs of muscles that do opposite jobs, like the biceps and triceps, are called antagonistic pairs."
+      }
+    }
+  },
+  {
+    "id": "pectoralis-major",
+    "meshName": "pectorals",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🫸",
+    "names": { "common": "Chest muscle", "scientific": "Pectoralis major", "pronunciation": "pek-tor-AL-is" },
+    "content": {
+      "young": {
+        "what": "Your chest muscle is a big, flat muscle across the front of your chest.",
+        "does": "It pulls your arms across your body, like when you hug or push.",
+        "funFact": "It is one of the muscles that help you do push-ups!"
+      },
+      "junior": {
+        "what": "The pectoralis major is a large, fan-shaped muscle on the front of the chest.",
+        "does": "It pulls the arm forwards and across the body and turns it inwards.",
+        "funFact": "It starts on the collarbone, breastbone and ribs, but all its fibres meet at one tendon on the humerus.",
+        "worksWith": ["humerus", "sternum", "clavicle"],
+        "details": "Underneath it lies a smaller muscle, the pectoralis minor."
+      }
+    }
+  },
+  {
+    "id": "rectus-abdominis",
+    "meshName": "rectus_abdominis",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🍫",
+    "names": { "common": "Tummy muscles", "scientific": "Rectus abdominis", "pronunciation": "REK-tus ab-DOM-ih-nis" },
+    "content": {
+      "young": {
+        "what": "Your tummy muscles are long, flat muscles down the front of your tummy.",
+        "does": "They help you sit up, bend forward and keep your body steady.",
+        "funFact": "These are the muscles people call a 'six-pack'!"
+      },
+      "junior": {
+        "what": "The rectus abdominis is a pair of long, strap-like muscles running down the front of the abdomen.",
+        "does": "It bends the trunk forwards and helps hold the organs of the abdomen in place.",
+        "funFact": "Bands of tendon cross the muscle and divide it into the blocks of a 'six-pack'.",
+        "worksWith": ["external-obliques", "rib-cage", "pelvis"],
+        "details": "It also helps you breathe out hard and cough by squeezing the abdomen."
+      }
+    }
+  },
+  {
+    "id": "external-obliques",
+    "meshName": "external_obliques",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🌀",
+    "names": { "common": "Side tummy muscles", "scientific": "External obliques", "pronunciation": "oh-BLEEKS" },
+    "content": {
+      "young": {
+        "what": "These muscles wrap around the sides of your tummy.",
+        "does": "They help you twist and bend to the side.",
+        "funFact": "Twist like a corkscrew. That's your side muscles working!"
+      },
+      "junior": {
+        "what": "The external obliques are broad, flat muscles on the sides of the abdomen.",
+        "does": "They twist the trunk, bend it sideways and squeeze the abdomen.",
+        "funFact": "Their fibres run diagonally downwards and forwards, like your fingers when you put your hands in your pockets.",
+        "worksWith": ["rectus-abdominis", "rib-cage", "pelvis"],
+        "details": "Beneath them are two more layers of muscle: the internal obliques and the transversus abdominis."
+      }
+    }
+  },
+  {
+    "id": "trapezius",
+    "meshName": "trapezius",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🪁",
+    "names": { "common": "Upper back muscle", "scientific": "Trapezius", "pronunciation": "truh-PEE-zee-us" },
+    "content": {
+      "young": {
+        "what": "This big, kite-shaped muscle covers your upper back and the back of your neck.",
+        "does": "It lifts your shoulders and helps hold your head up.",
+        "funFact": "Shrug your shoulders. That's your trapezius!"
+      },
+      "junior": {
+        "what": "The trapezius is a large, diamond-shaped muscle covering the back of the neck and the upper back.",
+        "does": "It moves and steadies the shoulder blades (shrugging, squeezing them together and rotating them) and helps hold the head up.",
+        "funFact": "Its left and right halves together look like a trapezium, which is how it got its name.",
+        "worksWith": ["scapula", "vertebral-column", "skull"],
+        "details": "Sitting hunched over a screen for a long time can make the trapezius feel tight and sore."
+      }
+    }
+  },
+  {
+    "id": "latissimus-dorsi",
+    "meshName": "latissimus_dorsi",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🏊",
+    "names": { "common": "Wide back muscle", "scientific": "Latissimus dorsi", "pronunciation": "luh-TISS-ih-mus DOR-sy" },
+    "content": {
+      "young": {
+        "what": "This is a big, wide muscle on each side of your back.",
+        "does": "It pulls your arms down and back, like when you climb or swim.",
+        "funFact": "It is one of the widest muscles in your body!"
+      },
+      "junior": {
+        "what": "The latissimus dorsi is a broad, flat muscle covering the middle and lower back.",
+        "does": "It pulls the arm down, backwards and towards the body, which you use in climbing, rowing and swimming.",
+        "funFact": "Its Latin name means 'the widest muscle of the back'.",
+        "worksWith": ["humerus", "vertebral-column", "pelvis"],
+        "details": "It starts on the lower spine and pelvis and attaches to the humerus near the armpit."
+      }
+    }
+  },
+  {
+    "id": "gluteus-maximus",
+    "meshName": "gluteus_maximus",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🪑",
+    "names": { "common": "Bottom muscle", "scientific": "Gluteus maximus", "pronunciation": "GLOO-tee-us MAX-ih-mus" },
+    "content": {
+      "young": {
+        "what": "This is the big muscle that makes up your bottom.",
+        "does": "It helps you stand up from a chair, climb stairs and run.",
+        "funFact": "It is the biggest muscle in your whole body!"
+      },
+      "junior": {
+        "what": "The gluteus maximus is the large muscle of the buttock.",
+        "does": "It straightens the hip by pulling the thigh backwards when you stand up, climb or run.",
+        "funFact": "It is the largest muscle in the human body.",
+        "worksWith": ["pelvis", "femur", "hamstrings"],
+        "details": "It helps keep your body upright and balanced over your legs."
+      }
+    }
+  },
+  {
+    "id": "quadriceps",
+    "meshName": "quadriceps",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦵",
+    "names": { "common": "Front thigh muscles", "scientific": "Quadriceps femoris", "pronunciation": "KWAD-rih-seps" },
+    "content": {
+      "young": {
+        "what": "These are the four big muscles at the front of your thigh.",
+        "does": "They straighten your knee when you kick, jump and stand up.",
+        "funFact": "'Quad' means four, because four muscles work together here!"
+      },
+      "junior": {
+        "what": "The quadriceps femoris is a group of four muscles at the front of the thigh.",
+        "does": "Together they straighten (extend) the knee. One of them, the rectus femoris, also helps bend the hip.",
+        "funFact": "Its four parts are the rectus femoris, vastus lateralis, vastus medialis and vastus intermedius.",
+        "worksWith": ["femur", "patella", "hamstrings"],
+        "details": "All four muscles join into one tendon that holds the kneecap and attaches to the tibia."
+      }
+    }
+  },
+  {
+    "id": "hamstrings",
+    "meshName": "hamstrings",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🦵",
+    "names": { "common": "Back thigh muscles", "scientific": "Hamstrings" },
+    "content": {
+      "young": {
+        "what": "These are the muscles at the back of your thigh.",
+        "does": "They bend your knee and pull your leg back when you run.",
+        "funFact": "Reach down towards your toes and you'll feel your hamstrings stretch!"
+      },
+      "junior": {
+        "what": "The hamstrings are a group of three muscles at the back of the thigh.",
+        "does": "They bend (flex) the knee and straighten the hip, working opposite to the quadriceps.",
+        "funFact": "You can feel their tendons as firm cords at the back of your knee.",
+        "worksWith": ["quadriceps", "femur", "pelvis", "gluteus-maximus"],
+        "details": "The three hamstring muscles are the biceps femoris, semitendinosus and semimembranosus."
+      }
+    }
+  },
+  {
+    "id": "calf-muscles",
+    "meshName": "calf_muscles",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🏃",
+    "names": { "common": "Calf muscles", "scientific": "Gastrocnemius and soleus", "pronunciation": "gas-trok-NEE-mee-us" },
+    "content": {
+      "young": {
+        "what": "Your calf muscles are at the back of your lower leg.",
+        "does": "They lift your heel so you can stand on tiptoe, walk and jump.",
+        "funFact": "Stand on tiptoe and your calf muscles bulge!"
+      },
+      "junior": {
+        "what": "The calf is made mainly of two muscles: the gastrocnemius and the soleus underneath it.",
+        "does": "They pull on the Achilles tendon to raise the heel, pushing you off the ground with every step.",
+        "funFact": "The soleus works almost all the time you are standing, stopping you from tipping forwards.",
+        "worksWith": ["achilles-tendon", "foot-bones", "tibia", "veins"],
+        "details": "When calf muscles squeeze, they also help push blood in the leg veins back up towards the heart."
+      }
+    }
+  },
+  {
+    "id": "sartorius",
+    "meshName": "sartorius",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "legs",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🧵",
+    "names": { "common": "Tailor's muscle", "scientific": "Sartorius", "pronunciation": "sar-TOR-ee-us" },
+    "content": {
+      "young": {
+        "what": "The sartorius is a long, thin muscle that crosses the front of your thigh.",
+        "does": "It helps you cross your legs and bend your knee.",
+        "funFact": "It is the longest muscle in your body!"
+      },
+      "junior": {
+        "what": "The sartorius is a long, strap-like muscle running diagonally across the front of the thigh.",
+        "does": "It helps bend the hip and knee and turn the thigh outwards, as when you sit cross-legged.",
+        "funFact": "Its name comes from the Latin word for 'tailor', because tailors used to sit cross-legged while sewing.",
+        "worksWith": ["pelvis", "tibia", "quadriceps"],
+        "details": "It starts at the front of the hip bone and ends on the inside of the tibia, just below the knee."
+      }
+    }
+  },
+  {
+    "id": "jaw-muscles",
+    "meshName": "jaw_muscles",
+    "system": "muscular",
+    "layer": 1,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "😁",
+    "names": { "common": "Chewing muscles", "scientific": "Masseter and temporalis", "pronunciation": "MASS-uh-ter" },
+    "content": {
+      "young": {
+        "what": "Your chewing muscles are on the sides of your face and head.",
+        "does": "They close your mouth tightly so you can bite and chew.",
+        "funFact": "Clench your teeth and touch your cheek. You can feel them bulge!"
+      },
+      "junior": {
+        "what": "The masseter and the temporalis are the main chewing muscles.",
+        "does": "They pull the mandible upwards to close the jaw with great force for biting and chewing.",
+        "funFact": "For its size, the masseter is one of the strongest muscles in the body.",
+        "worksWith": ["mandible", "skull", "mouth"],
+        "details": "The temporalis fans out over the side of the skull; the masseter runs from the cheekbone down to the jaw."
+      }
+    }
+  },
+  {
+    "id": "diaphragm",
+    "meshName": "diaphragm",
+    "system": "muscular",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🎈",
+    "names": { "common": "Diaphragm", "pronunciation": "DY-uh-fram" },
+    "content": {
+      "young": {
+        "what": "The diaphragm is a dome-shaped muscle under your lungs.",
+        "does": "It moves down to pull air into your lungs when you breathe in.",
+        "funFact": "Hiccups happen when your diaphragm makes a sudden little jump!"
+      },
+      "junior": {
+        "what": "The diaphragm is a dome-shaped sheet of muscle that separates the chest from the abdomen.",
+        "does": "When it contracts, it flattens and moves down, making the chest bigger so air flows into the lungs. When it relaxes, it domes up again and you breathe out.",
+        "funFact": "It is the most important muscle for breathing, and it keeps working even while you sleep.",
+        "worksWith": ["lungs", "rib-cage", "heart"],
+        "details": "Hiccups are sudden, involuntary contractions of the diaphragm."
+      }
+    },
+    "animation": "breathe"
+  },
+  {
+    "id": "achilles-tendon",
+    "meshName": "achilles_tendons",
+    "system": "muscular",
+    "layer": 1,
+    "parentId": "feet",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🪢",
+    "names": { "common": "Heel cord", "scientific": "Achilles tendon", "pronunciation": "uh-KIL-eez" },
+    "content": {
+      "young": {
+        "what": "This strong cord joins your calf muscles to your heel bone.",
+        "does": "When your calf muscles pull, it lifts your heel so you can walk and jump.",
+        "funFact": "It is the strongest tendon in your body!"
+      },
+      "junior": {
+        "what": "The Achilles (calcaneal) tendon joins the calf muscles to the heel bone.",
+        "does": "It passes the pull of the calf muscles to the calcaneus, raising the heel when you walk, run and jump.",
+        "funFact": "It is named after Achilles, a hero from Greek myths whose heel was his only weak spot.",
+        "worksWith": ["calf-muscles", "foot-bones"],
+        "details": "Tendons join muscles to bones, while ligaments join bones to other bones."
+      }
+    }
+  }
+]

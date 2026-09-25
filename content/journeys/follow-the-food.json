@@ -1,0 +1,42 @@
+{
+  "id": "follow-the-food",
+  "view": "digestive",
+  "visibleInModes": ["young", "junior", "bipc"],
+  "steps": [
+    {
+      "partId": "mouth",
+      "text": {
+        "young": "Munch, munch! Your teeth chop the food and spit makes it soft and slippery.",
+        "junior": "Teeth break the food into small pieces, and saliva starts digesting starch. The tongue rolls it into a soft ball called a bolus."
+      }
+    },
+    {
+      "partId": "esophagus",
+      "text": {
+        "young": "Gulp! The food slides down your food pipe as its muscles squeeze it along.",
+        "junior": "After you swallow, waves of muscle called peristalsis push the bolus down the oesophagus in a few seconds."
+      }
+    },
+    {
+      "partId": "stomach",
+      "text": {
+        "young": "Splash! Your stomach churns the food with strong juices, like a washing machine.",
+        "junior": "The stomach churns the food with acid and enzymes for a few hours, turning it into a thick liquid called chyme."
+      }
+    },
+    {
+      "partId": "small-intestine",
+      "text": {
+        "young": "Wiggle! In your long small intestine, the goodness from the food soaks into your blood.",
+        "junior": "Bile from the liver and juices from the pancreas finish digestion, and tiny villi absorb nutrients into the blood."
+      }
+    },
+    {
+      "partId": "large-intestine",
+      "text": {
+        "young": "Nearly done! Your large intestine soaks up water, and the leftovers become poo.",
+        "junior": "The large intestine absorbs water and salts. What is left is stored as waste until it leaves the body."
+      }
+    }
+  ]
+}

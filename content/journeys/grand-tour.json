@@ -1,0 +1,21 @@
+{
+  "id": "grand-tour",
+  "visibleInModes": ["little", "young", "junior", "bipc"],
+  "marker": false,
+  "steps": [
+    { "partId": "head" },
+    { "partId": "skin" },
+    { "partId": "eyes" },
+    { "partId": "brain" },
+    { "partId": "heart" },
+    { "partId": "lungs" },
+    { "partId": "stomach" },
+    { "partId": "tummy" },
+    { "partId": "kidneys" },
+    { "partId": "rib-cage" },
+    { "partId": "femur" },
+    { "partId": "biceps" },
+    { "partId": "hands" },
+    { "partId": "feet" }
+  ]
+}

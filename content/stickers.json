@@ -1,0 +1,21 @@
+[
+  { "id": "little-explorer", "icon": "🐣", "name": "Little Explorer", "description": "Tap 5 different body parts.", "modes": ["little"], "rule": { "type": "explore", "count": 5 } },
+  { "id": "body-explorer", "icon": "🧭", "name": "Body Explorer", "description": "Explore 10 different body parts.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "count": 10 } },
+  { "id": "sense-scout", "icon": "👀", "name": "Sense Scout", "description": "Explore 3 of your senses: eyes, ears, nose, mouth or skin.", "modes": ["little", "young", "junior", "bipc"], "rule": { "type": "explore", "parts": ["eyes", "ears", "nose", "mouth", "skin"], "count": 3 } },
+  { "id": "bone-explorer", "icon": "🦴", "name": "Bone Explorer", "description": "Explore 3 bones.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["skeletal"], "count": 3 } },
+  { "id": "muscle-master", "icon": "💪", "name": "Muscle Master", "description": "Explore 3 muscles.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["muscular"], "count": 3 } },
+  { "id": "heart-hero", "icon": "❤️", "name": "Heart Hero", "description": "Explore the heart and a blood vessel.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["circulatory"], "count": 2 } },
+  { "id": "brain-buddy", "icon": "🧠", "name": "Brain Buddy", "description": "Explore 2 parts of the nervous system.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["nervous"], "count": 2 } },
+  { "id": "breath-buddy", "icon": "🫁", "name": "Breath Buddy", "description": "Explore 2 parts of the breathing system.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["respiratory"], "count": 2 } },
+  { "id": "food-detective", "icon": "🍽️", "name": "Food Detective", "description": "Explore 3 parts of the digestive system.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["digestive"], "count": 3 } },
+  { "id": "filter-friend", "icon": "💧", "name": "Filter Friend", "description": "Explore 2 parts of the urinary system.", "modes": ["young", "junior", "bipc"], "rule": { "type": "explore", "systems": ["urinary"], "count": 2 } },
+  { "id": "defence-captain", "icon": "🛡️", "name": "Defence Captain", "description": "Explore the spleen or the thymus.", "modes": ["junior", "bipc"], "rule": { "type": "explore", "systems": ["immune"], "count": 1 } },
+  { "id": "hormone-hero", "icon": "🧪", "name": "Hormone Hero", "description": "Explore 2 hormone glands.", "modes": ["junior", "bipc"], "rule": { "type": "explore", "systems": ["endocrine"], "count": 2 } },
+  { "id": "find-it-champ", "icon": "🎯", "name": "Find It Champ", "description": "Finish a game of Find It!", "modes": ["little", "young", "junior", "bipc"], "rule": { "type": "event", "event": "find-it-complete" } },
+  { "id": "skeleton-builder", "icon": "🏗️", "name": "Skeleton Builder", "description": "Build a whole skeleton.", "modes": ["young", "junior", "bipc"], "rule": { "type": "event", "event": "skeleton-complete" } },
+  { "id": "quiz-whiz", "icon": "🏆", "name": "Quiz Whiz", "description": "Get every question right in a quiz.", "modes": ["little", "young", "junior", "bipc"], "rule": { "type": "event", "event": "quiz-perfect" } },
+  { "id": "tour-guide", "icon": "🚌", "name": "Tour Guide", "description": "Finish the body tour.", "modes": ["little", "young", "junior", "bipc"], "rule": { "type": "event", "event": "grand-tour-complete" } },
+  { "id": "food-follower", "icon": "🍎", "name": "Food Follower", "description": "Follow the food all the way through.", "modes": ["young", "junior", "bipc"], "rule": { "type": "event", "event": "follow-the-food-complete" } },
+  { "id": "tiny-explorer", "icon": "🔬", "name": "Tiny Explorer", "description": "Zoom into a tissue.", "modes": ["young", "junior", "bipc"], "rule": { "type": "event", "event": "tissue-opened" } },
+  { "id": "cell-scientist", "icon": "🧫", "name": "Cell Scientist", "description": "Visit the cells.", "modes": ["junior", "bipc"], "rule": { "type": "event", "event": "cell-opened" } }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "brain",
+    "meshName": "brain",
+    "meshNames": ["cerebellum", "brainstem", "hypothalamus"],
+    "system": "nervous",
+    "layer": 2,
+    "children": ["cerebellum", "brainstem", "hypothalamus", "spinal-cord"],
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🧠",
+    "names": { "common": "Brain" },
+    "content": {
+      "young": {
+        "what": "Your brain is inside your head, kept safe by your skull.",
+        "does": "It is the boss of your body. It helps you think, remember, feel and move.",
+        "funFact": "Your brain keeps working even while you are fast asleep!"
+      },
+      "junior": {
+        "what": "The brain is the control centre of the nervous system, protected by the skull.",
+        "does": "The cerebrum handles thinking, memory and the senses. The cerebellum coordinates balance and smooth movement. The brainstem looks after breathing and heartbeat without you having to think about them.",
+        "funFact": "Your brain has about 86 billion nerve cells, called neurons.",
+        "worksWith": ["eyes", "ears", "heart", "lungs"],
+        "details": "Messages travel along nerves as tiny electrical signals. The fastest ones travel at more than 100 metres per second!"
+      },
+      "bipc": {
+        "definition": "The brain is the central information-processing organ of the body and, together with the spinal cord, forms the central neural system (CNS).",
+        "structure": "It is protected by the skull (cranium) and by three cranial meninges: the outer dura mater, the thin middle arachnoid and the inner pia mater, which is in contact with brain tissue. It is divided into the forebrain (cerebrum, thalamus and hypothalamus), the midbrain and the hindbrain (pons, cerebellum and medulla oblongata). The two cerebral hemispheres are connected by the corpus callosum; the outer cerebral cortex is grey matter and the inner part is white matter.",
+        "function": "The cerebral cortex contains motor areas, sensory areas and large association areas responsible for complex functions such as memory and communication. The hypothalamus controls body temperature and the urges for eating and drinking, and secretes hypothalamic hormones. The cerebellum coordinates movement and balance, while the medulla contains centres that control respiration, cardiovascular reflexes and gastric secretions. The midbrain, pons and medulla together form the brainstem.",
+        "keyTerms": [
+          { "term": "Meninges", "meaning": "Three protective membranes around the brain: dura mater, arachnoid, pia mater" },
+          { "term": "Corpus callosum", "meaning": "Tract of nerve fibres connecting the two cerebral hemispheres" },
+          { "term": "Hypothalamus", "meaning": "Forebrain region controlling temperature, hunger and thirst; links the nervous and endocrine systems" },
+          { "term": "Brainstem", "meaning": "Midbrain, pons and medulla oblongata; connects the brain to the spinal cord" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "neural-control-and-coordination", "topic": "Central neural system", "inSyllabus": true }
+        ],
+        "physicsLinks": [
+          {
+            "concept": "Electric potential across a membrane",
+            "explanation": "A resting neuron keeps its inside about 70 mV negative relative to the outside. The thin membrane separates charges, so it behaves like a capacitor."
+          }
+        ],
+        "chemistryLinks": [
+          {
+            "concept": "Na⁺ and K⁺ ion gradients",
+            "explanation": "The sodium–potassium pump uses one ATP to move 3 Na⁺ out of the cell and 2 K⁺ in, creating the ion gradients that nerve impulses depend on."
+          }
+        ],
+        "mnemonics": ["Meninges from outside in: 'DAP' – Dura, Arachnoid, Pia."],
+        "flashcards": [
+          { "front": "Which part of the brain connects the two cerebral hemispheres?", "back": "The corpus callosum" }
+        ]
+      }
+    },
+    "animation": "signal"
+  },
+  {
+    "id": "cerebellum",
+    "meshName": "cerebellum",
+    "system": "nervous",
+    "layer": 2,
+    "parentId": "brain",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🤸",
+    "names": { "common": "Little brain", "scientific": "Cerebellum", "pronunciation": "sair-uh-BEL-um" },
+    "content": {
+      "junior": {
+        "what": "The cerebellum is the wrinkled structure at the back of the brain, tucked underneath the cerebrum.",
+        "does": "It coordinates muscle movements so they are smooth and accurate, and helps you keep your balance and posture.",
+        "funFact": "Although it is only about a tenth of the brain's size, the cerebellum contains more than half of the brain's neurons.",
+        "worksWith": ["brain", "brainstem", "muscles", "ears"],
+        "details": "When you learn to ride a bicycle, the cerebellum helps the movements become smooth and automatic."
+      }
+    }
+  },
+  {
+    "id": "brainstem",
+    "meshName": "brainstem",
+    "system": "nervous",
+    "layer": 2,
+    "parentId": "brain",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🌱",
+    "names": { "common": "Brainstem" },
+    "content": {
+      "junior": {
+        "what": "The brainstem connects the brain to the spinal cord. It is made of the midbrain, the pons and the medulla oblongata.",
+        "does": "It controls automatic actions such as breathing, heartbeat, swallowing, coughing and sneezing, and passes messages between the brain and the body.",
+        "funFact": "Most of the nerves for the face, eyes, tongue and throat come straight out of the brainstem.",
+        "worksWith": ["brain", "spinal-cord", "heart", "lungs"],
+        "details": "Its lowest part, the medulla oblongata, contains the centres that control breathing and blood pressure."
+      }
+    }
+  },
+  {
+    "id": "hypothalamus",
+    "meshName": "hypothalamus",
+    "system": "nervous",
+    "layer": 2,
+    "parentId": "brain",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🌡️",
+    "names": { "common": "Hypothalamus", "pronunciation": "hy-poh-THAL-uh-mus" },
+    "content": {
+      "junior": {
+        "what": "The hypothalamus is a tiny region deep inside the brain, just above the pituitary gland.",
+        "does": "It keeps the body balanced: it controls body temperature, hunger, thirst and sleep, and tells the pituitary gland which hormones to release.",
+        "funFact": "It is only about the size of an almond, but it links the nervous system with the hormone system.",
+        "worksWith": ["pituitary", "brain", "adrenal-glands"],
+        "details": "When you get too hot, the hypothalamus starts sweating; when you are cold, it makes you shiver."
+      }
+    }
+  },
+  {
+    "id": "spinal-cord",
+    "meshName": "spinal_cord",
+    "system": "nervous",
+    "layer": 4,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "〰️",
+    "names": { "common": "Spinal cord" },
+    "content": {
+      "young": {
+        "what": "Your spinal cord is a long bundle of nerves inside your backbone.",
+        "does": "It carries messages between your brain and the rest of your body.",
+        "funFact": "Your backbone protects your spinal cord like a strong tunnel!"
+      },
+      "junior": {
+        "what": "The spinal cord is a thick cable of nerve tissue running from the brainstem down through the vertebral column.",
+        "does": "It carries messages up to the brain and down to the body, and it controls fast reflexes, like pulling your hand away from something hot, even before your brain notices.",
+        "funFact": "In adults the spinal cord is about 45 cm long and ends near the lowest ribs, well above the bottom of the backbone.",
+        "worksWith": ["brain", "nerves", "vertebral-column"],
+        "details": "31 pairs of spinal nerves branch out from the spinal cord. (In this model the spinal cord is a simplified drawing.)"
+      }
+    },
+    "animation": "signal"
+  },
+  {
+    "id": "nerves",
+    "meshName": "nerves",
+    "system": "nervous",
+    "layer": 4,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "⚡",
+    "names": { "common": "Nerves" },
+    "content": {
+      "young": {
+        "what": "Nerves are thin threads that go all over your body, like wires.",
+        "does": "They carry messages to and from your brain super fast.",
+        "funFact": "Some nerve messages zoom along faster than a racing car!"
+      },
+      "junior": {
+        "what": "Nerves are bundles of nerve fibres (axons) that connect the brain and spinal cord to every part of the body.",
+        "does": "Sensory nerves carry information from the senses to the brain, and motor nerves carry instructions from the brain to the muscles.",
+        "funFact": "The sciatic nerve, which runs down the back of each leg, is the longest and widest nerve in the body.",
+        "worksWith": ["spinal-cord", "brain", "muscles", "skin"],
+        "details": "Messages travel along nerves as tiny electrical signals. (In this model the nerves are simplified drawings of the main arm and leg nerves.)"
+      }
+    },
+    "animation": "signal"
+  }
+]

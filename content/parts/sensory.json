@@ -1,0 +1,136 @@
+[
+  {
+    "id": "eyes",
+    "meshName": "skin_eyes",
+    "meshNames": ["eyeballs"],
+    "system": "sensory",
+    "layer": 0,
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "👀",
+    "names": { "common": "Eyes" },
+    "content": {
+      "little": { "say": "These are your eyes. They help you see! Blink, blink." },
+      "young": {
+        "what": "Your eyes are two round balls at the front of your head.",
+        "does": "They let in light so you can see colours, shapes and faces.",
+        "funFact": "You blink many times every minute to keep your eyes clean and wet!"
+      },
+      "junior": {
+        "what": "The eyes are sense organs that detect light.",
+        "does": "Light enters through the clear cornea and the pupil. The lens focuses it onto the retina at the back of the eye, and the optic nerve carries signals to the brain, which makes the picture you see.",
+        "funFact": "The retina has two kinds of light-sensing cells: rods work in dim light and cones see colour.",
+        "worksWith": ["brain"],
+        "details": "The coloured part of your eye, the iris, is a ring of muscle. It makes the pupil smaller in bright light and bigger in the dark."
+      },
+      "bipc": {
+        "definition": "The eye is a paired photoreceptor organ that converts light into nerve impulses for vision.",
+        "structure": "The wall of the eyeball has three layers: an outer fibrous layer (sclera, with the transparent cornea in front), a middle vascular layer (choroid, ciliary body and iris) and an inner retina. The lens, held by ligaments attached to the ciliary body, divides the eye into an anterior aqueous chamber filled with aqueous humour and a posterior vitreous chamber filled with vitreous humour. The retina contains rods and cones; the fovea at the centre of the macula lutea has only cones, and the blind spot, where the optic nerve leaves, has no photoreceptors.",
+        "function": "Light is refracted by the cornea and lens and focused on the retina. Photopigments in rods (rhodopsin) and cones change shape when they absorb light, generating potential changes that pass through bipolar cells to ganglion cells, whose axons form the optic nerve. Contraction and relaxation of the ciliary muscles change the curvature of the lens so that near and far objects can be focused (accommodation).",
+        "keyTerms": [
+          { "term": "Fovea", "meaning": "Point of sharpest vision; densely packed with cones and no rods" },
+          { "term": "Blind spot", "meaning": "Where the optic nerve leaves the eye; has no rods or cones" },
+          { "term": "Accommodation", "meaning": "Change in lens curvature to focus objects at different distances" },
+          { "term": "Rhodopsin", "meaning": "Photopigment of rods, made of opsin and retinal (an aldehyde of vitamin A)" }
+        ],
+        "syllabusRefs": [],
+        "physicsLinks": [
+          {
+            "concept": "Ray optics: the eye as a lens system",
+            "explanation": "The cornea and lens together act as a converging system that forms a real, inverted image on the retina. Myopia is corrected with a concave (diverging) lens and hypermetropia with a convex (converging) lens.",
+            "formula": "\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}"
+          }
+        ],
+        "commonMistakes": ["Mixing up the fovea (only cones, sharpest vision) with the blind spot (no photoreceptors at all)."],
+        "flashcards": [
+          { "front": "Which vitamin is needed to make retinal?", "back": "Vitamin A" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ears",
+    "meshName": "skin_ears",
+    "system": "sensory",
+    "layer": 0,
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "👂",
+    "names": { "common": "Ears" },
+    "content": {
+      "little": { "say": "These are your ears. They help you hear! Listen." },
+      "young": {
+        "what": "Your ears are on both sides of your head.",
+        "does": "They catch sounds and also help you keep your balance.",
+        "funFact": "The smallest bone in your whole body is inside your ear!"
+      },
+      "junior": {
+        "what": "The ears are sense organs for hearing and balance.",
+        "does": "Sound waves make the eardrum vibrate. Three tiny bones, the malleus, incus and stapes, pass the vibrations to the fluid-filled cochlea, which sends signals to the brain along the auditory nerve.",
+        "funFact": "The stapes, or stirrup bone, is the smallest bone in the human body.",
+        "worksWith": ["brain"],
+        "details": "Fluid-filled semicircular canals in the inner ear sense when your head moves and help you balance."
+      },
+      "bipc": {
+        "definition": "The ear is a paired sense organ for hearing and for maintaining body balance (equilibrium).",
+        "structure": "The external ear (pinna and external auditory meatus) ends at the tympanic membrane. The middle ear contains three ossicles, the malleus, incus and stapes, and is connected to the pharynx by the Eustachian tube, which equalises pressure on both sides of the eardrum. The fluid-filled inner ear (labyrinth) has a bony labyrinth containing perilymph around a membranous labyrinth containing endolymph, and consists of the cochlea, the vestibule (utricle and saccule) and three semicircular canals. The organ of Corti, on the basilar membrane of the cochlea, carries the hair cells.",
+        "function": "Sound waves vibrate the tympanic membrane; the ossicles transmit the vibrations to the oval window, setting up waves in the cochlear fluids. These waves move the basilar membrane, bending the hair cells against the tectorial membrane and generating nerve impulses that the auditory nerve carries to the auditory cortex. The crista ampullaris in the semicircular canals and the macula in the utricle and saccule detect movement for balance.",
+        "keyTerms": [
+          { "term": "Organ of Corti", "meaning": "Structure on the basilar membrane containing the hair cells that act as auditory receptors" },
+          { "term": "Eustachian tube", "meaning": "Connects the middle ear to the pharynx and equalises pressure" },
+          { "term": "Endolymph", "meaning": "Fluid inside the membranous labyrinth" },
+          { "term": "Crista ampullaris", "meaning": "Receptor in the semicircular canals that senses rotational movement" }
+        ],
+        "syllabusRefs": [],
+        "physicsLinks": [
+          {
+            "concept": "Sound waves: pitch and loudness",
+            "explanation": "Pitch depends on frequency and loudness on intensity. Young humans typically hear about 20 Hz to 20 kHz. Sound intensity level is measured in decibels on a logarithmic scale.",
+            "formula": "\\beta = 10\\log_{10}\\left(\\frac{I}{I_0}\\right)"
+          }
+        ],
+        "flashcards": [
+          { "front": "Name the three ear ossicles from outside to inside.", "back": "Malleus, incus, stapes" }
+        ],
+        "mnemonics": ["Ossicles outside-in: 'MIS' – Malleus, Incus, Stapes."]
+      }
+    }
+  },
+  {
+    "id": "nose",
+    "meshName": "skin_nose",
+    "system": "respiratory",
+    "layer": 0,
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "👃",
+    "names": { "common": "Nose", "scientific": "Nasal cavity" },
+    "content": {
+      "little": { "say": "This is your nose. Sniff, sniff! It helps you smell." },
+      "young": {
+        "what": "Your nose is in the middle of your face.",
+        "does": "Air goes in through it when you breathe, and it helps you smell things.",
+        "funFact": "Tiny hairs inside your nose help catch dust!"
+      },
+      "junior": {
+        "what": "The nose is the main entrance to the respiratory system and the organ of smell.",
+        "does": "It warms, moistens and cleans the air you breathe. Smell receptors high up inside the nose detect odour molecules and send signals to the brain.",
+        "funFact": "Smell helps you taste. Food tastes less exciting when your nose is blocked by a cold.",
+        "worksWith": ["lungs", "brain", "mouth"],
+        "details": "Sticky mucus traps dust and germs, and tiny hair-like cilia sweep it away."
+      },
+      "bipc": {
+        "definition": "The nose is the external opening of the respiratory tract and houses the olfactory epithelium, the receptor tissue for smell.",
+        "structure": "A pair of external nostrils opens into the nasal chamber through the nasal passage. The chamber is lined by mucus-secreting, ciliated epithelium, and its roof carries the olfactory epithelium containing olfactory receptor neurons. The nasal chamber opens into the pharynx.",
+        "function": "The nasal passage filters, warms and humidifies inspired air. Odorant molecules dissolve in mucus and stimulate olfactory receptors; impulses travel through the olfactory nerve to the olfactory bulbs of the brain.",
+        "keyTerms": [
+          { "term": "Olfactory epithelium", "meaning": "Receptor tissue for smell in the roof of the nasal chamber" },
+          { "term": "Pharynx", "meaning": "Common passage for food and air behind the nasal and oral cavities" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "breathing-and-exchange-of-gases", "topic": "Human respiratory system", "inSyllabus": true }
+        ],
+        "flashcards": [
+          { "front": "Into which common passage does the nasal chamber open?", "back": "The pharynx" }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "rounds": 8,
+  "targets": {
+    "little": ["head", "eyes", "ears", "nose", "mouth", "hands", "tummy", "feet", "heart"],
+    "young": ["eyes", "ears", "nose", "mouth", "hands", "feet", "arms", "legs", "heart", "lungs", "brain", "stomach", "liver", "femur", "rib-cage", "skull", "biceps", "kidneys"],
+    "junior": ["heart", "lungs", "brain", "stomach", "liver", "kidneys", "femur", "humerus", "rib-cage", "skull", "pelvis", "biceps", "quadriceps", "pectoralis-major", "cerebellum", "trachea", "pancreas", "small-intestine"],
+    "bipc": ["heart", "lungs", "brain", "stomach", "liver", "kidneys", "femur", "humerus", "rib-cage", "skull", "pelvis", "biceps", "quadriceps", "pectoralis-major", "cerebellum", "trachea", "pancreas", "small-intestine"]
+  }
+}

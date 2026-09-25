@@ -1,0 +1,1336 @@
+{
+  "source": "BodyParts3D (CC BY-SA 2.1 JP)",
+  "files": {
+    "skin": "/models/skin.655844fb14.glb",
+    "skeleton": "/models/skeleton.45d037cb19.glb",
+    "muscles": "/models/muscles.251de8c941.glb",
+    "organs": "/models/organs.3efb5e1606.glb",
+    "circulatory": "/models/circulatory.26f43c10b6.glb"
+  },
+  "paths": {
+    "signal": [
+      [
+        -0.0007,
+        1.5917,
+        -0.0069
+      ],
+      [
+        -0.0002,
+        1.4968,
+        -0.0266
+      ],
+      [
+        -0.0008,
+        1.4466,
+        -0.0321
+      ],
+      [
+        -0.0008,
+        1.4204,
+        -0.045
+      ],
+      [
+        -0.0738,
+        1.3563,
+        0.0005
+      ],
+      [
+        -0.1709,
+        1.3148,
+        -0.027
+      ],
+      [
+        -0.1659,
+        1.0996,
+        -0.0246
+      ],
+      [
+        -0.2503,
+        0.853,
+        -0.006
+      ],
+      [
+        -0.257,
+        0.8131,
+        0.0206
+      ]
+    ]
+  },
+  "nodes": {
+    "skin_head": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.5392,
+        -0.003
+      ],
+      "radius": 0.1726
+    },
+    "skin_eyes": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary",
+        "sensory"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        0.0004,
+        1.5401,
+        0.0702
+      ],
+      "radius": 0.064
+    },
+    "skin_nose": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary",
+        "sensory",
+        "respiratory"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0039,
+        1.5316,
+        0.0845
+      ],
+      "radius": 0.0604
+    },
+    "skin_mouth": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary",
+        "sensory",
+        "digestive"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0015,
+        1.4816,
+        0.0821
+      ],
+      "radius": 0.0424
+    },
+    "skin_ears": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary",
+        "sensory"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        0.0005,
+        1.5229,
+        -0.0045
+      ],
+      "radius": 0.0992
+    },
+    "skin_neck": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0022,
+        1.4497,
+        -0.0227
+      ],
+      "radius": 0.1304
+    },
+    "skin_chest": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0009,
+        1.2992,
+        -0.0011
+      ],
+      "radius": 0.2804
+    },
+    "skin_tummy": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        0.002,
+        1.0731,
+        0.0018
+      ],
+      "radius": 0.2584
+    },
+    "skin_arms": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0008,
+        1.0976,
+        -0.0324
+      ],
+      "radius": 0.4115
+    },
+    "skin_hands": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.7571,
+        0.0462
+      ],
+      "radius": 0.3448
+    },
+    "skin_legs": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0006,
+        0.3666,
+        -0.0214
+      ],
+      "radius": 0.3819
+    },
+    "skin_feet": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#d9a384",
+      "view": "front",
+      "center": [
+        -0.0009,
+        0.0599,
+        0.0194
+      ],
+      "radius": 0.2002
+    },
+    "skin_shorts": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#3a6fd8",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.81,
+        -0.0134
+      ],
+      "radius": 0.2478
+    },
+    "hair": {
+      "file": "skin",
+      "group": "skin",
+      "system": "integumentary",
+      "systems": [
+        "integumentary"
+      ],
+      "color": "#3b2a20",
+      "view": "front",
+      "center": [
+        -0.0019,
+        1.58,
+        -0.0131
+      ],
+      "radius": 0.1723
+    },
+    "skull": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0008,
+        1.5652,
+        0
+      ],
+      "radius": 0.1498
+    },
+    "mandible": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.4896,
+        0.0451
+      ],
+      "radius": 0.0766
+    },
+    "spine": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "back",
+      "center": [
+        -0.0014,
+        1.2112,
+        -0.0381
+      ],
+      "radius": 0.3032
+    },
+    "ribs": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0012,
+        1.2127,
+        0.0092
+      ],
+      "radius": 0.2544
+    },
+    "sternum": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.2716,
+        0.0711
+      ],
+      "radius": 0.1007
+    },
+    "clavicles": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.3634,
+        0.0004
+      ],
+      "radius": 0.1584
+    },
+    "scapulae": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "back",
+      "center": [
+        -0.0007,
+        1.2947,
+        -0.0526
+      ],
+      "radius": 0.1938
+    },
+    "humeri": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0006,
+        1.2072,
+        -0.0246
+      ],
+      "radius": 0.2867
+    },
+    "radii": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.9448,
+        -0.0061
+      ],
+      "radius": 0.3039
+    },
+    "ulnae": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0004,
+        0.9532,
+        -0.0162
+      ],
+      "radius": 0.2789
+    },
+    "hand_bones": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0005,
+        0.7568,
+        0.0527
+      ],
+      "radius": 0.336
+    },
+    "pelvis": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        0.0004,
+        0.8771,
+        -0.0175
+      ],
+      "radius": 0.1828
+    },
+    "femurs": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.637,
+        -0.0182
+      ],
+      "radius": 0.2657
+    },
+    "patellae": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.431,
+        0.0084
+      ],
+      "radius": 0.1069
+    },
+    "tibiae": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0006,
+        0.2469,
+        -0.0266
+      ],
+      "radius": 0.21
+    },
+    "fibulae": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "side",
+      "center": [
+        -0.0006,
+        0.2298,
+        -0.0405
+      ],
+      "radius": 0.2164
+    },
+    "foot_bones": {
+      "file": "skeleton",
+      "group": "skeleton",
+      "system": "skeletal",
+      "systems": [
+        "skeletal"
+      ],
+      "color": "#ece3cc",
+      "view": "front",
+      "center": [
+        -0.0006,
+        0.0468,
+        0.0234
+      ],
+      "radius": 0.1866
+    },
+    "deltoids": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.2957,
+        -0.0386
+      ],
+      "radius": 0.2495
+    },
+    "biceps": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0006,
+        1.1911,
+        -0.0145
+      ],
+      "radius": 0.2886
+    },
+    "triceps": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0007,
+        1.1883,
+        -0.0551
+      ],
+      "radius": 0.2666
+    },
+    "pectorals": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0009,
+        1.2506,
+        0.0546
+      ],
+      "radius": 0.2356
+    },
+    "rectus_abdominis": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.0172,
+        0.0783
+      ],
+      "radius": 0.2203
+    },
+    "external_obliques": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.0333,
+        0.0321
+      ],
+      "radius": 0.2667
+    },
+    "trapezius": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0005,
+        1.3057,
+        -0.0616
+      ],
+      "radius": 0.2806
+    },
+    "latissimus_dorsi": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0004,
+        1.1016,
+        -0.0652
+      ],
+      "radius": 0.2719
+    },
+    "gluteus_maximus": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0009,
+        0.8187,
+        -0.06
+      ],
+      "radius": 0.1978
+    },
+    "quadriceps": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.6235,
+        0.0132
+      ],
+      "radius": 0.3089
+    },
+    "hamstrings": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0007,
+        0.568,
+        -0.0425
+      ],
+      "radius": 0.2602
+    },
+    "calf_muscles": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "back",
+      "center": [
+        -0.0004,
+        0.3106,
+        -0.0592
+      ],
+      "radius": 0.2263
+    },
+    "sartorius": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "front",
+      "center": [
+        -0.0006,
+        0.629,
+        0.0135
+      ],
+      "radius": 0.3164
+    },
+    "jaw_muscles": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#c9574b",
+      "view": "side",
+      "center": [
+        -0.0006,
+        1.5377,
+        0.0078
+      ],
+      "radius": 0.1175
+    },
+    "achilles_tendons": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#e8dcc0",
+      "view": "back",
+      "center": [
+        -0.0007,
+        0.1317,
+        -0.0744
+      ],
+      "radius": 0.1547
+    },
+    "muscles_other": {
+      "file": "muscles",
+      "group": "muscles",
+      "system": "muscular",
+      "systems": [
+        "muscular"
+      ],
+      "color": "#b8544a",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.8172,
+        0.0059
+      ],
+      "radius": 0.8705
+    },
+    "brain": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous"
+      ],
+      "color": "#e6b3b8",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.5917,
+        -0.0069
+      ],
+      "radius": 0.1214
+    },
+    "cerebellum": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous"
+      ],
+      "color": "#d99aa6",
+      "view": "back",
+      "center": [
+        -0.0006,
+        1.5369,
+        -0.044
+      ],
+      "radius": 0.0621
+    },
+    "brainstem": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous"
+      ],
+      "color": "#e3c1a8",
+      "view": "side",
+      "center": [
+        -0.0007,
+        1.5287,
+        -0.011
+      ],
+      "radius": 0.0488
+    },
+    "hypothalamus": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous",
+        "endocrine"
+      ],
+      "color": "#d99a7a",
+      "view": "side",
+      "center": [
+        -0.0007,
+        1.5636,
+        0.0135
+      ],
+      "radius": 0.0145
+    },
+    "pituitary": {
+      "file": "organs",
+      "group": "organs",
+      "system": "endocrine",
+      "systems": [
+        "endocrine"
+      ],
+      "color": "#d99a7a",
+      "view": "side",
+      "center": [
+        -0.0007,
+        1.5512,
+        0.0178
+      ],
+      "radius": 0.0096
+    },
+    "eyeballs": {
+      "file": "organs",
+      "group": "organs",
+      "system": "sensory",
+      "systems": [
+        "sensory",
+        "nervous"
+      ],
+      "color": "#f4f1ea",
+      "view": "front",
+      "center": [
+        -0.0007,
+        1.5448,
+        0.0466
+      ],
+      "radius": 0.0573
+    },
+    "lungs": {
+      "file": "organs",
+      "group": "organs",
+      "system": "respiratory",
+      "systems": [
+        "respiratory"
+      ],
+      "color": "#e59a9a",
+      "view": "front",
+      "center": [
+        -0.0013,
+        1.258,
+        0.0105
+      ],
+      "radius": 0.2023
+    },
+    "trachea": {
+      "file": "organs",
+      "group": "organs",
+      "system": "respiratory",
+      "systems": [
+        "respiratory"
+      ],
+      "color": "#e8c6b8",
+      "view": "front",
+      "center": [
+        0.0014,
+        1.2849,
+        0.006
+      ],
+      "radius": 0.2053
+    },
+    "larynx": {
+      "file": "organs",
+      "group": "organs",
+      "system": "respiratory",
+      "systems": [
+        "respiratory"
+      ],
+      "color": "#dfe7ea",
+      "view": "side",
+      "center": [
+        -0.0006,
+        1.4344,
+        0.0168
+      ],
+      "radius": 0.0305
+    },
+    "diaphragm": {
+      "file": "organs",
+      "group": "organs",
+      "system": "muscular",
+      "systems": [
+        "muscular",
+        "respiratory"
+      ],
+      "color": "#c8645a",
+      "view": "front",
+      "center": [
+        -0.001,
+        1.1151,
+        0.0183
+      ],
+      "radius": 0.1822
+    },
+    "stomach": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive"
+      ],
+      "color": "#e0a06a",
+      "view": "front",
+      "center": [
+        0.043,
+        1.1359,
+        0.0412
+      ],
+      "radius": 0.1089
+    },
+    "esophagus": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive"
+      ],
+      "color": "#e0a06a",
+      "view": "side",
+      "center": [
+        0.0029,
+        1.3049,
+        -0.0107
+      ],
+      "radius": 0.1273
+    },
+    "liver": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive"
+      ],
+      "color": "#8c3b2e",
+      "view": "front",
+      "center": [
+        -0.0183,
+        1.1315,
+        0.0209
+      ],
+      "radius": 0.1517
+    },
+    "small_intestine": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive"
+      ],
+      "color": "#dfa487",
+      "view": "front",
+      "center": [
+        0.0037,
+        0.9772,
+        0.0464
+      ],
+      "radius": 0.1742
+    },
+    "large_intestine": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive"
+      ],
+      "color": "#d99378",
+      "view": "front",
+      "center": [
+        0.0019,
+        0.9357,
+        0.0101
+      ],
+      "radius": 0.2144
+    },
+    "pancreas": {
+      "file": "organs",
+      "group": "organs",
+      "system": "digestive",
+      "systems": [
+        "digestive",
+        "endocrine"
+      ],
+      "color": "#e6bf78",
+      "view": "front",
+      "center": [
+        0.0039,
+        1.0719,
+        0.0331
+      ],
+      "radius": 0.0695
+    },
+    "spleen": {
+      "file": "organs",
+      "group": "organs",
+      "system": "immune",
+      "systems": [
+        "immune"
+      ],
+      "color": "#7d3a52",
+      "view": "side",
+      "center": [
+        0.0796,
+        1.127,
+        0.0012
+      ],
+      "radius": 0.0743
+    },
+    "kidneys": {
+      "file": "organs",
+      "group": "organs",
+      "system": "urinary",
+      "systems": [
+        "urinary"
+      ],
+      "color": "#94403c",
+      "view": "back",
+      "center": [
+        -0.0052,
+        1.0726,
+        -0.0251
+      ],
+      "radius": 0.1109
+    },
+    "ureters": {
+      "file": "organs",
+      "group": "organs",
+      "system": "urinary",
+      "systems": [
+        "urinary"
+      ],
+      "color": "#e3b58c",
+      "view": "front",
+      "center": [
+        -0.0027,
+        0.971,
+        -0.0077
+      ],
+      "radius": 0.1654
+    },
+    "bladder": {
+      "file": "organs",
+      "group": "organs",
+      "system": "urinary",
+      "systems": [
+        "urinary"
+      ],
+      "color": "#e3b58c",
+      "view": "front",
+      "center": [
+        -0.0006,
+        0.8293,
+        0.0008
+      ],
+      "radius": 0.0606
+    },
+    "adrenal_glands": {
+      "file": "organs",
+      "group": "organs",
+      "system": "endocrine",
+      "systems": [
+        "endocrine"
+      ],
+      "color": "#d99a7a",
+      "view": "back",
+      "center": [
+        -0.0043,
+        1.115,
+        -0.0243
+      ],
+      "radius": 0.0647
+    },
+    "thymus": {
+      "file": "organs",
+      "group": "organs",
+      "system": "immune",
+      "systems": [
+        "immune",
+        "endocrine"
+      ],
+      "color": "#e8b9a6",
+      "view": "front",
+      "center": [
+        0.0213,
+        1.3033,
+        0.0475
+      ],
+      "radius": 0.0817
+    },
+    "heart": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#b3263a",
+      "view": "front",
+      "center": [
+        0.0214,
+        1.251,
+        0.0254
+      ],
+      "radius": 0.0954
+    },
+    "aorta": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#c62828",
+      "view": "front",
+      "center": [
+        0.0061,
+        1.1708,
+        -0.0027
+      ],
+      "radius": 0.2035
+    },
+    "vena_cava": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#2458c2",
+      "view": "front",
+      "center": [
+        -0.015,
+        1.1546,
+        0.022
+      ],
+      "radius": 0.1806
+    },
+    "arteries": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#c62828",
+      "view": "front",
+      "center": [
+        0.0021,
+        1.1197,
+        -0.0029
+      ],
+      "radius": 0.2992
+    },
+    "veins": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#2458c2",
+      "view": "front",
+      "center": [
+        0.0042,
+        1.1237,
+        0.0125
+      ],
+      "radius": 0.3051
+    },
+    "pulmonary_artery": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#2458c2",
+      "view": "front",
+      "center": [
+        -0.0008,
+        1.2649,
+        0.0069
+      ],
+      "radius": 0.1879
+    },
+    "pulmonary_veins": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#c62828",
+      "view": "front",
+      "center": [
+        0,
+        1.265,
+        0.0002
+      ],
+      "radius": 0.1857
+    },
+    "coronary_arteries": {
+      "file": "circulatory",
+      "group": "organs",
+      "system": "circulatory",
+      "systems": [
+        "circulatory"
+      ],
+      "color": "#c62828",
+      "view": "front",
+      "center": [
+        0.0287,
+        1.242,
+        0.0352
+      ],
+      "radius": 0.08
+    },
+    "spinal_cord": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous"
+      ],
+      "color": "#f2c94c",
+      "view": "back",
+      "center": [
+        -0.0011,
+        1.2737,
+        -0.0518
+      ],
+      "radius": 0.2259
+    },
+    "nerves": {
+      "file": "organs",
+      "group": "organs",
+      "system": "nervous",
+      "systems": [
+        "nervous"
+      ],
+      "color": "#f2c94c",
+      "view": "front",
+      "center": [
+        -0.0007,
+        0.7411,
+        -0.0179
+      ],
+      "radius": 0.7301
+    }
+  }
+}

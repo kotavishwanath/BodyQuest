@@ -1,0 +1,188 @@
+[
+  {
+    "id": "heart",
+    "meshName": "heart",
+    "system": "circulatory",
+    "layer": 2,
+    "children": ["aorta", "vena-cava", "pulmonary-vessels", "coronary-arteries"],
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "❤️",
+    "names": { "common": "Heart", "pronunciation": "HART" },
+    "content": {
+      "little": { "say": "This is your heart. Thump, thump! It pumps your blood." },
+      "young": {
+        "what": "Your heart is a strong muscle in your chest, about the size of your fist.",
+        "does": "It squeezes again and again to push blood all around your body.",
+        "funFact": "Your heart beats about 100,000 times every day!"
+      },
+      "junior": {
+        "what": "The heart is a muscular pump with four chambers, found in the chest between the lungs.",
+        "does": "The right side pumps blood to the lungs to pick up oxygen. The left side pumps oxygen-rich blood to the rest of the body. Valves inside keep the blood flowing one way.",
+        "funFact": "The 'lub-dub' sound of your heartbeat is made by the heart's valves closing.",
+        "worksWith": ["lungs", "aorta", "arteries", "veins", "brain"],
+        "details": "The heart is made of a special muscle called cardiac muscle, built to keep working your whole life."
+      },
+      "bipc": {
+        "definition": "The heart is a hollow, muscular, four-chambered organ of mesodermal origin that pumps blood through the pulmonary and systemic circulations.",
+        "structure": "It lies in the thoracic cavity between the two lungs, slightly tilted to the left, and is protected by a double-walled pericardium enclosing pericardial fluid. It has two relatively small upper atria and two larger, thick-walled lower ventricles, separated by the interatrial and interventricular septa. The tricuspid valve guards the right atrioventricular opening and the bicuspid (mitral) valve guards the left; semilunar valves guard the openings into the pulmonary artery and aorta. Specialised nodal tissue includes the sino-atrial (SA) node, atrio-ventricular (AV) node, bundle of His and Purkinje fibres.",
+        "function": "The SA node generates the maximum number of action potentials (about 70–75 per minute) and therefore acts as the pacemaker. One cardiac cycle lasts about 0.8 s and consists of atrial systole, ventricular systole and joint diastole. Each ventricle pumps out about 70 mL of blood per beat (stroke volume), giving a cardiac output of about 5 L per minute. Double circulation keeps oxygenated and deoxygenated blood separate.",
+        "keyTerms": [
+          { "term": "SA node", "meaning": "Pacemaker of the heart, in the upper right corner of the right atrium" },
+          { "term": "Stroke volume", "meaning": "Volume of blood pumped by each ventricle per beat (about 70 mL)" },
+          { "term": "Cardiac output", "meaning": "Volume pumped by each ventricle per minute = stroke volume × heart rate" },
+          { "term": "Double circulation", "meaning": "Blood passes through the heart twice in one complete circuit: pulmonary and systemic" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "body-fluids-and-circulation", "topic": "Human circulatory system", "inSyllabus": true }
+        ],
+        "physicsLinks": [
+          {
+            "concept": "Fluid mechanics: continuity equation",
+            "explanation": "For a steady flow, the volume passing per second is constant, so flow is slowest where the total cross-sectional area is largest. That is why blood moves most slowly through the capillaries, giving time for exchange.",
+            "formula": "A_1 v_1 = A_2 v_2"
+          }
+        ],
+        "commonMistakes": ["The pulmonary artery carries deoxygenated blood and the pulmonary veins carry oxygenated blood, the reverse of most arteries and veins."],
+        "examTips": ["Cardiac output ≈ 70 mL × 72 beats per minute ≈ 5 L per minute."],
+        "flashcards": [
+          { "front": "Which node is called the pacemaker of the heart?", "back": "The sino-atrial (SA) node" },
+          { "front": "How long is one cardiac cycle at 72 beats per minute?", "back": "About 0.8 seconds" }
+        ]
+      }
+    },
+    "animation": "pulse",
+    "tissue": "muscle"
+  },
+  {
+    "id": "aorta",
+    "meshName": "aorta",
+    "system": "circulatory",
+    "layer": 5,
+    "parentId": "heart",
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🔴",
+    "names": { "common": "Aorta", "pronunciation": "ay-OR-tuh" },
+    "content": {
+      "young": {
+        "what": "The aorta is the biggest blood tube in your body.",
+        "does": "It carries bright red, oxygen-rich blood from your heart to the rest of your body.",
+        "funFact": "Your aorta is about as wide as a garden hose!"
+      },
+      "junior": {
+        "what": "The aorta is the largest artery in the body. It leaves the left ventricle of the heart.",
+        "does": "It arches over the heart and runs down through the chest and abdomen, branching into arteries that supply the whole body with oxygen-rich blood.",
+        "funFact": "The aorta's elastic walls stretch with each heartbeat and spring back, which keeps blood flowing between beats.",
+        "worksWith": ["heart", "arteries"],
+        "details": "It has three main parts: the ascending aorta, the arch of the aorta and the descending aorta."
+      }
+    },
+    "animation": "flow"
+  },
+  {
+    "id": "vena-cava",
+    "meshName": "vena_cava",
+    "system": "circulatory",
+    "layer": 5,
+    "parentId": "heart",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🔵",
+    "names": { "common": "Great veins", "scientific": "Venae cavae", "pronunciation": "VEE-nee KAY-vee" },
+    "content": {
+      "junior": {
+        "what": "The venae cavae are the two largest veins: the superior vena cava and the inferior vena cava.",
+        "does": "They bring oxygen-poor blood from the upper and lower body back into the right atrium of the heart.",
+        "funFact": "The inferior vena cava is the widest vein in the body.",
+        "worksWith": ["heart", "veins"],
+        "details": "Blood in veins is under low pressure, so veins have thinner walls than arteries."
+      }
+    },
+    "animation": "flow"
+  },
+  {
+    "id": "arteries",
+    "meshName": "arteries",
+    "system": "circulatory",
+    "layer": 5,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "❣️",
+    "names": { "common": "Arteries", "pronunciation": "AR-tuh-reez" },
+    "content": {
+      "young": {
+        "what": "Arteries are tubes that carry blood away from your heart.",
+        "does": "They take oxygen and food from your blood to every part of your body.",
+        "funFact": "You can feel blood pushing through an artery in your wrist. That's your pulse!"
+      },
+      "junior": {
+        "what": "Arteries are blood vessels that carry blood away from the heart.",
+        "does": "Their thick, muscular and elastic walls cope with the high pressure of each heartbeat. Arteries branch into smaller arterioles and then into tiny capillaries.",
+        "funFact": "Your pulse is the stretch of an artery wall each time your heart beats.",
+        "worksWith": ["heart", "aorta", "veins"],
+        "details": "Most arteries carry oxygen-rich blood. The pulmonary arteries are the exception: they carry oxygen-poor blood to the lungs."
+      }
+    },
+    "animation": "flow"
+  },
+  {
+    "id": "veins",
+    "meshName": "veins",
+    "system": "circulatory",
+    "layer": 5,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "💙",
+    "names": { "common": "Veins", "pronunciation": "VAYNZ" },
+    "content": {
+      "young": {
+        "what": "Veins are tubes that carry blood back to your heart.",
+        "does": "They bring blood back so it can be sent to your lungs to pick up fresh oxygen.",
+        "funFact": "Veins can look blue through your skin, but the blood inside is dark red!"
+      },
+      "junior": {
+        "what": "Veins are blood vessels that carry blood towards the heart.",
+        "does": "They have thinner walls than arteries, and many contain valves that stop blood from flowing backwards.",
+        "funFact": "Muscles squeezing around the veins, especially in your legs, help push blood back up to your heart.",
+        "worksWith": ["heart", "vena-cava", "arteries", "calf-muscles"],
+        "details": "In diagrams, veins are coloured blue and arteries red, but all blood is actually red."
+      }
+    },
+    "animation": "flow"
+  },
+  {
+    "id": "pulmonary-vessels",
+    "meshName": "pulmonary_artery",
+    "meshNames": ["pulmonary_veins"],
+    "system": "circulatory",
+    "layer": 5,
+    "parentId": "heart",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "🫁",
+    "names": { "common": "Lung blood vessels", "scientific": "Pulmonary vessels" },
+    "content": {
+      "junior": {
+        "what": "The pulmonary arteries and pulmonary veins connect the heart with the lungs.",
+        "does": "Pulmonary arteries (blue in the model) carry oxygen-poor blood from the right ventricle to the lungs. Pulmonary veins (red) bring oxygen-rich blood back to the left atrium.",
+        "funFact": "After birth, they are the only arteries that carry oxygen-poor blood and the only veins that carry oxygen-rich blood.",
+        "worksWith": ["heart", "lungs"],
+        "details": "This short loop from the heart to the lungs and back is called the pulmonary circulation."
+      }
+    }
+  },
+  {
+    "id": "coronary-arteries",
+    "meshName": "coronary_arteries",
+    "system": "circulatory",
+    "layer": 5,
+    "parentId": "heart",
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "👑",
+    "names": { "common": "Heart's own arteries", "scientific": "Coronary arteries", "pronunciation": "KOR-uh-nair-ee" },
+    "content": {
+      "junior": {
+        "what": "The coronary arteries are small arteries that run over the surface of the heart.",
+        "does": "They carry oxygen-rich blood to the heart muscle itself, which needs its own supply to keep pumping.",
+        "funFact": "'Coronary' comes from the Latin word for crown, because these arteries circle the heart like a crown.",
+        "worksWith": ["heart", "aorta"],
+        "details": "They branch off the aorta just above the heart. If one becomes blocked, part of the heart muscle cannot get enough oxygen."
+      }
+    }
+  }
+]

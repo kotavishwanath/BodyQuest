@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pituitary",
+    "meshName": "pituitary",
+    "system": "endocrine",
+    "layer": 2,
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "👑",
+    "names": { "common": "Pituitary gland", "pronunciation": "pih-TYOO-ih-tair-ee" },
+    "content": {
+      "junior": {
+        "what": "The pituitary gland is a pea-sized gland at the base of the brain.",
+        "does": "Often called the 'master gland', it releases hormones that control growth and tell other glands, such as the thyroid and adrenal glands, what to do.",
+        "funFact": "Most growth hormone from the pituitary is released while you are asleep.",
+        "worksWith": ["hypothalamus", "adrenal-glands", "brain"],
+        "details": "The hypothalamus, just above it, controls when the pituitary releases its hormones."
+      }
+    }
+  },
+  {
+    "id": "adrenal-glands",
+    "meshName": "adrenal_glands",
+    "system": "endocrine",
+    "layer": 2,
+    "visibleInModes": ["junior", "bipc"],
+    "icon": "⚡",
+    "names": { "common": "Adrenal glands", "pronunciation": "uh-DREE-nul" },
+    "content": {
+      "junior": {
+        "what": "The adrenal glands are two small glands that sit on top of the kidneys like little hats.",
+        "does": "They make adrenaline for the 'fight or flight' response, plus hormones such as cortisol and aldosterone that help control stress, blood sugar and salt balance.",
+        "funFact": "Adrenaline can make your heart beat faster within seconds when you get a fright.",
+        "worksWith": ["kidneys", "pituitary", "heart"],
+        "details": "Adrenaline gets the body ready for action: it widens the airways, raises the heart rate and releases stored sugar for energy."
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+3D ANATOMY MODELS – ATTRIBUTION AND LICENCE
+===========================================
+
+The *.glb files in this folder are derived from:
+
+  BodyParts3D, (c) The Database Center for Life Science,
+  licensed under Creative Commons Attribution-Share Alike 2.1 Japan
+  https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en
+  https://dbarchive.biosciencedbc.jp/en/bodyparts3d/
+
+  Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K.
+  BodyParts3D: 3D structure database for anatomical concepts.
+  Nucleic Acids Res. 2009;37(Database issue):D782-5. doi:10.1093/nar/gkn613
+
+  STL mirror used: https://github.com/Kevin-Mattheus-Moerman/BodyParts3D
+
+Changes made (scripts/build-models.mjs):
+  - converted STL to glTF (metres, Y-up), merged structures into named groups
+  - simplified meshes, recomputed normals, quantized and meshopt-compressed
+  - split the skin surface into body regions; the groin area is flattened and
+    shown as swim shorts for a child-appropriate presentation
+  - reproductive structures were excluded
+
+These derived models are shared under the same licence (CC BY-SA 2.1 JP).
+The application source code is licensed separately.

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "mouth",
+    "meshName": "skin_mouth",
+    "system": "digestive",
+    "layer": 0,
+    "visibleInModes": ["little", "young", "junior", "bipc"],
+    "icon": "👄",
+    "names": { "common": "Mouth", "scientific": "Oral (buccal) cavity" },
+    "content": {
+      "little": { "say": "This is your mouth. Big smile! You eat and talk with it." },
+      "young": {
+        "what": "Your mouth is where your food goes in.",
+        "does": "Your teeth chew food, and your tongue helps you taste, swallow and talk.",
+        "funFact": "Your mouth makes spit, called saliva, to help food slide down easily!"
+      },
+      "junior": {
+        "what": "The mouth, or oral cavity, is the start of the digestive system.",
+        "does": "Teeth break food into small pieces, saliva wets it and starts breaking down starch, and the tongue rolls it into a soft ball called a bolus for swallowing.",
+        "funFact": "People grow two sets of teeth: 20 milk teeth first, then 32 permanent teeth.",
+        "worksWith": ["stomach", "nose"],
+        "details": "Taste buds on your tongue detect sweet, salty, sour, bitter and savoury (umami) tastes."
+      },
+      "bipc": {
+        "definition": "The oral (buccal) cavity is the first part of the alimentary canal, where mechanical digestion and the chemical digestion of starch begin.",
+        "structure": "It contains the teeth, the tongue and the openings of three pairs of salivary glands (parotid, submandibular and sublingual). Human dentition is thecodont, diphyodont and heterodont; the adult dental formula is 2123/2123 (32 permanent teeth). The tongue is a freely movable muscular organ attached to the floor of the oral cavity by the frenulum, and its upper surface bears papillae, some of which carry taste buds.",
+        "function": "Mastication breaks food into smaller pieces, and saliva moistens and lubricates it. Salivary amylase hydrolyses about 30% of starch into maltose at an optimum pH of about 6.8, and lysozyme in saliva acts as an antibacterial agent. The tongue shapes the food into a bolus, which is swallowed (deglutition).",
+        "keyTerms": [
+          { "term": "Thecodont", "meaning": "Teeth embedded in sockets of the jaw bones" },
+          { "term": "Diphyodont", "meaning": "Two sets of teeth: milk (deciduous) and permanent" },
+          { "term": "Salivary amylase", "meaning": "Enzyme in saliva that hydrolyses starch into maltose" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "digestion-and-absorption", "topic": "Digestive system: mouth and buccal cavity", "inSyllabus": false }
+        ],
+        "chemistryLinks": [
+          {
+            "concept": "Enzymes as biological catalysts",
+            "explanation": "Salivary amylase is a protein catalyst. Like all enzymes, it lowers the activation energy of a reaction and works best at an optimum pH and temperature."
+          }
+        ],
+        "flashcards": [
+          { "front": "What is the adult human dental formula?", "back": "2123/2123 (32 teeth)" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "stomach",
+    "meshName": "stomach",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🥣",
+    "names": { "common": "Stomach", "pronunciation": "STUM-uk" },
+    "content": {
+      "young": {
+        "what": "Your stomach is a stretchy bag inside your tummy.",
+        "does": "It squishes and mixes food with special juices to break it down.",
+        "funFact": "Your stomach stretches to hold a big meal, then shrinks back again!"
+      },
+      "junior": {
+        "what": "The stomach is a J-shaped, muscular organ in the upper left part of the abdomen.",
+        "does": "Its muscular walls churn food while gastric juice, which contains acid and enzymes, starts digesting proteins. The food becomes a thick liquid called chyme, which moves on into the small intestine.",
+        "funFact": "A layer of mucus stops the stomach's strong acid from harming its own lining.",
+        "worksWith": ["mouth", "liver"],
+        "details": "A ring of muscle called a sphincter at the lower end controls when food leaves the stomach."
+      },
+      "bipc": {
+        "definition": "The stomach is a J-shaped, muscular dilation of the alimentary canal where food is stored for some hours and protein digestion begins.",
+        "structure": "It is located in the upper left portion of the abdominal cavity and has a cardiac portion (into which the oesophagus opens), a fundic region, a body and a pyloric portion that opens into the duodenum. Its wall has the four layers of the alimentary canal: serosa, muscularis, sub-mucosa and mucosa. The mucosa forms gastric glands.",
+        "function": "Gastric glands contain mucus neck cells (mucus), peptic or chief cells (pepsinogen) and parietal or oxyntic cells (HCl and intrinsic factor, needed to absorb vitamin B₁₂). HCl activates pepsinogen to pepsin and provides the acidic pH (about 1.8) that pepsin needs; pepsin converts proteins into proteoses and peptones. Churning mixes food with gastric juice to form chyme.",
+        "keyTerms": [
+          { "term": "Oxyntic cells", "meaning": "Parietal cells that secrete HCl and intrinsic factor" },
+          { "term": "Pepsinogen", "meaning": "Inactive enzyme secreted by chief cells; activated to pepsin by HCl" },
+          { "term": "Chyme", "meaning": "Acidic, semi-liquid mixture of food and gastric juice" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "digestion-and-absorption", "topic": "Digestion in the stomach", "inSyllabus": false }
+        ],
+        "chemistryLinks": [
+          {
+            "concept": "pH of gastric juice",
+            "explanation": "Gastric juice has a pH of about 1.8, so its hydrogen-ion concentration is roughly 10⁻¹·⁸ mol/L, strongly acidic.",
+            "formula": "\\mathrm{pH} = -\\log_{10}[\\mathrm{H^+}]"
+          }
+        ],
+        "flashcards": [
+          { "front": "Which gastric cells secrete HCl?", "back": "Parietal (oxyntic) cells" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "liver",
+    "meshName": "liver",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🟤",
+    "names": { "common": "Liver", "pronunciation": "LIV-er" },
+    "content": {
+      "young": {
+        "what": "Your liver is a big organ on the right side of your tummy, under your ribs.",
+        "does": "It helps clean your blood and makes a juice called bile that helps digest fatty food.",
+        "funFact": "Your liver can regrow parts of itself!"
+      },
+      "junior": {
+        "what": "The liver is the largest gland in the body, found in the upper right part of the abdomen.",
+        "does": "It makes bile, stores sugar as glycogen, removes harmful substances from the blood and makes important proteins.",
+        "funFact": "An adult liver weighs about 1.2 to 1.5 kilograms.",
+        "worksWith": ["stomach", "heart"],
+        "details": "Bile is stored in a small bag called the gallbladder and squeezed into the small intestine, where it breaks fat into tiny droplets."
+      },
+      "bipc": {
+        "definition": "The liver is the largest gland of the body, weighing about 1.2–1.5 kg in an adult human, with digestive, metabolic and detoxifying roles.",
+        "structure": "It lies in the abdominal cavity just below the diaphragm and has two lobes. The hepatic lobules are its structural and functional units; each contains hepatic cells arranged as cords and is covered by a thin connective tissue sheath called Glisson's capsule. Bile secreted by hepatic cells passes through the hepatic ducts and is stored and concentrated in the gallbladder; the cystic duct and the common hepatic duct join to form the common bile duct.",
+        "function": "Bile contains bile salts, bile pigments (bilirubin and biliverdin), cholesterol and phospholipids but no enzymes; bile salts emulsify fats and help activate lipases. The liver also stores glycogen, produces urea from ammonia, detoxifies many substances and synthesises plasma proteins such as albumin and fibrinogen.",
+        "keyTerms": [
+          { "term": "Hepatic lobule", "meaning": "Structural and functional unit of the liver" },
+          { "term": "Glisson's capsule", "meaning": "Connective tissue sheath covering each hepatic lobule" },
+          { "term": "Emulsification", "meaning": "Breaking fat into tiny droplets, increasing surface area for lipase" }
+        ],
+        "syllabusRefs": [
+          { "board": "cbse", "class": 11, "chapter": "digestion-and-absorption", "topic": "Digestive glands: liver", "inSyllabus": false },
+          { "board": "cbse", "class": 11, "chapter": "excretory-products-and-their-elimination", "topic": "Role of other organs in excretion", "inSyllabus": true }
+        ],
+        "commonMistakes": ["Bile contains no digestive enzymes; it helps digestion by emulsifying fats."],
+        "flashcards": [
+          { "front": "Name the two bile pigments.", "back": "Bilirubin and biliverdin" }
+        ]
+      }
+    }
+  },
+  {
+    "id": "esophagus",
+    "meshName": "esophagus",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "⬇️",
+    "names": { "common": "Food pipe", "scientific": "Oesophagus", "pronunciation": "ee-SOF-uh-gus" },
+    "content": {
+      "young": {
+        "what": "Your food pipe is a long tube from your throat down to your stomach.",
+        "does": "Its muscles squeeze to push food down, even if you are upside down!",
+        "funFact": "Food takes only a few seconds to slide down to your stomach."
+      },
+      "junior": {
+        "what": "The oesophagus is a muscular tube about 25 cm long that connects the throat (pharynx) to the stomach.",
+        "does": "Waves of muscle contraction, called peristalsis, push swallowed food down to the stomach.",
+        "funFact": "Thanks to peristalsis, astronauts can swallow food in space.",
+        "worksWith": ["mouth", "stomach"],
+        "details": "A ring of muscle at its lower end stops stomach acid from coming back up."
+      }
+    }
+  },
+  {
+    "id": "small-intestine",
+    "meshName": "small_intestine",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🌀",
+    "names": { "common": "Small intestine", "pronunciation": "in-TES-tin" },
+    "content": {
+      "young": {
+        "what": "Your small intestine is a long, twisty tube coiled up in your tummy.",
+        "does": "It finishes breaking down food and soaks the goodness into your blood.",
+        "funFact": "If you stretched it out, it would be longer than a car!"
+      },
+      "junior": {
+        "what": "The small intestine is a coiled tube about 6 metres long, made of the duodenum, jejunum and ileum.",
+        "does": "Juices from the pancreas and bile from the liver finish digesting food here, and millions of tiny finger-like villi absorb the nutrients into the blood.",
+        "funFact": "Its villi give it a huge inner surface, so it can absorb lots of nutrients quickly.",
+        "worksWith": ["stomach", "liver", "pancreas", "large-intestine"],
+        "details": "It is called 'small' because it is narrow, not because it is short."
+      }
+    }
+  },
+  {
+    "id": "large-intestine",
+    "meshName": "large_intestine",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🔄",
+    "names": { "common": "Large intestine", "pronunciation": "in-TES-tin" },
+    "content": {
+      "young": {
+        "what": "Your large intestine is a wide tube that goes around your small intestine.",
+        "does": "It soaks up water from leftover food and turns the rest into poo.",
+        "funFact": "Trillions of friendly bacteria live in your large intestine and help keep you healthy!"
+      },
+      "junior": {
+        "what": "The large intestine is a wider tube about 1.5 metres long, made of the caecum, colon and rectum.",
+        "does": "It absorbs water and salts from undigested food and stores the waste until it leaves the body.",
+        "funFact": "Friendly gut bacteria here make some vitamins, such as vitamin K.",
+        "worksWith": ["small-intestine"],
+        "details": "The appendix is a small, finger-shaped pouch attached to the start of the large intestine."
+      }
+    }
+  },
+  {
+    "id": "pancreas",
+    "meshName": "pancreas",
+    "system": "digestive",
+    "layer": 2,
+    "visibleInModes": ["young", "junior", "bipc"],
+    "icon": "🧪",
+    "names": { "common": "Pancreas", "pronunciation": "PAN-kree-us" },
+    "content": {
+      "young": {
+        "what": "Your pancreas is a soft organ tucked behind your stomach.",
+        "does": "It makes juices that help digest food, and it helps control the sugar in your blood.",
+        "funFact": "It has two big jobs: digestion and sugar control!"
+      },
+      "junior": {
+        "what": "The pancreas is a long gland lying behind the stomach.",
+        "does": "It sends digestive enzymes into the small intestine, and small clusters of cells called the islets of Langerhans release the hormones insulin and glucagon to control blood sugar.",
+        "funFact": "Insulin was first used to treat diabetes in 1922.",
+        "worksWith": ["small-intestine", "liver", "stomach"],
+        "details": "Because it makes both digestive juices and hormones, the pancreas belongs to two body systems."
+      }
+    }
+  }
+]

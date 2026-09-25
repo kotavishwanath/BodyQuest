@@ -1,0 +1,325 @@
+{
+  "Metadata": {
+    "title": "{name} – Explore Your Amazing Body!",
+    "description": "A free, safe, interactive 3D human body explorer for learners aged 1 to 18, from toddlers to Class 11–12 BiPC and NEET students.",
+    "exploreTitle": "3D Body Explorer",
+    "exploreDescription": "Spin, zoom and tap the 3D human body to discover what each part does, explained for your age.",
+    "systemTitle": "{system} in 3D",
+    "partTitle": "{name}: what it is and what it does"
+  },
+  "Common": {
+    "skipToContent": "Skip to main content",
+    "home": "Home",
+    "close": "Close",
+    "listen": "Listen",
+    "stop": "Stop",
+    "changeAge": "Change age",
+    "darkMode": "Switch to dark mode",
+    "lightMode": "Switch to light mode",
+    "loading": "Waking up the body…",
+    "modeBadge": "Mode: {mode}",
+    "soundOn": "Turn sound off",
+    "soundOff": "Turn sound on"
+  },
+  "Nav": {
+    "label": "Main",
+    "explore": "Explore",
+    "games": "Games",
+    "stickers": "Stickers"
+  },
+  "Fact": {
+    "title": "Body fact of the day",
+    "see": "See it in 3D"
+  },
+  "Mascot": {
+    "label": "Cella's tip",
+    "open": "Ask Cella for a tip",
+    "close": "Hide Cella's tip",
+    "tips": {
+      "little": "Tap the body and listen! Then tap Organs to find the heart.",
+      "skin": "Drag the peel slider to see what's under your skin!",
+      "muscles": "Muscles work in pairs. Find the biceps and the triceps!",
+      "organs": "Tap an organ, then try Close-up or Cut in half to look inside.",
+      "skeleton": "Can you find the longest bone? Hint: it's in your leg!",
+      "circulatory": "Red tubes carry blood away from the heart, blue tubes bring it back.",
+      "nervous": "Press 'Send a message' and watch it zoom to the hand!",
+      "respiratory": "Press 'Breathe with me' and breathe along with the lungs.",
+      "digestive": "Press 'Follow the food' to take a trip through your tummy!",
+      "urinary": "Your kidneys are near your back. Try the Back view!",
+      "sensory": "Tap a sense organ and try its experiment.",
+      "immune": "The spleen and thymus help train your body's defence team.",
+      "endocrine": "Hormones are chemical messages carried in your blood.",
+      "selected": "Tap 'Zoom into the tissue' to see what it's made of!",
+      "tour": "Not sure where to start? Take the body tour!"
+    }
+  },
+  "Journeys": {
+    "follow-the-food": "Follow the food",
+    "grand-tour": "Body tour",
+    "start-grand-tour": "Take me on a tour!"
+  },
+  "Games": {
+    "title": "Games",
+    "description": "Play Find It!, build a skeleton and take a body quiz.",
+    "heading": "Let's play!",
+    "play": "Play",
+    "backToGames": "Back to games",
+    "playAgain": "Play again",
+    "findIt": { "name": "Find It!", "blurb": "Can you find the body part on the 3D body?" },
+    "skeleton": { "name": "Build a Skeleton", "blurb": "Drag the bones into the right places." },
+    "quiz": { "name": "Body Quiz", "blurb": "Answer fun questions about your body." },
+    "stars": "{count, plural, one {# star} other {# stars}}"
+  },
+  "FindIt": {
+    "title": "Find It!",
+    "prompt": "Tap the {name}!",
+    "promptLittle": "Can you find the {name}? Tap it!",
+    "round": "Round {current} of {total}",
+    "great": {
+      "0": "Great job!",
+      "1": "You found it!",
+      "2": "Brilliant!",
+      "3": "Super spotting!"
+    },
+    "almost": "Almost! That's the {name}. Try again!",
+    "almostLittle": "Oops, try again!",
+    "hint": "Look for the glowing part!",
+    "done": "You found them all!",
+    "score": "You found {first} of {total} on the first try.",
+    "listHint": "Keyboard players: use the body parts list to answer.",
+    "repeat": "Say it again"
+  },
+  "Skeleton": {
+    "title": "Build a Skeleton",
+    "instructions": "Drag each bone onto the glowing spot where it belongs.",
+    "tray": "Bones to place",
+    "placed": "Yes! That's where the {name} goes.",
+    "wrong": "Hmm, the {name} goes somewhere else. Try another spot!",
+    "done": "You built a whole skeleton!",
+    "explore": "Explore the skeleton in 3D",
+    "slot": "Spot for the {name}",
+    "left": "left",
+    "right": "right"
+  },
+  "Quiz": {
+    "title": "Body Quiz",
+    "chooseLevel": "Choose a level",
+    "levels": { "little": "Tiny tots", "young": "Easy", "junior": "Tricky" },
+    "start": "Start the quiz",
+    "question": "Question {current} of {total}",
+    "correct": "Yes! That's right! 🎉",
+    "notQuite": "Good try! The answer is: {answer}",
+    "next": "Next question",
+    "finish": "See my score",
+    "score": "You got {score} out of {total}!",
+    "best": "Your best: {best}",
+    "review": "See it in 3D"
+  },
+  "Stickers": {
+    "title": "My sticker book",
+    "description": "Collect a sticker for every body system you explore and every game you finish.",
+    "earned": "{count} of {total} stickers",
+    "locked": "Not yet earned",
+    "newSticker": "New sticker!",
+    "reset": "Start my sticker book again",
+    "resetConfirm": "This clears your stickers and progress on this device. Are you sure?",
+    "privacy": "Your stickers are saved only on this device."
+  },
+  "Home": {
+    "mascotName": "Cella",
+    "mascotHello": "Hi! I'm Cella, a tiny cell. Your body is made of trillions of cells like me. Let's explore it together!",
+    "tagline": "Explore Your Amazing Body!",
+    "question": "How old are you?",
+    "questionHint": "Pick one. You can change it any time.",
+    "continueAs": "Keep exploring as {mode}"
+  },
+  "AgeModes": {
+    "little": {
+      "label": "Little Explorers",
+      "ages": "Ages 1–4",
+      "blurb": "Tap, listen and giggle!"
+    },
+    "young": {
+      "label": "Young Scientists",
+      "ages": "Ages 5–8",
+      "blurb": "Fun facts and moving organs"
+    },
+    "junior": {
+      "label": "Junior Doctors",
+      "ages": "Ages 9–14",
+      "blurb": "Real names and how systems work"
+    },
+    "bipc": {
+      "label": "BiPC Scholar",
+      "ages": "Class 11–12",
+      "blurb": "I'm in Class 11/12 (BiPC / NEET)"
+    }
+  },
+  "Explore": {
+    "heading": "Explore the body",
+    "hint": "Tap any body part to learn about it!",
+    "hintLittle": "Tap the body!",
+    "canvasLabel": "3D human body. Use the left and right arrow keys to turn it, and the body parts list to choose a part.",
+    "partsList": "Body parts",
+    "chooseAge": "First, tell us how old you are so we can explain things just right.",
+    "noWebgl": "Your device can't show 3D right now, so here is the picture list instead. Choose a body part below.",
+    "body": "Body",
+    "breadcrumb": "You are here",
+    "goBack": "Go back",
+    "cameraViews": "Camera views",
+    "front": "Front",
+    "back": "Back",
+    "side": "Side",
+    "notInMode": "{name} is explored in an older age mode. Here's the whole body instead!",
+    "modelCredit": "3D anatomy: BodyParts3D © The Database Center for Life Science (CC BY-SA 2.1 JP)",
+    "selected": "Selected: {name}"
+  },
+  "Views": {
+    "label": "Body layers",
+    "peel": "Peel the layers",
+    "systemsLabel": "Body systems",
+    "skin": "Skin",
+    "muscles": "Muscles",
+    "organs": "Organs",
+    "skeleton": "Bones",
+    "circulatory": "Blood flow",
+    "nervous": "Nerves",
+    "respiratory": "Breathing",
+    "digestive": "Digestion",
+    "urinary": "Urinary",
+    "sensory": "Senses",
+    "immune": "Defence team",
+    "endocrine": "Hormones"
+  },
+  "Systems": {
+    "skeletal": {
+      "name": "Skeleton",
+      "description": "Explore the bones of the human skeleton in 3D, from the skull to the tiny bones of the feet."
+    },
+    "muscular": {
+      "name": "Muscles",
+      "description": "Explore the major muscles in 3D and learn how they pull on bones to move the body."
+    },
+    "circulatory": {
+      "name": "Heart and blood vessels",
+      "description": "Explore the heart, arteries and veins in 3D and follow how blood travels around the body."
+    },
+    "nervous": {
+      "name": "Nervous system",
+      "description": "Explore the brain, spinal cord and nerves in 3D and watch a message travel from the brain to the hand."
+    },
+    "respiratory": {
+      "name": "Breathing system",
+      "description": "Explore the nose, windpipe, lungs and diaphragm in 3D, and breathe along with the lungs."
+    },
+    "digestive": {
+      "name": "Digestive system",
+      "description": "Follow the food from the mouth through the stomach and intestines in 3D."
+    },
+    "urinary": {
+      "name": "Urinary system",
+      "description": "Explore the kidneys, ureters and bladder in 3D and learn how the body cleans the blood."
+    },
+    "sensory": {
+      "name": "Senses",
+      "description": "Explore the eyes, ears, nose, mouth and skin in 3D and try a mini experiment for each sense."
+    },
+    "immune": {
+      "name": "Immune and lymphatic system",
+      "description": "Meet the body's defence team: the spleen and thymus, in 3D."
+    },
+    "endocrine": {
+      "name": "Endocrine system",
+      "description": "Explore the hormone-making glands in 3D, from the pituitary to the adrenal glands."
+    }
+  },
+  "Actions": {
+    "lookInside": "Look inside",
+    "closeUp": "Close-up",
+    "exitCloseUp": "Show whole body",
+    "cut": "Cut in half",
+    "uncut": "Put back together",
+    "cutDepth": "Cut position",
+    "tissue": "Zoom into the tissue",
+    "cells": "See the cells",
+    "breathe": "Breathe with me",
+    "stopBreathing": "Stop breathing guide",
+    "breatheIn": "Breathe in…",
+    "breatheOut": "Breathe out…",
+    "signal": "Send a message to the hand!",
+    "followFood": "Follow the food",
+    "journeyNext": "Next stop",
+    "journeyStop": "End the journey",
+    "journeyStep": "Stop {current} of {total}"
+  },
+  "Micro": {
+    "tissueLevel": "Tissue",
+    "cellLevel": "Cells",
+    "insideCell": "Inside a cell",
+    "meetCells": "Meet the cells",
+    "tapToLearn": "Tap a part of the picture to learn about it.",
+    "canvasLabel": "Magnified 3D view. Drag to turn it, and tap a structure to learn about it.",
+    "stylised": "Simplified model, not to scale"
+  },
+  "Demos": {
+    "title": "Try it!",
+    "eyeLight": "How bright is it?",
+    "eyeDark": "Dark",
+    "eyeBright": "Bright",
+    "eyeText": "In the dark your pupil opens wide to let in more light. In bright light it shrinks to protect your eye.",
+    "earLow": "Low sound",
+    "earHigh": "High sound",
+    "earQuiet": "Quiet",
+    "earLoud": "Loud",
+    "earText": "Fast vibrations make high sounds and slow vibrations make low sounds. Bigger vibrations sound louder.",
+    "smellPrompt": "Tap something to sniff it!",
+    "smellText": "Tiny smell molecules float from the {thing} into your nose, and your brain works out what it is.",
+    "tastePrompt": "Tap a food to taste it!",
+    "tasteText": "{food} tastes {taste}. Taste buds all over your tongue can sense all five tastes.",
+    "touchPrompt": "Which part of your skin feels the tiniest touch?",
+    "touchText": "Your {place} has {level} touch sensors packed close together.",
+    "lots": "lots of",
+    "some": "some",
+    "few": "only a few"
+  },
+  "Panel": {
+    "whatIsIt": "What is it?",
+    "whatDoesItDo": "What does it do?",
+    "funFact": "Fun fact!",
+    "whereOnYou": "Can you find your {name} on your own body? Show me!",
+    "worksWith": "Works together with",
+    "lookCloser": "Look closer",
+    "bipcPending": "Detailed BiPC notes for this part are coming with the BiPC study update. Here is the Junior Doctors explanation for now.",
+    "didYouKnow": "Did you know?",
+    "sayIt": "Say it: {pronunciation}",
+    "definition": "Definition",
+    "structure": "Structure",
+    "function": "Function",
+    "keyTerms": "Key terms",
+    "syllabus": "Syllabus mapping",
+    "syllabusPending": "Board-wise syllabus mapping for this part is coming soon.",
+    "notInSyllabus": "Not in your current syllabus",
+    "classLabel": "Class {class}",
+    "physicsLink": "Physics link",
+    "chemistryLink": "Chemistry link",
+    "examTips": "Exam tips",
+    "commonMistakes": "Common mistakes",
+    "mnemonics": "Memory tricks"
+  },
+  "Boards": {
+    "cbse": "CBSE / NCERT",
+    "ts-bie": "Telangana BIE",
+    "ap-bie": "AP BIE",
+    "other": "Other board"
+  },
+  "Errors": {
+    "title": "Oops! Something wobbled.",
+    "body": "Don't worry, it's not your fault. Let's try that again.",
+    "retry": "Try again"
+  },
+  "NotFound": {
+    "title": "We couldn't find that page",
+    "body": "Maybe it's hiding somewhere in the body! Let's go back home.",
+    "goHome": "Go home"
+  }
+}
