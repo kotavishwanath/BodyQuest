@@ -1,0 +1,531 @@
+[
+  {
+    "id": "heart",
+    "concepts": ["FMA7088"],
+    "title": "Heart",
+    "junior": "Your heart is a strong muscle about the size of your fist. It beats about 72 times a minute, pumping blood to your lungs to pick up oxygen and then all around your body. It has four rooms: two atria on top and two ventricles below.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The heart is a mesodermally derived, four-chambered muscular pump situated in the thoracic cavity between the two lungs, slightly tilted to the left, about the size of a clenched fist.",
+    "structure": [
+      "Protected by the double-walled pericardium enclosing pericardial fluid.",
+      "Two small upper atria and two larger lower ventricles, separated by the inter-atrial, inter-ventricular and atrio-ventricular septa.",
+      "Valves: tricuspid (right AV), bicuspid/mitral (left AV) and semilunar valves at the openings of the pulmonary artery and aorta.",
+      "Made entirely of cardiac muscle; ventricular walls are much thicker than atrial walls.",
+      "Nodal tissue: SA node (upper right corner of right atrium), AV node (lower left corner of right atrium near the AV septum), bundle of His, right and left bundle branches and Purkinje fibres."
+    ],
+    "functions": [
+      "Double circulation: pulmonary (right ventricle → lungs → left atrium) and systemic (left ventricle → body → right atrium).",
+      "Generates its own rhythm (myogenic) through the SA node pacemaker.",
+      "Supplies its own muscle through the coronary system."
+    ],
+    "neetPoints": [
+      "SA node generates the maximum number of action potentials (70–75 per minute) — it is the pacemaker.",
+      "Cardiac cycle lasts 0.8 s at 72 beats per minute.",
+      "'Lub' = closure of tricuspid and bicuspid valves; 'dub' = closure of semilunar valves.",
+      "ECG: P wave = atrial depolarisation; QRS = ventricular depolarisation; T wave = ventricular repolarisation.",
+      "Sympathetic nerves and adrenal medullary hormones increase heart rate and cardiac output; parasympathetic nerves decrease them. The regulating centre is in the medulla oblongata."
+    ],
+    "numbers": [
+      "Heart rate ≈ 72 per minute; cardiac cycle = 0.8 s",
+      "Stroke volume ≈ 70 mL; cardiac output = SV × HR ≈ 5 L/min",
+      "Atrial systole adds about 30% to ventricular filling",
+      "Normal BP 120/80 mm Hg; hypertension ≥ 140/90 mm Hg"
+    ],
+    "keyTerms": [
+      { "term": "Myogenic heart", "meaning": "The beat starts in the heart muscle itself (SA node), not in a nerve." },
+      { "term": "Joint diastole", "meaning": "All four chambers relaxed; AV valves open, semilunar valves closed." }
+    ],
+    "commonMistakes": [
+      "The SA node is in the right atrium — not in the left atrium or the ventricle.",
+      "Heart failure (not pumping effectively) is not the same as cardiac arrest (heart stops) or heart attack (muscle damaged by sudden lack of blood)."
+    ],
+    "disorders": [
+      { "name": "Coronary artery disease (atherosclerosis)", "cause": "Deposits of calcium, fat, cholesterol and fibrous tissue narrow the coronary arteries", "symptoms": "Reduced blood supply to heart muscle" },
+      { "name": "Angina pectoris", "cause": "Not enough oxygen reaching the heart muscle", "symptoms": "Acute chest pain" },
+      { "name": "Heart failure", "cause": "Heart cannot pump blood effectively", "symptoms": "Congestion of the lungs (congestive heart failure)" }
+    ],
+    "mnemonic": "Try Before Buying: Tricuspid on the right, Bicuspid on the left (\"right hand, three fingers\").",
+    "mcqs": [
+      {
+        "stem": "The pacemaker of the human heart is the:",
+        "options": ["AV node", "SA node", "Bundle of His", "Purkinje fibres"],
+        "answer": 1,
+        "explanation": "The SA node generates the maximum number of action potentials (70–75/min) and so sets the rhythm."
+      },
+      {
+        "stem": "If the stroke volume is 70 mL and the heart rate is 72 per minute, the cardiac output is about:",
+        "options": ["1 L/min", "3 L/min", "5 L/min", "7 L/min"],
+        "answer": 2,
+        "explanation": "Cardiac output = 70 mL × 72 ≈ 5040 mL ≈ 5 L/min."
+      },
+      {
+        "stem": "The QRS complex of a normal ECG represents:",
+        "options": ["Atrial depolarisation", "Ventricular depolarisation", "Ventricular repolarisation", "Atrial repolarisation"],
+        "answer": 1,
+        "explanation": "QRS = depolarisation of the ventricles, which starts ventricular contraction."
+      }
+    ]
+  },
+  {
+    "id": "right-atrium",
+    "concepts": ["FMA7096"],
+    "title": "Right atrium",
+    "junior": "The right atrium is the top-right room of your heart. Used blood from your body, low in oxygen, comes in here through two big veins. It also holds the heart's own 'spark plug', the SA node.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The right atrium is the thin-walled upper right chamber of the heart that receives deoxygenated blood from the superior and inferior venae cavae and the coronary sinus.",
+    "structure": [
+      "Openings of the superior vena cava, inferior vena cava and coronary sinus.",
+      "Contains the SA node (upper right corner) and the AV node (lower left corner, near the AV septum).",
+      "Separated from the left atrium by the inter-atrial septum; opens into the right ventricle through the tricuspid valve."
+    ],
+    "functions": ["Collects venous blood from the body.", "Starts each heartbeat (SA node).", "Atrial systole pushes extra blood into the right ventricle."],
+    "neetPoints": ["Both SA and AV nodes lie in the wall of the right atrium.", "The AV node delays the impulse slightly so the atria finish contracting before the ventricles contract."],
+    "mcqs": [
+      {
+        "stem": "Deoxygenated blood from the body enters the heart through the:",
+        "options": ["Pulmonary veins into the left atrium", "Venae cavae into the right atrium", "Aorta into the left ventricle", "Pulmonary artery into the right atrium"],
+        "answer": 1,
+        "explanation": "The venae cavae return deoxygenated blood to the right atrium."
+      },
+      {
+        "stem": "The AV node is located in the:",
+        "options": ["Upper right corner of the right atrium", "Lower left corner of the right atrium", "Wall of the left ventricle", "Inter-ventricular septum"],
+        "answer": 1,
+        "explanation": "NCERT: the AVN is in the lower left corner of the right atrium close to the atrio-ventricular septum."
+      }
+    ]
+  },
+  {
+    "id": "left-atrium",
+    "concepts": ["FMA7097"],
+    "title": "Left atrium",
+    "junior": "The left atrium is the top-left room of your heart. Fresh blood, full of oxygen from your lungs, arrives here through the pulmonary veins and then drops into the strong left ventricle.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The left atrium is the upper left chamber of the heart that receives oxygenated blood from the lungs through the pulmonary veins.",
+    "structure": ["Receives four pulmonary veins.", "Opens into the left ventricle through the bicuspid (mitral) valve.", "Thin-walled compared with the ventricles."],
+    "functions": ["Receives oxygenated blood from the pulmonary circulation.", "Passes it to the left ventricle, with a final push during atrial systole."],
+    "neetPoints": ["Pulmonary veins are the only veins that carry oxygenated blood (in adults)."],
+    "commonMistakes": ["The left atrium receives oxygenated blood — it is the pulmonary veins, not the pulmonary artery, that bring it."],
+    "mcqs": [
+      {
+        "stem": "Oxygenated blood from the lungs enters the:",
+        "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle directly"],
+        "answer": 1,
+        "explanation": "Pulmonary veins carry oxygenated blood to the left atrium."
+      },
+      {
+        "stem": "The opening between the left atrium and left ventricle is guarded by the:",
+        "options": ["Tricuspid valve", "Bicuspid (mitral) valve", "Aortic semilunar valve", "Pulmonary valve"],
+        "answer": 1,
+        "explanation": "The left AV opening is guarded by the bicuspid or mitral valve."
+      }
+    ]
+  },
+  {
+    "id": "right-ventricle",
+    "concepts": ["FMA7098"],
+    "title": "Right ventricle",
+    "junior": "The right ventricle is the bottom-right room of your heart. It pumps used blood a short distance — just to your lungs — to collect fresh oxygen.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The right ventricle is the lower right chamber of the heart that pumps deoxygenated blood into the pulmonary artery (pulmonary circulation).",
+    "structure": ["Receives blood from the right atrium through the tricuspid valve.", "Outflow into the pulmonary trunk guarded by the pulmonary semilunar valve.", "Wall thinner than the left ventricle because it pumps at lower pressure."],
+    "functions": ["Pumps deoxygenated blood to the lungs."],
+    "neetPoints": ["Pulmonary circulation starts from the right ventricle and ends in the left atrium.", "Ventricular systole closes the tricuspid and bicuspid valves (first heart sound, 'lub')."],
+    "mcqs": [
+      {
+        "stem": "Pulmonary circulation begins in the:",
+        "options": ["Left ventricle", "Right ventricle", "Right atrium", "Left atrium"],
+        "answer": 1,
+        "explanation": "Deoxygenated blood pumped by the right ventricle enters the pulmonary artery → lungs → pulmonary veins → left atrium."
+      },
+      {
+        "stem": "Why is the wall of the right ventricle thinner than that of the left ventricle?",
+        "options": ["It pumps oxygenated blood", "It pumps blood only to the nearby lungs at lower pressure", "It has no cardiac muscle", "It does not contract"],
+        "answer": 1,
+        "explanation": "The pulmonary circuit is short and low-pressure; the left ventricle must pump blood to the whole body."
+      }
+    ]
+  },
+  {
+    "id": "left-ventricle",
+    "concepts": ["FMA7101"],
+    "title": "Left ventricle",
+    "junior": "The left ventricle is the strongest room of your heart. Its thick muscle wall squeezes oxygen-rich blood into the aorta and out to your whole body, from your brain to your toes.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The left ventricle is the thick-walled lower left chamber of the heart that pumps oxygenated blood into the aorta (systemic circulation).",
+    "structure": ["Thickest wall of all four chambers.", "Inflow through the bicuspid (mitral) valve; outflow through the aortic semilunar valve.", "Papillary muscles attached to the mitral valve cusps by chordae tendineae."],
+    "functions": ["Generates the pressure for systemic circulation (systolic BP ≈ 120 mm Hg)."],
+    "neetPoints": ["Systemic circulation: left ventricle → aorta → arteries → arterioles → capillaries → venules → veins → venae cavae → right atrium.", "Stroke volume of each ventricle ≈ 70 mL per beat."],
+    "mcqs": [
+      {
+        "stem": "Which chamber of the heart has the thickest muscular wall?",
+        "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+        "answer": 3,
+        "explanation": "The left ventricle pumps blood through the whole systemic circuit, so it has the thickest wall."
+      },
+      {
+        "stem": "Systemic circulation starts from the:",
+        "options": ["Right atrium", "Right ventricle", "Left ventricle", "Left atrium"],
+        "answer": 2,
+        "explanation": "Oxygenated blood leaves the left ventricle through the aorta."
+      }
+    ]
+  },
+  {
+    "id": "tricuspid-valve",
+    "concepts": ["FMA7234"],
+    "title": "Tricuspid valve",
+    "junior": "The tricuspid valve is a one-way door with three flaps between the right atrium and the right ventricle. It snaps shut when the ventricle squeezes, so blood can't flow backwards.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The tricuspid valve guards the opening between the right atrium and the right ventricle; it is formed of three muscular flaps or cusps.",
+    "structure": ["Anterior, posterior and septal cusps.", "Cusps are held by chordae tendineae attached to papillary muscles of the right ventricle."],
+    "functions": ["Allows blood to flow only from the right atrium to the right ventricle."],
+    "neetPoints": ["Closure of tricuspid and bicuspid valves at the start of ventricular systole produces the first heart sound, 'lub'."],
+    "mcqs": [
+      {
+        "stem": "The tricuspid valve is present between the:",
+        "options": ["Left atrium and left ventricle", "Right atrium and right ventricle", "Right ventricle and pulmonary artery", "Left ventricle and aorta"],
+        "answer": 1,
+        "explanation": "It guards the right atrio-ventricular opening."
+      },
+      {
+        "stem": "The first heart sound 'lub' is produced by the closure of the:",
+        "options": ["Semilunar valves", "Tricuspid and bicuspid valves", "Aortic valve only", "Venous valves"],
+        "answer": 1,
+        "explanation": "'Lub' is the closure of the AV (tricuspid and bicuspid) valves; 'dub' is the closure of the semilunar valves."
+      }
+    ]
+  },
+  {
+    "id": "mitral-valve",
+    "concepts": ["FMA7235"],
+    "title": "Bicuspid (mitral) valve",
+    "junior": "The mitral valve is a two-flap one-way door between the left atrium and the left ventricle. Its shape looks a bit like a bishop's hat, called a mitre — that's where its name comes from.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The bicuspid or mitral valve guards the opening between the left atrium and the left ventricle.",
+    "structure": ["Two cusps: anterior and posterior leaflets.", "Anchored by chordae tendineae to the papillary muscles of the left ventricle."],
+    "functions": ["Prevents backflow of blood from the left ventricle into the left atrium during ventricular systole."],
+    "neetPoints": ["Valves in the heart allow the flow of blood only in one direction: atria → ventricles → pulmonary artery or aorta."],
+    "commonMistakes": ["Mitral = bicuspid = left side. Tricuspid = right side."],
+    "mcqs": [
+      {
+        "stem": "The mitral valve is another name for the:",
+        "options": ["Tricuspid valve", "Bicuspid valve", "Aortic valve", "Pulmonary valve"],
+        "answer": 1,
+        "explanation": "The bicuspid valve between the left atrium and left ventricle is called the mitral valve."
+      },
+      {
+        "stem": "During ventricular systole the bicuspid valve:",
+        "options": ["Opens to let blood into the ventricle", "Closes to prevent backflow into the left atrium", "Opens into the aorta", "Remains half open"],
+        "answer": 1,
+        "explanation": "Rising ventricular pressure closes the AV valves."
+      }
+    ]
+  },
+  {
+    "id": "aortic-valve",
+    "concepts": ["FMA7236"],
+    "title": "Aortic (semilunar) valve",
+    "junior": "The aortic valve is a door with three half-moon flaps where blood leaves the left ventricle for the aorta. When it closes you hear the second heart sound, 'dub'.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The aortic valve is the semilunar valve guarding the opening of the left ventricle into the aorta.",
+    "structure": ["Three half-moon (semilunar) cusps: right, left and posterior.", "Behind the cusps lie the aortic sinuses, where the coronary arteries begin."],
+    "functions": ["Opens when left ventricular pressure exceeds aortic pressure; closes to stop backflow into the ventricle."],
+    "neetPoints": ["Closure of the semilunar valves at the start of ventricular diastole produces the second heart sound, 'dub'."],
+    "mcqs": [
+      {
+        "stem": "The second heart sound ('dub') is caused by the closure of the:",
+        "options": ["Tricuspid valve", "Mitral valve", "Semilunar valves", "Eustachian valve"],
+        "answer": 2,
+        "explanation": "'Dub' is produced by the closure of the aortic and pulmonary semilunar valves."
+      },
+      {
+        "stem": "Semilunar valves are found at the openings of the:",
+        "options": ["Atria into ventricles", "Ventricles into the aorta and pulmonary artery", "Venae cavae into the right atrium", "Pulmonary veins into the left atrium"],
+        "answer": 1,
+        "explanation": "The openings of the right and left ventricles into the pulmonary artery and aorta are guarded by semilunar valves."
+      }
+    ]
+  },
+  {
+    "id": "pulmonary-valve",
+    "concepts": ["FMA7246"],
+    "title": "Pulmonary (semilunar) valve",
+    "junior": "The pulmonary valve lets blood leave the right ventricle for the lungs and then shuts so the blood can't fall back.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The pulmonary valve is the semilunar valve guarding the opening of the right ventricle into the pulmonary trunk.",
+    "structure": ["Three semilunar cusps (anterior, right and left)."],
+    "functions": ["Prevents backflow from the pulmonary artery into the right ventricle."],
+    "neetPoints": ["During joint diastole the semilunar valves are closed while the AV valves are open."],
+    "mcqs": [
+      {
+        "stem": "During joint diastole:",
+        "options": ["AV valves closed, semilunar valves open", "AV valves open, semilunar valves closed", "All valves open", "All valves closed"],
+        "answer": 1,
+        "explanation": "Blood flows from the atria into the relaxed ventricles; semilunar valves stay closed."
+      },
+      {
+        "stem": "The pulmonary valve lies between the:",
+        "options": ["Right atrium and right ventricle", "Right ventricle and pulmonary trunk", "Left ventricle and aorta", "Pulmonary veins and left atrium"],
+        "answer": 1,
+        "explanation": "It guards the outflow of the right ventricle."
+      }
+    ]
+  },
+  {
+    "id": "papillary-muscles",
+    "concepts": ["BV:papillary-muscles"],
+    "title": "Papillary muscles",
+    "junior": "Papillary muscles are little muscle pillars inside the ventricles. They hold strings (chordae tendineae) tied to the valve flaps, so the flaps don't flip back like an umbrella in the wind.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "Papillary muscles are conical projections of ventricular cardiac muscle attached by chordae tendineae to the cusps of the atrio-ventricular valves.",
+    "structure": ["Right ventricle: anterior, posterior and septal papillary muscles.", "Left ventricle: anterolateral and posteromedial papillary muscles.", "Chordae tendineae are fibrous cords linking them to the valve cusps."],
+    "functions": ["Contract with the ventricle and keep the AV valve cusps from being pushed into the atria during systole."],
+    "neetPoints": ["They make the AV valves one-way; failure causes backflow (regurgitation)."],
+    "mcqs": [
+      {
+        "stem": "Chordae tendineae connect the cusps of the AV valves to the:",
+        "options": ["Inter-atrial septum", "Papillary muscles", "SA node", "Pericardium"],
+        "answer": 1,
+        "explanation": "Chordae tendineae run from the valve cusps to the papillary muscles of the ventricles."
+      },
+      {
+        "stem": "The main function of papillary muscles is to:",
+        "options": ["Generate the heartbeat", "Prevent eversion of AV valve cusps during ventricular systole", "Pump blood into the aorta", "Close the semilunar valves"],
+        "answer": 1,
+        "explanation": "They tighten the chordae so the cusps stay closed against ventricular pressure."
+      }
+    ]
+  },
+  {
+    "id": "aorta",
+    "concepts": ["FMA3734", "FMA3768"],
+    "title": "Aorta",
+    "junior": "The aorta is the biggest artery in your body — about as wide as a garden hose. It carries oxygen-rich blood from the left ventricle, curves over the heart like a walking stick, then runs down the back of your chest and belly.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The aorta is the main artery of the systemic circulation, arising from the left ventricle and carrying oxygenated blood to all body tissues.",
+    "structure": [
+      "Ascending aorta (gives the coronary arteries) → arch of aorta (gives the brachiocephalic trunk, left common carotid and left subclavian arteries) → descending thoracic aorta → abdominal aorta.",
+      "Thick, elastic wall: tunica intima, tunica media and tunica externa.",
+      "Pressure receptors and chemoreceptors are associated with the aortic arch."
+    ],
+    "functions": ["Distributes oxygenated blood to the systemic circulation.", "Its elastic recoil keeps blood flowing during diastole."],
+    "neetPoints": ["Receptors associated with the aortic arch and carotid artery recognise changes in CO₂ and H⁺ concentration and signal the respiratory centres."],
+    "commonMistakes": ["The aorta arises from the left ventricle; the pulmonary artery from the right ventricle."],
+    "mcqs": [
+      {
+        "stem": "The aorta arises from the:",
+        "options": ["Right ventricle", "Left ventricle", "Left atrium", "Right atrium"],
+        "answer": 1,
+        "explanation": "The aorta carries oxygenated blood out of the left ventricle."
+      },
+      {
+        "stem": "Chemoreceptors that sense CO₂ and H⁺ changes are associated with the aortic arch and the:",
+        "options": ["Renal artery", "Carotid artery", "Pulmonary vein", "Jugular vein"],
+        "answer": 1,
+        "explanation": "NCERT: receptors associated with the aortic arch and carotid artery sense CO₂ and H⁺ changes."
+      }
+    ]
+  },
+  {
+    "id": "pulmonary-trunk",
+    "concepts": ["FMA8612"],
+    "title": "Pulmonary artery (pulmonary trunk)",
+    "junior": "The pulmonary artery takes used, low-oxygen blood from the right ventricle to the lungs. It's the only artery in your body carrying blood that is low in oxygen.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The pulmonary trunk arises from the right ventricle and divides into the right and left pulmonary arteries, carrying deoxygenated blood to the lungs.",
+    "structure": ["Begins at the pulmonary semilunar valve.", "Divides beneath the aortic arch into right and left pulmonary arteries."],
+    "functions": ["Carries deoxygenated blood from the heart to the lungs for oxygenation."],
+    "neetPoints": ["Pulmonary artery: artery carrying deoxygenated blood. Pulmonary vein: vein carrying oxygenated blood."],
+    "mcqs": [
+      {
+        "stem": "Which blood vessel carries deoxygenated blood away from the heart?",
+        "options": ["Aorta", "Pulmonary vein", "Pulmonary artery", "Coronary artery"],
+        "answer": 2,
+        "explanation": "The pulmonary artery takes deoxygenated blood from the right ventricle to the lungs."
+      },
+      {
+        "stem": "An 'artery' is best defined as a vessel that:",
+        "options": ["Always carries oxygenated blood", "Carries blood away from the heart", "Has valves throughout", "Carries blood towards the heart"],
+        "answer": 1,
+        "explanation": "Arteries carry blood away from the heart; the pulmonary artery shows that oxygen content is not the definition."
+      }
+    ]
+  },
+  {
+    "id": "pulmonary-veins",
+    "concepts": ["FMA66643"],
+    "title": "Pulmonary veins",
+    "junior": "Pulmonary veins bring fresh, oxygen-rich blood from your lungs back to the left side of your heart.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The pulmonary veins (usually four) carry oxygenated blood from the lungs to the left atrium.",
+    "structure": ["Two from each lung (superior and inferior), formed from segmental veins of the lung."],
+    "functions": ["Complete the pulmonary circulation by returning oxygenated blood to the heart."],
+    "neetPoints": ["Pulmonary circulation: right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium."],
+    "mcqs": [
+      {
+        "stem": "Pulmonary veins open into the:",
+        "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+        "answer": 1,
+        "explanation": "They return oxygenated blood to the left atrium."
+      },
+      {
+        "stem": "The pulmonary veins carry:",
+        "options": ["Deoxygenated blood to the lungs", "Oxygenated blood to the left atrium", "Deoxygenated blood to the right atrium", "Lymph"],
+        "answer": 1,
+        "explanation": "They are veins (towards the heart) carrying oxygenated blood."
+      }
+    ]
+  },
+  {
+    "id": "superior-vena-cava",
+    "concepts": ["FMA4720"],
+    "title": "Superior vena cava",
+    "junior": "This big vein collects used blood from your head, neck and arms and pours it into the top of the right atrium.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The superior vena cava is a large vein that returns deoxygenated blood from the head, neck, upper limbs and thorax to the right atrium.",
+    "structure": ["Formed by the union of the right and left brachiocephalic veins.", "Receives the azygos vein before entering the right atrium.", "Has no valve at its opening."],
+    "functions": ["Returns venous blood from the upper body to the heart."],
+    "neetPoints": ["Systemic circulation ends when the venae cavae open into the right atrium."],
+    "mcqs": [
+      {
+        "stem": "The superior vena cava is formed by the union of the:",
+        "options": ["Two subclavian arteries", "Right and left brachiocephalic veins", "Two internal jugular veins only", "Hepatic veins"],
+        "answer": 1,
+        "explanation": "Each brachiocephalic vein forms from an internal jugular and a subclavian vein; the two join to form the SVC."
+      },
+      {
+        "stem": "The superior vena cava opens into the:",
+        "options": ["Left atrium", "Right atrium", "Right ventricle", "Coronary sinus"],
+        "answer": 1,
+        "explanation": "Both venae cavae drain into the right atrium."
+      }
+    ]
+  },
+  {
+    "id": "inferior-vena-cava",
+    "concepts": ["FMA10951"],
+    "title": "Inferior vena cava",
+    "junior": "The inferior vena cava is the widest vein in your body. It carries used blood from your legs, belly and kidneys up to your heart.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The inferior vena cava returns deoxygenated blood from the lower limbs, pelvis and abdomen to the right atrium.",
+    "structure": ["Formed by the union of the two common iliac veins at about L5.", "Receives renal, hepatic and other veins; passes through the diaphragm."],
+    "functions": ["Returns blood from the lower body, including filtered blood from the kidneys (renal veins) and blood from the liver (hepatic veins)."],
+    "neetPoints": ["Blood from the intestine reaches the IVC only after passing through the liver (hepatic portal system → hepatic veins)."],
+    "mcqs": [
+      {
+        "stem": "Which vein carries blood from the liver to the inferior vena cava?",
+        "options": ["Hepatic portal vein", "Hepatic vein", "Renal vein", "Mesenteric vein"],
+        "answer": 1,
+        "explanation": "The hepatic portal vein brings blood to the liver; hepatic veins drain it into the IVC."
+      },
+      {
+        "stem": "Blood in the renal vein, compared with the renal artery, has less:",
+        "options": ["Carbon dioxide", "Urea", "Water", "Glucose only"],
+        "answer": 1,
+        "explanation": "The kidneys remove urea, so renal venous blood has the least urea in the body."
+      }
+    ]
+  },
+  {
+    "id": "coronary-arteries",
+    "concepts": ["FMA49893", "FMA50039", "FMA50040"],
+    "title": "Coronary arteries",
+    "junior": "Your heart muscle needs its own blood supply too! The coronary arteries wrap around the heart like a crown and feed it oxygen. If they get blocked, the heart muscle can be hurt.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The coronary arteries, branches of the ascending aorta, supply blood to the cardiac musculature (the coronary system).",
+    "structure": ["Right coronary artery: supplies the right atrium, most of the right ventricle and the SA and AV nodes in most people.", "Left coronary artery: divides into the anterior interventricular (left anterior descending) and circumflex branches.", "Venous blood returns through cardiac veins to the coronary sinus → right atrium."],
+    "functions": ["Supply oxygen and nutrients to the heart muscle; the exclusive vascular system for the heart is the coronary system."],
+    "neetPoints": ["Coronary artery disease (CAD), often called atherosclerosis, is caused by deposits of calcium, fat, cholesterol and fibrous tissue that narrow the lumen.", "Angina pectoris: acute chest pain when not enough oxygen reaches the heart muscle."],
+    "disorders": [{ "name": "Coronary artery disease", "cause": "Narrowing of the coronary arteries by deposits (atherosclerosis)", "symptoms": "Angina, risk of heart attack" }],
+    "mcqs": [
+      {
+        "stem": "Atherosclerosis mainly affects the vessels that supply blood to the:",
+        "options": ["Brain only", "Heart muscle", "Lungs", "Kidneys"],
+        "answer": 1,
+        "explanation": "NCERT: CAD (atherosclerosis) affects the blood vessels that supply blood to the heart muscle."
+      },
+      {
+        "stem": "The coronary arteries arise from the:",
+        "options": ["Pulmonary trunk", "Ascending aorta", "Arch of aorta", "Left atrium"],
+        "answer": 1,
+        "explanation": "They leave the aortic sinuses just above the aortic valve."
+      }
+    ]
+  },
+  {
+    "id": "hepatic-portal-vein",
+    "concepts": ["FMA50735"],
+    "title": "Hepatic portal vein",
+    "junior": "Blood from your stomach and intestines, full of digested food, doesn't go straight to the heart. The hepatic portal vein takes it to your liver first, so the liver can check and store the nutrients.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The hepatic portal vein carries blood from the intestine and other digestive organs to the liver before it is delivered to the systemic circulation (hepatic portal system).",
+    "structure": ["Formed behind the neck of the pancreas by the union of the superior mesenteric and splenic veins.", "Divides into right and left branches inside the liver, ending in the liver sinusoids."],
+    "functions": ["Lets the liver process absorbed nutrients, store glycogen and detoxify substances before the blood reaches the heart."],
+    "neetPoints": ["A portal system begins in capillaries and ends in capillaries.", "The hepatic portal system is a unique vascular connection between the digestive tract and the liver."],
+    "mcqs": [
+      {
+        "stem": "The hepatic portal vein carries blood from the:",
+        "options": ["Liver to the heart", "Intestine to the liver", "Heart to the liver", "Kidney to the liver"],
+        "answer": 1,
+        "explanation": "It delivers blood from the intestine to the liver before systemic circulation."
+      },
+      {
+        "stem": "A portal vein is one that:",
+        "options": ["Carries blood from the heart", "Begins and ends in capillaries", "Has no valves anywhere", "Carries oxygenated blood"],
+        "answer": 1,
+        "explanation": "Portal veins connect two capillary beds."
+      }
+    ]
+  },
+  {
+    "id": "common-carotid-artery",
+    "concepts": ["FMA3939"],
+    "title": "Common carotid artery",
+    "junior": "You can feel your pulse in your neck — that's the carotid artery, carrying blood up to your head and brain.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }, { "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The common carotid arteries supply the head and neck; each divides into internal (brain, eye) and external (face, scalp) carotid arteries.",
+    "structure": ["Right: from the brachiocephalic trunk. Left: directly from the arch of aorta.", "Carotid sinus (pressure receptor) and carotid body (chemoreceptor) lie at the bifurcation."],
+    "functions": ["Supply oxygenated blood to the head and brain.", "Sense blood pressure and blood CO₂/H⁺ changes."],
+    "neetPoints": ["Chemoreceptors near the aortic arch and carotid artery recognise changes in CO₂ and H⁺ concentration and send signals to the rhythm centre."],
+    "mcqs": [
+      {
+        "stem": "The left common carotid artery arises from the:",
+        "options": ["Brachiocephalic trunk", "Arch of aorta", "Subclavian artery", "Pulmonary trunk"],
+        "answer": 1,
+        "explanation": "The right one comes from the brachiocephalic trunk; the left one directly from the arch of aorta."
+      },
+      {
+        "stem": "Carotid bodies are:",
+        "options": ["Endocrine glands", "Chemoreceptors", "Lymph nodes", "Valves"],
+        "answer": 1,
+        "explanation": "They sense changes in blood CO₂ and H⁺ (and O₂)."
+      }
+    ]
+  },
+  {
+    "id": "internal-jugular-vein",
+    "concepts": ["FMA4724"],
+    "title": "Internal jugular vein",
+    "junior": "The jugular veins run down each side of your neck, bringing used blood back from your brain and face.",
+    "syllabus": [{ "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The internal jugular vein drains blood from the brain, face and neck; it joins the subclavian vein to form the brachiocephalic vein.",
+    "structure": ["Runs in the carotid sheath with the common carotid artery and vagus nerve."],
+    "functions": ["Main venous drainage of the brain."],
+    "neetPoints": ["Internal jugular + subclavian → brachiocephalic vein; right + left brachiocephalic → superior vena cava."],
+    "mcqs": [
+      {
+        "stem": "The brachiocephalic vein is formed by the union of the internal jugular vein and the:",
+        "options": ["External carotid artery", "Subclavian vein", "Azygos vein", "Hepatic vein"],
+        "answer": 1,
+        "explanation": "Internal jugular + subclavian = brachiocephalic vein."
+      },
+      {
+        "stem": "The internal jugular vein mainly drains blood from the:",
+        "options": ["Upper limb", "Brain", "Lungs", "Liver"],
+        "answer": 1,
+        "explanation": "It is the main venous drainage of the brain (via the dural sinuses)."
+      }
+    ]
+  }
+]

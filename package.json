@@ -12,6 +12,8 @@
     "start": "next start",
     "lint": "eslint",
     "models": "node scripts/build-models.mjs",
+    "atlas": "node scripts/build-atlas.mjs",
+    "check:atlas": "node scripts/check-atlas-notes.mjs",
     "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "kidney",
+    "concepts": ["FMA7203"],
+    "title": "Kidney",
+    "junior": "Your two kidneys are bean-shaped filters near your back, just above your waist. All your blood passes through them many times a day. They clean out waste and extra water, which leaves your body as urine.",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }],
+    "definition": "Kidneys are a pair of reddish-brown, bean-shaped organs situated between the levels of the last thoracic and third lumbar vertebra, close to the dorsal inner wall of the abdominal cavity; each contains about one million nephrons.",
+    "structure": [
+      "Hilum on the inner concave surface: ureter, blood vessels and nerves enter/leave; inside it the funnel-shaped renal pelvis with projections called calyces.",
+      "Outer cortex and inner medulla; medulla divided into conical medullary pyramids projecting into the calyces; cortex extends between pyramids as renal columns (columns of Bertini).",
+      "Nephron = glomerulus + renal tubule (Bowman's capsule → PCT → Henle's loop → DCT → collecting duct).",
+      "Malpighian (renal) corpuscle = glomerulus + Bowman's capsule; lies in the cortex along with PCT and DCT.",
+      "Cortical nephrons (majority): short loops. Juxta-medullary nephrons: long loops deep into the medulla, with vasa recta."
+    ],
+    "functions": [
+      "Urine formation by glomerular filtration, reabsorption and secretion.",
+      "Osmoregulation and concentrating urine by the counter-current mechanism.",
+      "Regulates blood pressure and GFR through the juxta-glomerular apparatus (renin)."
+    ],
+    "neetPoints": [
+      "GFR ≈ 125 mL/min, i.e. about 180 L/day; nearly 99% of the filtrate is reabsorbed.",
+      "Filtration membrane: endothelium of glomerular vessels, epithelium of Bowman's capsule (podocytes with filtration slits) and the basement membrane between them — ultrafiltration.",
+      "PCT: brush-border epithelium; reabsorbs nearly all essential nutrients and 70–80% of electrolytes and water.",
+      "Descending limb of Henle's loop is permeable to water but almost impermeable to electrolytes; the ascending limb is impermeable to water but allows transport of electrolytes.",
+      "Counter-current mechanism (Henle's loop + vasa recta) raises medullary interstitial osmolarity from 300 mOsmol/L in the cortex to about 1200 mOsmol/L in the inner medulla (NaCl and urea).",
+      "JG cells release renin when GFR falls → angiotensin II → aldosterone; ADH increases water reabsorption; ANF acts as a check on the renin–angiotensin mechanism."
+    ],
+    "numbers": [
+      "Size: 10–12 cm long, 5–7 cm wide, 2–3 cm thick; mass 120–170 g",
+      "~1 million nephrons per kidney",
+      "GFR 125 mL/min (180 L/day); urine 1–1.5 L/day; 25–30 g urea/day"
+    ],
+    "keyTerms": [
+      { "term": "Ultrafiltration", "meaning": "Filtration of blood plasma through the glomerular membrane, driven by blood pressure; proteins are not filtered." },
+      { "term": "Vasa recta", "meaning": "Minute U-shaped vessel running parallel to Henle's loop; reduced or absent in cortical nephrons." }
+    ],
+    "commonMistakes": [
+      "The Malpighian corpuscle, PCT and DCT are in the cortex; the loop of Henle dips into the medulla.",
+      "The ascending limb is impermeable to water — the descending limb is the one that loses water."
+    ],
+    "disorders": [
+      { "name": "Uraemia", "cause": "Malfunctioning kidneys let urea accumulate in blood", "symptoms": "Can lead to kidney failure; treated by haemodialysis" },
+      { "name": "Renal calculi", "cause": "Stone or insoluble mass of crystallised salts (oxalates, etc.) in the kidney", "symptoms": "Pain, blocked urine flow" },
+      { "name": "Glomerulonephritis", "cause": "Inflammation of the glomeruli", "symptoms": "Reduced filtration" }
+    ],
+    "mcqs": [
+      {
+        "stem": "The glomerular filtration rate in a healthy adult is approximately:",
+        "options": ["12.5 mL/min", "125 mL/min", "1.25 L/min", "180 mL/min"],
+        "answer": 1,
+        "explanation": "GFR ≈ 125 mL/min ≈ 180 L of filtrate per day."
+      },
+      {
+        "stem": "Which part of the nephron is impermeable to water?",
+        "options": ["PCT", "Descending limb of Henle's loop", "Ascending limb of Henle's loop", "Collecting duct under ADH"],
+        "answer": 2,
+        "explanation": "The ascending limb is impermeable to water but transports electrolytes, making the filtrate dilute."
+      },
+      {
+        "stem": "Columns of Bertini are:",
+        "options": ["Medullary pyramids", "Extensions of the cortex between medullary pyramids", "Parts of the loop of Henle", "Collecting ducts"],
+        "answer": 1,
+        "explanation": "The cortex extends in between the medullary pyramids as renal columns called columns of Bertini."
+      }
+    ]
+  },
+  {
+    "id": "ureter",
+    "concepts": ["FMA9704"],
+    "title": "Ureter",
+    "junior": "Each kidney has a thin tube called a ureter. Urine trickles down these two tubes into your bladder, pushed along by gentle squeezing waves of muscle.",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }],
+    "definition": "The ureters are a pair of muscular tubes that carry urine from the renal pelvis of each kidney to the urinary bladder.",
+    "structure": ["About 25–30 cm long.", "Wall of smooth muscle lined by transitional epithelium.", "Leaves the kidney at the hilum; enters the bladder obliquely."],
+    "functions": ["Transports urine by peristalsis.", "Oblique entry acts as a valve preventing backflow when the bladder contracts."],
+    "neetPoints": ["Human excretory system: a pair of kidneys, a pair of ureters, a urinary bladder and a urethra."],
+    "mcqs": [
+      {
+        "stem": "Urine moves down the ureters mainly by:",
+        "options": ["Gravity only", "Peristalsis", "Ciliary action", "Osmosis"],
+        "answer": 1,
+        "explanation": "Smooth muscle in the ureter wall produces peristaltic waves."
+      },
+      {
+        "stem": "The ureter leaves the kidney through the:",
+        "options": ["Cortex", "Hilum", "Medullary pyramid", "Bowman's capsule"],
+        "answer": 1,
+        "explanation": "The ureter, blood vessels and nerves pass through the hilum."
+      }
+    ]
+  },
+  {
+    "id": "urinary-bladder",
+    "concepts": ["FMA15900"],
+    "title": "Urinary bladder",
+    "junior": "The bladder is a stretchy bag that stores urine until you're ready to go to the toilet. When it fills up, nerves tell your brain it's time.",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }],
+    "definition": "The urinary bladder is a hollow, distensible muscular sac in the pelvis that stores urine until micturition.",
+    "structure": ["Detrusor (smooth) muscle wall lined by transitional epithelium that allows stretching.", "Trigone: triangle between the two ureteric openings and the urethral opening.", "Internal (involuntary) and external (voluntary) urethral sphincters."],
+    "functions": ["Stores urine.", "Expels urine through the urethra during micturition."],
+    "neetPoints": ["Micturition: stretch receptors on the bladder wall send signals to the CNS; the CNS sends motor messages to contract the bladder smooth muscle and relax the urethral sphincter.", "The neural mechanism causing release of urine is the micturition reflex."],
+    "mcqs": [
+      {
+        "stem": "The process of release of urine is called:",
+        "options": ["Ultrafiltration", "Micturition", "Osmoregulation", "Egestion"],
+        "answer": 1,
+        "explanation": "Micturition is the release of urine, controlled by the micturition reflex."
+      },
+      {
+        "stem": "During micturition:",
+        "options": [
+          "The bladder muscle relaxes and the sphincter contracts",
+          "The bladder smooth muscle contracts and the urethral sphincter relaxes",
+          "Both relax",
+          "Both contract"
+        ],
+        "answer": 1,
+        "explanation": "Motor signals contract the detrusor muscle and relax the urethral sphincter."
+      }
+    ]
+  },
+  {
+    "id": "urethra",
+    "concepts": ["FMA19667"],
+    "title": "Urethra",
+    "junior": "The urethra is the short tube that carries urine from the bladder out of the body.",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }, { "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The urethra is the duct that conveys urine from the urinary bladder to the exterior.",
+    "structure": ["Male urethra (~18–20 cm) passes through the prostate and penis; it is a common passage for urine and semen (urinogenital canal).", "Female urethra is short (~4 cm).", "Guarded by urethral sphincters."],
+    "functions": ["Passage for urine; in males also for semen."],
+    "neetPoints": ["In males, the urethra originates from the urinary bladder, extends through the penis and opens at the urethral meatus.", "Vasa deferentia receive the duct from the seminal vesicle and open into the urethra as the ejaculatory duct."],
+    "mcqs": [
+      {
+        "stem": "In human males the urethra carries:",
+        "options": ["Only urine", "Only semen", "Both urine and semen", "Only prostatic fluid"],
+        "answer": 2,
+        "explanation": "The male urethra is a common urinogenital passage."
+      },
+      {
+        "stem": "The male urethra opens to the outside at the:",
+        "options": ["Urethral meatus", "Epididymis", "Rete testis", "Ejaculatory duct"],
+        "answer": 0,
+        "explanation": "It extends through the penis to its external opening, the urethral meatus."
+      }
+    ]
+  },
+  {
+    "id": "renal-artery",
+    "concepts": ["FMA14751"],
+    "title": "Renal artery",
+    "junior": "Each kidney gets its blood through a renal artery that branches straight off the aorta. About a fifth of all the blood your heart pumps goes to the kidneys!",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }],
+    "definition": "The renal arteries arise from the abdominal aorta and carry blood to the kidneys for filtration.",
+    "structure": ["Divide into segmental → interlobar → arcuate → interlobular arteries → afferent arterioles.", "Afferent arteriole → glomerulus → efferent arteriole → peritubular capillaries (and vasa recta)."],
+    "functions": ["Deliver about 1100–1200 mL of blood per minute (roughly one-fifth of cardiac output) to the kidneys."],
+    "neetPoints": ["The efferent arteriole is narrower than the afferent arteriole, which keeps glomerular pressure high for filtration.", "Kidneys filter about 1100–1200 mL of blood per minute."],
+    "mcqs": [
+      {
+        "stem": "Blood leaves the glomerulus through the:",
+        "options": ["Afferent arteriole", "Efferent arteriole", "Renal vein directly", "Vasa recta directly"],
+        "answer": 1,
+        "explanation": "The glomerular capillaries drain into the efferent arteriole, which then forms peritubular capillaries."
+      },
+      {
+        "stem": "On average, the kidneys filter about how much blood per minute?",
+        "options": ["125 mL", "500 mL", "1100–1200 mL", "5 L"],
+        "answer": 2,
+        "explanation": "NCERT: on average 1100–1200 mL of blood is filtered by the kidneys per minute (GFR itself is 125 mL/min)."
+      }
+    ]
+  },
+  {
+    "id": "renal-vein",
+    "concepts": ["FMA14334"],
+    "title": "Renal vein",
+    "junior": "Renal veins take the cleaned blood away from each kidney into the big vein back to the heart.",
+    "syllabus": [{ "class": 11, "chapter": "Excretory Products and their Elimination" }],
+    "definition": "The renal veins drain filtered blood from the kidneys into the inferior vena cava.",
+    "structure": ["Formed from the peritubular capillary network via interlobular and arcuate veins.", "Left renal vein is longer and passes in front of the aorta."],
+    "functions": ["Return blood that has lost urea and excess water and salts."],
+    "neetPoints": ["Blood in the renal vein has the lowest concentration of urea in the body."],
+    "mcqs": [
+      {
+        "stem": "Which blood vessel has the least amount of urea?",
+        "options": ["Hepatic vein", "Renal artery", "Renal vein", "Hepatic portal vein"],
+        "answer": 2,
+        "explanation": "Urea is removed by the kidneys, so blood leaving them in the renal vein has the least urea."
+      },
+      {
+        "stem": "Renal veins open into the:",
+        "options": ["Superior vena cava", "Inferior vena cava", "Hepatic portal vein", "Right atrium directly"],
+        "answer": 1,
+        "explanation": "Both renal veins drain into the inferior vena cava."
+      }
+    ]
+  }
+]

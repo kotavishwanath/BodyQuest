@@ -1,0 +1,324 @@
+[
+  {
+    "id": "brain",
+    "concepts": ["FMA50801"],
+    "title": "Brain",
+    "junior": "Your brain is the control centre of your body. It is protected by your skull and three soft wrappings. Different parts do different jobs: thinking and remembering, balance, and keeping your heart and breathing going without you even thinking about it.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The brain is the central information-processing organ of the body and acts as the 'command and control system'; together with the spinal cord it forms the central nervous system (CNS).",
+    "structure": [
+      "Protected by the skull and three cranial meninges: outer dura mater, very thin middle arachnoid and inner pia mater (in contact with brain tissue).",
+      "Forebrain: cerebrum, thalamus and hypothalamus.",
+      "Midbrain: between the thalamus/hypothalamus and the pons; the cerebral aqueduct passes through it; dorsal corpora quadrigemina.",
+      "Hindbrain: pons, cerebellum and medulla oblongata.",
+      "Brain stem = midbrain + pons + medulla oblongata."
+    ],
+    "functions": [
+      "Controls voluntary movements, balance of the body and the functioning of vital involuntary organs (lungs, heart, kidneys).",
+      "Thermoregulation, hunger and thirst, circadian rhythms, endocrine activity (hypothalamus).",
+      "Processing of vision, hearing, speech, memory, intelligence, emotions and thoughts."
+    ],
+    "neetPoints": [
+      "The limbic system (inner parts of cerebral hemispheres with amygdala and hippocampus) and the hypothalamus regulate sexual behaviour, emotional reactions (excitement, pleasure, rage, fear) and motivation.",
+      "Brain stem forms the connection between the brain and the spinal cord."
+    ],
+    "commonMistakes": ["The pia mater is the innermost meninx (touching the brain); the dura mater is outermost."],
+    "mcqs": [
+      {
+        "stem": "The correct order of cranial meninges from outside to inside is:",
+        "options": ["Pia mater, arachnoid, dura mater", "Dura mater, arachnoid, pia mater", "Arachnoid, dura mater, pia mater", "Dura mater, pia mater, arachnoid"],
+        "answer": 1,
+        "explanation": "Outer dura mater, middle arachnoid, inner pia mater."
+      },
+      {
+        "stem": "The brain stem consists of:",
+        "options": ["Cerebrum, thalamus, hypothalamus", "Midbrain, pons, medulla oblongata", "Cerebellum, pons, medulla", "Thalamus, midbrain, cerebellum"],
+        "answer": 1,
+        "explanation": "Midbrain, pons and medulla oblongata form the brain stem."
+      },
+      {
+        "stem": "Which part of the brain is involved in the regulation of emotional reactions such as rage and fear, along with the hypothalamus?",
+        "options": ["Cerebellum", "Limbic system", "Medulla oblongata", "Corpora quadrigemina"],
+        "answer": 1,
+        "explanation": "The limbic system with the hypothalamus regulates emotions, sexual behaviour and motivation."
+      }
+    ]
+  },
+  {
+    "id": "cerebrum",
+    "concepts": ["BV:cerebrum", "FMA61819", "FMA67292"],
+    "title": "Cerebrum (cerebral hemispheres)",
+    "junior": "The cerebrum is the biggest, wrinkly part of your brain. It is split into a left and a right half. It's where you think, learn, remember, see, hear and decide to move.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The cerebrum forms the major part of the human brain; a deep cleft divides it longitudinally into left and right cerebral hemispheres, connected by the corpus callosum.",
+    "structure": [
+      "Cerebral cortex: outer layer of grey matter (neuron cell bodies), thrown into prominent folds.",
+      "Inner white matter: myelinated fibre tracts with an opaque white appearance.",
+      "Cortex contains motor areas, sensory areas and large association areas."
+    ],
+    "functions": [
+      "Association areas are responsible for complex functions like intersensory associations, memory and communication.",
+      "Motor areas control voluntary movements; sensory areas receive sensations."
+    ],
+    "neetPoints": ["Association areas are neither clearly sensory nor motor in function.", "The cerebrum wraps around the thalamus."],
+    "commonMistakes": ["Grey matter is outside (cortex) in the cerebrum but inside in the spinal cord."],
+    "mcqs": [
+      {
+        "stem": "The two cerebral hemispheres are connected by the:",
+        "options": ["Pons", "Corpus callosum", "Cerebral aqueduct", "Corpora quadrigemina"],
+        "answer": 1,
+        "explanation": "The corpus callosum is a tract of nerve fibres connecting the hemispheres."
+      },
+      {
+        "stem": "Association areas of the cerebral cortex are responsible for:",
+        "options": ["Only motor functions", "Only sensory functions", "Intersensory associations, memory and communication", "Control of heartbeat"],
+        "answer": 2,
+        "explanation": "NCERT: association areas handle complex functions like intersensory associations, memory and communication."
+      }
+    ]
+  },
+  {
+    "id": "corpus-callosum",
+    "concepts": ["FMA86464"],
+    "title": "Corpus callosum",
+    "junior": "The corpus callosum is a thick bridge of nerve fibres that lets the left and right halves of your brain talk to each other.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The corpus callosum is a broad tract of myelinated nerve fibres connecting the left and right cerebral hemispheres.",
+    "structure": ["White matter lying at the bottom of the longitudinal fissure.", "Forms the roof of the lateral ventricles."],
+    "functions": ["Transfers information between the two hemispheres."],
+    "neetPoints": ["It is the largest commissure (white matter tract) of the brain."],
+    "mcqs": [
+      {
+        "stem": "The corpus callosum is made of:",
+        "options": ["Grey matter", "Myelinated nerve fibres (white matter)", "Cerebrospinal fluid", "Neuroglia only"],
+        "answer": 1,
+        "explanation": "It is a tract of nerve fibres — white matter."
+      },
+      {
+        "stem": "The corpus callosum is part of the:",
+        "options": ["Forebrain", "Midbrain", "Hindbrain", "Spinal cord"],
+        "answer": 0,
+        "explanation": "It connects the cerebral hemispheres of the forebrain."
+      }
+    ]
+  },
+  {
+    "id": "thalamus",
+    "concepts": ["FMA62007"],
+    "title": "Thalamus",
+    "junior": "The thalamus is like a post office in the middle of your brain. Messages from your senses stop here and get sent on to the right place.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The thalamus is a paired forebrain structure around which the cerebrum wraps; it is a major coordinating centre for sensory and motor signalling.",
+    "structure": ["Egg-shaped masses of grey matter on each side of the third ventricle."],
+    "functions": ["Relays and coordinates sensory and motor signals to and from the cerebral cortex."],
+    "neetPoints": ["The hypothalamus lies at the base of the thalamus."],
+    "mcqs": [
+      {
+        "stem": "The major coordinating centre for sensory and motor signalling is the:",
+        "options": ["Cerebellum", "Thalamus", "Pons", "Medulla"],
+        "answer": 1,
+        "explanation": "NCERT: the thalamus is a major coordinating centre for sensory and motor signalling."
+      },
+      {
+        "stem": "The thalamus is a part of the:",
+        "options": ["Forebrain", "Midbrain", "Hindbrain", "Brain stem"],
+        "answer": 0,
+        "explanation": "Forebrain = cerebrum, thalamus and hypothalamus."
+      }
+    ]
+  },
+  {
+    "id": "hypothalamus",
+    "concepts": ["FMA62008"],
+    "title": "Hypothalamus",
+    "junior": "The hypothalamus is tiny but very important. It is your body's thermostat, tells you when you're hungry or thirsty, and bosses the pituitary gland around.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }, { "class": 11, "chapter": "Chemical Coordination and Integration" }],
+    "definition": "The hypothalamus lies at the base of the thalamus; it contains centres that control body temperature and the urge for eating and drinking, and neurosecretory cells that secrete hypothalamic hormones.",
+    "structure": ["Connected to the pituitary by the infundibulum (stalk).", "Contains groups of neurosecretory cells (nuclei)."],
+    "functions": [
+      "Thermoregulation, hunger, thirst.",
+      "Releasing hormones (e.g. GnRH) stimulate, and inhibiting hormones (e.g. somatostatin) inhibit, pituitary secretion; they reach the anterior pituitary through a portal circulatory system.",
+      "Synthesises oxytocin and vasopressin, which are transported axonally to the posterior pituitary."
+    ],
+    "neetPoints": [
+      "The hypothalamus is the basal part of the diencephalon and regulates a wide spectrum of body functions.",
+      "Posterior pituitary is under direct neural regulation of the hypothalamus."
+    ],
+    "mcqs": [
+      {
+        "stem": "Oxytocin and vasopressin are synthesised in the:",
+        "options": ["Posterior pituitary", "Hypothalamus", "Anterior pituitary", "Adrenal medulla"],
+        "answer": 1,
+        "explanation": "They are made by hypothalamic neurosecretory cells and only stored/released by the posterior pituitary."
+      },
+      {
+        "stem": "Somatostatin from the hypothalamus:",
+        "options": ["Stimulates growth hormone release", "Inhibits growth hormone release", "Stimulates gonadotrophin release", "Causes milk ejection"],
+        "answer": 1,
+        "explanation": "Somatostatin is an inhibiting hormone that inhibits the release of GH from the pituitary."
+      }
+    ]
+  },
+  {
+    "id": "midbrain",
+    "concepts": ["FMA61993"],
+    "title": "Midbrain",
+    "junior": "The midbrain is a short section between the top and bottom parts of your brain. It helps with seeing and hearing reflexes, like turning your head towards a loud bang.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The midbrain is located between the thalamus/hypothalamus of the forebrain and the pons of the hindbrain.",
+    "structure": ["A canal called the cerebral aqueduct passes through it.", "Dorsal portion has four round swellings (lobes) called corpora quadrigemina.", "Cerebral peduncles on the ventral side."],
+    "functions": ["Visual and auditory reflexes (corpora quadrigemina).", "Pathway between forebrain and hindbrain."],
+    "neetPoints": ["Midbrain and hindbrain form the brain stem."],
+    "mcqs": [
+      {
+        "stem": "Corpora quadrigemina are present in the:",
+        "options": ["Forebrain", "Midbrain", "Hindbrain", "Spinal cord"],
+        "answer": 1,
+        "explanation": "The dorsal midbrain has four round swellings called corpora quadrigemina."
+      },
+      {
+        "stem": "The cerebral aqueduct passes through the:",
+        "options": ["Cerebrum", "Midbrain", "Cerebellum", "Medulla"],
+        "answer": 1,
+        "explanation": "It connects the third and fourth ventricles through the midbrain."
+      }
+    ]
+  },
+  {
+    "id": "pons",
+    "concepts": ["FMA67943"],
+    "title": "Pons",
+    "junior": "The pons is a bridge in your brain stem that links different parts of the brain. It also helps set how fast you breathe.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }, { "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The pons is part of the hindbrain consisting of fibre tracts that interconnect different regions of the brain.",
+    "structure": ["Lies in front of the cerebellum, between the midbrain and the medulla."],
+    "functions": ["Relays signals between cerebrum and cerebellum.", "Pneumotaxic centre moderates the respiratory rhythm centre."],
+    "neetPoints": ["The pneumotaxic centre in the pons can reduce the duration of inspiration and thereby alter the respiratory rate."],
+    "mcqs": [
+      {
+        "stem": "The pneumotaxic centre is located in the:",
+        "options": ["Medulla", "Pons", "Cerebellum", "Hypothalamus"],
+        "answer": 1,
+        "explanation": "NCERT: a pneumotaxic centre in the pons region moderates the respiratory rhythm centre."
+      },
+      {
+        "stem": "The pons mainly consists of:",
+        "options": ["Neurosecretory cells", "Fibre tracts interconnecting brain regions", "Cerebrospinal fluid", "Photoreceptors"],
+        "answer": 1,
+        "explanation": "NCERT: pons consists of fibre tracts that interconnect different regions of the brain."
+      }
+    ]
+  },
+  {
+    "id": "medulla-oblongata",
+    "concepts": ["FMA62004"],
+    "title": "Medulla oblongata",
+    "junior": "The medulla is at the bottom of your brain, joined to your spinal cord. It runs things you never think about: breathing, heartbeat, swallowing and even sneezing.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }, { "class": 11, "chapter": "Breathing and Exchange of Gases" }, { "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The medulla (oblongata) is the lowest part of the brain stem, connected to the spinal cord; it contains centres that control respiration, cardiovascular reflexes and gastric secretions.",
+    "structure": ["Continuous below with the spinal cord at the foramen magnum.", "Contains the respiratory rhythm centre and a chemosensitive area."],
+    "functions": ["Respiratory rhythm centre (primarily responsible for regulating breathing).", "Cardiovascular centre regulates heart rate and blood pressure.", "Reflexes: swallowing, vomiting, coughing, sneezing; gastric secretion."],
+    "neetPoints": [
+      "A chemosensitive area adjacent to the rhythm centre is highly sensitive to CO₂ and H⁺ ions.",
+      "The role of oxygen in regulating respiratory rhythm is quite insignificant."
+    ],
+    "mcqs": [
+      {
+        "stem": "The respiratory rhythm centre is located in the:",
+        "options": ["Pons", "Medulla oblongata", "Cerebrum", "Hypothalamus"],
+        "answer": 1,
+        "explanation": "It is in the medulla region of the brain."
+      },
+      {
+        "stem": "The chemosensitive area near the respiratory rhythm centre is mainly sensitive to:",
+        "options": ["O₂", "CO₂ and H⁺", "N₂", "Glucose"],
+        "answer": 1,
+        "explanation": "Increase in CO₂ and H⁺ activates it to adjust breathing."
+      }
+    ]
+  },
+  {
+    "id": "cerebellum",
+    "concepts": ["FMA67944"],
+    "title": "Cerebellum",
+    "junior": "The cerebellum is the 'little brain' at the back of your head. It keeps you balanced and makes your movements smooth — like when you ride a bike or catch a ball.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The cerebellum is part of the hindbrain with a very convoluted surface that provides additional space for many more neurons.",
+    "structure": ["Two hemispheres joined by the vermis.", "Outer grey cortex with folia; inner white matter (arbor vitae)."],
+    "functions": ["Coordinates voluntary movements, posture and balance.", "Motor learning."],
+    "neetPoints": ["Hindbrain = pons + cerebellum + medulla.", "Its folded surface gives space for many more neurons."],
+    "mcqs": [
+      {
+        "stem": "The cerebellum has a very convoluted surface in order to:",
+        "options": ["Produce hormones", "Provide space for many more neurons", "Store cerebrospinal fluid", "Absorb nutrients"],
+        "answer": 1,
+        "explanation": "NCERT: the convoluted surface provides additional space for many more neurons."
+      },
+      {
+        "stem": "Damage to the cerebellum most likely causes:",
+        "options": ["Loss of smell", "Loss of balance and coordination", "Loss of hunger", "Loss of vision"],
+        "answer": 1,
+        "explanation": "The cerebellum coordinates movement and balance."
+      }
+    ]
+  },
+  {
+    "id": "spinal-cord",
+    "concepts": ["FMA7647"],
+    "title": "Spinal cord",
+    "junior": "The spinal cord is a thick bundle of nerves running down inside your backbone. It carries messages between your brain and body, and it can even react before your brain knows — like pulling your hand from something hot.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination" }],
+    "definition": "The spinal cord is the part of the CNS that extends from the medulla through the neural canal of the vertebral column; it carries impulses to and from the brain and is the centre for spinal reflexes.",
+    "structure": [
+      "Inner butterfly-shaped grey matter and outer white matter (opposite of the cerebrum).",
+      "31 pairs of spinal nerves; dorsal root (afferent, with dorsal root ganglion) and ventral root (efferent).",
+      "Central canal filled with cerebrospinal fluid."
+    ],
+    "functions": ["Conduction of impulses between the brain and the body.", "Reflex actions: afferent neuron → dorsal root → spinal cord → efferent neuron → effector."],
+    "neetPoints": [
+      "A reflex arc needs at least one afferent (sensory) and one efferent (motor) neuron.",
+      "The afferent neuron enters through the dorsal nerve root; the efferent neuron leaves through the ventral root.",
+      "Knee-jerk reflex is a classic example."
+    ],
+    "commonMistakes": ["Sensory (afferent) fibres enter the dorsal root; motor (efferent) fibres leave via the ventral root."],
+    "mcqs": [
+      {
+        "stem": "In a reflex arc, the afferent neuron enters the spinal cord through the:",
+        "options": ["Ventral root", "Dorsal root", "Central canal", "White matter only"],
+        "answer": 1,
+        "explanation": "The afferent neuron receives the signal from a sensory organ and transmits it via the dorsal nerve root into the CNS."
+      },
+      {
+        "stem": "In the spinal cord, grey matter is:",
+        "options": ["Outside the white matter", "Inside, surrounded by white matter", "Absent", "Only in the dorsal root"],
+        "answer": 1,
+        "explanation": "The spinal cord has central grey matter and peripheral white matter."
+      }
+    ]
+  },
+  {
+    "id": "optic-nerve",
+    "concepts": ["FMA50863"],
+    "title": "Optic nerve",
+    "junior": "The optic nerve is a thick cable from the back of each eye to your brain. It carries the pictures your eyes see.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The optic nerve (cranial nerve II) carries visual impulses from the retina to the brain.",
+    "structure": ["Formed by axons of retinal ganglion cells.", "Leaves the eye at the blind spot, where there are no photoreceptors.", "The two nerves meet at the optic chiasma."],
+    "functions": ["Transmits visual information to the visual cortex (occipital lobe)."],
+    "neetPoints": ["The blind spot is where the optic nerve leaves the eye and retinal blood vessels enter; it has no photoreceptor cells."],
+    "mcqs": [
+      {
+        "stem": "The optic nerve is formed by the axons of:",
+        "options": ["Rods", "Cones", "Ganglion cells", "Bipolar cells"],
+        "answer": 2,
+        "explanation": "Ganglion cell axons converge at the blind spot to form the optic nerve."
+      },
+      {
+        "stem": "Why is there no image formation at the blind spot?",
+        "options": ["It has only cones", "It has only rods", "It has no photoreceptors", "It is covered by the iris"],
+        "answer": 2,
+        "explanation": "Photoreceptor cells are absent where the optic nerve leaves the eye."
+      }
+    ]
+  }
+]

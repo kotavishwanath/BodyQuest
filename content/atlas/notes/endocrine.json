@@ -1,0 +1,195 @@
+[
+  {
+    "id": "pituitary",
+    "concepts": ["FMA13889"],
+    "title": "Pituitary gland",
+    "junior": "The pituitary is a pea-sized gland under your brain. It's called the 'master gland' because its hormones tell many other glands what to do — and it makes growth hormone that helps you grow taller.",
+    "syllabus": [{ "class": 11, "chapter": "Chemical Coordination and Integration" }],
+    "definition": "The pituitary gland is located in a bony cavity called the sella turcica and is attached to the hypothalamus by a stalk; it is divided into the adenohypophysis and the neurohypophysis.",
+    "structure": [
+      "Adenohypophysis: pars distalis (anterior pituitary) and pars intermedia.",
+      "Neurohypophysis (pars nervosa, posterior pituitary): stores and releases hormones made by the hypothalamus."
+    ],
+    "functions": [
+      "Pars distalis: GH, prolactin, TSH, ACTH, LH and FSH.",
+      "Pars intermedia: MSH (in humans almost merged with pars distalis).",
+      "Neurohypophysis: oxytocin (smooth muscle contraction, uterine contraction at childbirth, milk ejection) and vasopressin/ADH (water reabsorption in the distal tubules, reducing diuresis)."
+    ],
+    "neetPoints": [
+      "Over-secretion of GH → gigantism; low secretion → stunted growth (pituitary dwarfism).",
+      "Excess GH in adults, especially in middle age → acromegaly (severe disfigurement, especially of the face).",
+      "Impaired synthesis or release of ADH → diabetes insipidus (dehydration from excess water loss).",
+      "LH in males stimulates androgen synthesis by Leydig cells; in females it induces ovulation and maintains the corpus luteum."
+    ],
+    "commonMistakes": ["Oxytocin and ADH are released by the posterior pituitary but synthesised in the hypothalamus."],
+    "disorders": [
+      { "name": "Gigantism / dwarfism", "cause": "Excess / deficiency of GH in childhood", "symptoms": "Abnormal height" },
+      { "name": "Acromegaly", "cause": "Excess GH in adults", "symptoms": "Disfigurement of face and hands" },
+      { "name": "Diabetes insipidus", "cause": "Deficient ADH", "symptoms": "Excess dilute urine, dehydration" }
+    ],
+    "mcqs": [
+      {
+        "stem": "The pituitary gland is located in the:",
+        "options": ["Sella turcica", "Foramen magnum", "Mediastinum", "Sella media"],
+        "answer": 0,
+        "explanation": "It sits in the bony cavity called sella turcica."
+      },
+      {
+        "stem": "Acromegaly is caused by:",
+        "options": ["Excess GH in children", "Excess GH in adults", "Deficiency of ADH", "Excess thyroxine"],
+        "answer": 1,
+        "explanation": "Excess GH in adults (especially middle age) leads to acromegaly."
+      },
+      {
+        "stem": "Which hormone is NOT secreted by the pars distalis?",
+        "options": ["TSH", "Prolactin", "Oxytocin", "FSH"],
+        "answer": 2,
+        "explanation": "Oxytocin is released by the neurohypophysis."
+      }
+    ]
+  },
+  {
+    "id": "pineal",
+    "concepts": ["FMA62033"],
+    "title": "Pineal gland",
+    "junior": "The pineal gland is a tiny gland deep in your brain. When it gets dark, it releases melatonin, a hormone that helps you feel sleepy.",
+    "syllabus": [{ "class": 11, "chapter": "Chemical Coordination and Integration" }],
+    "definition": "The pineal gland is located on the dorsal side of the forebrain and secretes the hormone melatonin.",
+    "structure": ["Small, pine-cone-shaped body attached to the roof of the third ventricle."],
+    "functions": [
+      "Melatonin regulates the 24-hour (diurnal) rhythm: sleep–wake cycle and body temperature.",
+      "Influences metabolism, pigmentation, the menstrual cycle and defence capability."
+    ],
+    "neetPoints": ["Melatonin plays a very important role in the regulation of the 24-hour diurnal rhythm of our body."],
+    "mcqs": [
+      {
+        "stem": "Melatonin is secreted by the:",
+        "options": ["Pituitary", "Pineal gland", "Thymus", "Adrenal medulla"],
+        "answer": 1,
+        "explanation": "The pineal gland on the dorsal forebrain secretes melatonin."
+      },
+      {
+        "stem": "Melatonin mainly regulates:",
+        "options": ["Blood glucose", "Diurnal (sleep–wake) rhythm", "Calcium levels", "Milk ejection"],
+        "answer": 1,
+        "explanation": "It maintains the normal rhythms of sleep–wake cycle and body temperature."
+      }
+    ]
+  },
+  {
+    "id": "adrenal-gland",
+    "concepts": ["BV:adrenal-glands"],
+    "title": "Adrenal glands",
+    "junior": "Your two adrenal glands sit on top of your kidneys like little hats. When you get a fright, they release adrenaline, which makes your heart race and gets you ready to run.",
+    "syllabus": [{ "class": 11, "chapter": "Chemical Coordination and Integration" }],
+    "definition": "Our body has one pair of adrenal glands, one at the anterior part of each kidney; each has a central adrenal medulla and an outer adrenal cortex.",
+    "structure": [
+      "Adrenal cortex: three layers — zona glomerulosa (outer), zona fasciculata (middle) and zona reticularis (inner).",
+      "Adrenal medulla: secretes catecholamines."
+    ],
+    "functions": [
+      "Medulla: adrenaline (epinephrine) and noradrenaline (norepinephrine) — emergency or 'fight or flight' hormones: alertness, pupil dilation, piloerection, sweating, increased heart rate, breakdown of glycogen, lipids and proteins.",
+      "Cortex: glucocorticoids (cortisol) — gluconeogenesis, lipolysis, proteolysis, anti-inflammatory, suppress immune response, stimulate RBC production.",
+      "Mineralocorticoids (aldosterone) — reabsorption of Na⁺ and water, excretion of K⁺ and phosphate ions.",
+      "Small amounts of androgens — growth of axial, pubic and facial hair during puberty."
+    ],
+    "neetPoints": [
+      "Adrenaline and noradrenaline are catecholamines.",
+      "Addison's disease: underproduction of adrenal cortex hormones; altered carbohydrate metabolism causes acute weakness and fatigue.",
+      "Cortisol is the main glucocorticoid; aldosterone the main mineralocorticoid."
+    ],
+    "disorders": [{ "name": "Addison's disease", "cause": "Underproduction of adrenal cortex hormones", "symptoms": "Acute weakness and fatigue" }],
+    "mnemonic": "GFR: Glomerulosa (Salt – aldosterone), Fasciculata (Sugar – cortisol), Reticularis (Sex – androgens), from outside in.",
+    "mcqs": [
+      {
+        "stem": "Which hormones are called 'emergency hormones'?",
+        "options": ["Insulin and glucagon", "Adrenaline and noradrenaline", "Cortisol and aldosterone", "FSH and LH"],
+        "answer": 1,
+        "explanation": "Catecholamines from the adrenal medulla are secreted rapidly in response to stress."
+      },
+      {
+        "stem": "Aldosterone mainly acts on the renal tubules to:",
+        "options": ["Increase K⁺ reabsorption", "Increase Na⁺ and water reabsorption", "Increase glucose excretion", "Decrease water reabsorption"],
+        "answer": 1,
+        "explanation": "It stimulates reabsorption of Na⁺ and water and excretion of K⁺ and phosphate."
+      },
+      {
+        "stem": "Addison's disease results from:",
+        "options": ["Excess adrenaline", "Underproduction of adrenal cortex hormones", "Excess GH", "Deficient insulin"],
+        "answer": 1,
+        "explanation": "NCERT: underproduction of hormones by the adrenal cortex."
+      }
+    ]
+  },
+  {
+    "id": "thymus",
+    "concepts": ["FMA9607"],
+    "title": "Thymus",
+    "junior": "The thymus is a gland in your chest, behind the breastbone. It's big in children and helps train special white blood cells called T-cells to fight germs.",
+    "syllabus": [{ "class": 11, "chapter": "Chemical Coordination and Integration" }, { "class": 12, "chapter": "Human Health and Disease" }],
+    "definition": "The thymus is a lobular structure located between the lungs behind the sternum on the ventral side of the aorta; it secretes thymosins and is a primary lymphoid organ.",
+    "structure": ["Two lobes.", "Quite large at birth; keeps reducing in size with age and by puberty reaches a very small size."],
+    "functions": ["Thymosins play a major role in the differentiation of T-lymphocytes (cell-mediated immunity).", "Thymosins also promote production of antibodies (humoral immunity)."],
+    "neetPoints": [
+      "Primary lymphoid organs: bone marrow and thymus — immature lymphocytes differentiate into antigen-sensitive lymphocytes.",
+      "Thymus degenerates in old individuals, reducing thymosins; hence immune responses of old persons become weak."
+    ],
+    "mcqs": [
+      {
+        "stem": "Thymosins play a major role in the differentiation of:",
+        "options": ["B-lymphocytes", "T-lymphocytes", "Erythrocytes", "Platelets"],
+        "answer": 1,
+        "explanation": "Thymosins drive the differentiation of T-lymphocytes."
+      },
+      {
+        "stem": "Which pair are primary lymphoid organs?",
+        "options": ["Spleen and lymph nodes", "Bone marrow and thymus", "Tonsils and Peyer's patches", "Spleen and thymus"],
+        "answer": 1,
+        "explanation": "Lymphocytes mature in the bone marrow and thymus."
+      }
+    ]
+  },
+  {
+    "id": "pancreas",
+    "concepts": ["FMA7198"],
+    "title": "Pancreas",
+    "junior": "The pancreas does two jobs. It makes juices that help digest food, and it makes insulin, a hormone that keeps the sugar in your blood at the right level.",
+    "syllabus": [{ "class": 11, "chapter": "Chemical Coordination and Integration" }, { "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The pancreas is a composite gland which acts as both an exocrine and an endocrine gland.",
+    "structure": [
+      "Endocrine part: 1 to 2 million Islets of Langerhans (1–2% of pancreatic tissue).",
+      "α-cells secrete glucagon; β-cells secrete insulin.",
+      "Exocrine acini secrete pancreatic juice into the duodenum through the pancreatic duct."
+    ],
+    "functions": [
+      "Glucagon (peptide, hyperglycaemic): glycogenolysis and gluconeogenesis in liver cells; reduces cellular glucose uptake.",
+      "Insulin (peptide, hypoglycaemic): enhances cellular glucose uptake and utilisation; stimulates glycogenesis in liver cells.",
+      "Pancreatic juice: trypsinogen, chymotrypsinogen, procarboxypeptidases, amylases, lipases and nucleases."
+    ],
+    "neetPoints": [
+      "Diabetes mellitus: prolonged hyperglycaemia with loss of glucose in urine and formation of harmful ketone bodies; treated with insulin therapy.",
+      "Enterokinase from the intestinal mucosa converts trypsinogen into active trypsin."
+    ],
+    "disorders": [{ "name": "Diabetes mellitus", "cause": "Deficient insulin action", "symptoms": "High blood glucose, glucose in urine, ketone bodies" }],
+    "mcqs": [
+      {
+        "stem": "Insulin is secreted by:",
+        "options": ["α-cells of Islets of Langerhans", "β-cells of Islets of Langerhans", "Acinar cells", "Chief cells"],
+        "answer": 1,
+        "explanation": "β-cells secrete insulin; α-cells secrete glucagon."
+      },
+      {
+        "stem": "Glucagon is a:",
+        "options": ["Hypoglycaemic steroid", "Hyperglycaemic peptide hormone", "Hypoglycaemic peptide hormone", "Amino-acid derivative"],
+        "answer": 1,
+        "explanation": "Glucagon raises blood glucose; it is a peptide hormone."
+      },
+      {
+        "stem": "The Islets of Langerhans form about what fraction of pancreatic tissue?",
+        "options": ["1–2%", "10–20%", "50%", "80–90%"],
+        "answer": 0,
+        "explanation": "NCERT: islets represent only 1–2% of the pancreatic tissue."
+      }
+    ]
+  }
+]

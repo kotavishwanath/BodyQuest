@@ -1,0 +1,27 @@
+[
+  {
+    "id": "spleen",
+    "concepts": ["FMA7196"],
+    "title": "Spleen",
+    "junior": "The spleen is a soft, purple organ on the left side of your belly. It filters your blood, removing old red blood cells and trapping germs.",
+    "syllabus": [{ "class": 12, "chapter": "Human Health and Disease" }],
+    "definition": "The spleen is a large bean-shaped secondary lymphoid organ that mainly contains lymphocytes and phagocytes.",
+    "structure": ["Lies in the upper left abdomen behind the stomach.", "Red pulp (blood filtering) and white pulp (lymphoid tissue)."],
+    "functions": ["Acts as a filter of the blood by trapping blood-borne micro-organisms.", "Has a large reservoir of erythrocytes."],
+    "neetPoints": ["Secondary lymphoid organs: spleen, lymph nodes, tonsils, Peyer's patches of the small intestine and appendix — where lymphocytes interact with antigens."],
+    "mcqs": [
+      {
+        "stem": "The spleen is a:",
+        "options": ["Primary lymphoid organ", "Secondary lymphoid organ", "Endocrine gland only", "Digestive gland"],
+        "answer": 1,
+        "explanation": "It is a secondary lymphoid organ where lymphocytes meet antigens."
+      },
+      {
+        "stem": "Which is a function of the spleen?",
+        "options": ["Producing bile", "Trapping blood-borne micro-organisms", "Secreting insulin", "Forming urine"],
+        "answer": 1,
+        "explanation": "NCERT: it acts as a filter of blood by trapping blood-borne micro-organisms and holds a reservoir of erythrocytes."
+      }
+    ]
+  }
+]

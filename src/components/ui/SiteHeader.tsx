@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/explore", key: "explore", icon: "🧭" },
+  { href: "/atlas", key: "atlas", icon: "🧬" },
   { href: "/games", key: "games", icon: "🎮" },
   { href: "/stickers", key: "stickers", icon: "⭐" },
 ] as const;
@@ -28,8 +29,12 @@ export function SiteHeader() {
   const toggleSound = useAppStore((state) => state.toggleSound);
 
   const mode = hydrated ? ageMode : null;
-  // Games and stickers are for the kids' modes; BiPC gets its dashboard in Phase 6.
-  const nav = mode === "bipc" ? NAV.filter((n) => n.key === "explore") : NAV;
+  // Games and stickers are for the kids' modes; the Atlas is for Junior and BiPC.
+  const nav = NAV.filter((n) => {
+    if (n.key === "atlas") return mode === "junior" || mode === "bipc";
+    if (n.key === "games" || n.key === "stickers") return mode !== "bipc";
+    return true;
+  });
 
   return (
     <header className="sticky top-0 z-30 border-b bg-background/85 backdrop-blur">

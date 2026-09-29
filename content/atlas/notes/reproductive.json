@@ -1,0 +1,152 @@
+[
+  {
+    "id": "testis",
+    "concepts": ["FMA7210"],
+    "title": "Testis",
+    "junior": "The testes are the male reproductive glands. From puberty they make sperm cells and the hormone testosterone.",
+    "syllabus": [{ "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The testes are the primary male sex organs, situated outside the abdominal cavity within a pouch called the scrotum.",
+    "structure": [
+      "Each adult testis is oval, 4–5 cm long and 2–3 cm wide.",
+      "About 250 compartments called testicular lobules, each with one to three highly coiled seminiferous tubules.",
+      "Seminiferous tubules are lined by male germ cells (spermatogonia) and Sertoli cells.",
+      "Interstitial spaces outside the tubules contain blood vessels and interstitial (Leydig) cells, and other immunologically competent cells."
+    ],
+    "functions": [
+      "Spermatogenesis in the seminiferous tubules.",
+      "Leydig cells synthesise and secrete androgens (testosterone)."
+    ],
+    "neetPoints": [
+      "The scrotum keeps the testes 2–2.5 °C lower than the normal internal body temperature, which is necessary for spermatogenesis.",
+      "Sertoli cells provide nutrition to the germ cells.",
+      "Spermatogenesis starts at puberty due to increased GnRH; LH acts on Leydig cells (androgens) and FSH on Sertoli cells (factors that help spermiogenesis)."
+    ],
+    "numbers": ["~250 lobules per testis", "Testis 4–5 cm × 2–3 cm", "2–2.5 °C below core temperature"],
+    "commonMistakes": ["Leydig cells lie outside the seminiferous tubules; Sertoli cells lie inside them."],
+    "mcqs": [
+      {
+        "stem": "Androgens are secreted by the:",
+        "options": ["Sertoli cells", "Leydig (interstitial) cells", "Spermatogonia", "Epididymis"],
+        "answer": 1,
+        "explanation": "Leydig cells in the interstitial spaces secrete androgens."
+      },
+      {
+        "stem": "FSH acts on which cells of the testis?",
+        "options": ["Leydig cells", "Sertoli cells", "Spermatozoa", "Rete testis"],
+        "answer": 1,
+        "explanation": "FSH acts on Sertoli cells; LH acts on Leydig cells."
+      },
+      {
+        "stem": "The scrotum keeps the testicular temperature lower than the body temperature by about:",
+        "options": ["0.5 °C", "2–2.5 °C", "5 °C", "10 °C"],
+        "answer": 1,
+        "explanation": "NCERT: 2–2.5 °C lower, necessary for spermatogenesis."
+      }
+    ]
+  },
+  {
+    "id": "epididymis",
+    "concepts": ["FMA18255"],
+    "title": "Epididymis",
+    "junior": "The epididymis is a coiled tube on the back of each testis where sperm cells are stored and mature.",
+    "syllabus": [{ "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The epididymis is a coiled duct located along the posterior surface of each testis; it receives sperms from the vasa efferentia.",
+    "structure": ["Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens."],
+    "functions": ["Stores sperms and helps them mature.", "Transports sperms to the vas deferens."],
+    "neetPoints": ["Male accessory ducts: rete testis, vasa efferentia, epididymis and vas deferens."],
+    "mcqs": [
+      {
+        "stem": "The correct sequence of the male accessory ducts is:",
+        "options": [
+          "Vasa efferentia → rete testis → epididymis → vas deferens",
+          "Rete testis → vasa efferentia → epididymis → vas deferens",
+          "Epididymis → rete testis → vas deferens → vasa efferentia",
+          "Rete testis → epididymis → vasa efferentia → vas deferens"
+        ],
+        "answer": 1,
+        "explanation": "Seminiferous tubules open into vasa efferentia through the rete testis; these lead into the epididymis and then the vas deferens."
+      },
+      {
+        "stem": "The epididymis is located along the:",
+        "options": ["Anterior surface of the testis", "Posterior surface of the testis", "Base of the urinary bladder", "Inside the prostate"],
+        "answer": 1,
+        "explanation": "NCERT: epididymis is located along the posterior surface of each testis."
+      }
+    ]
+  },
+  {
+    "id": "seminal-vesicle",
+    "concepts": ["FMA19386"],
+    "title": "Seminal vesicles",
+    "junior": "The seminal vesicles are two small glands behind the bladder. Their fluid gives sperm cells energy to swim.",
+    "syllabus": [{ "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The seminal vesicles are paired male accessory glands; the duct of each joins the vas deferens to form the ejaculatory duct.",
+    "structure": ["Coiled sac-like glands behind the urinary bladder."],
+    "functions": ["Secretion forms part of the seminal plasma, rich in fructose, calcium and certain enzymes."],
+    "neetPoints": ["Male accessory glands: paired seminal vesicles, a prostate and paired bulbourethral glands.", "Fructose in seminal plasma is the energy source for sperms."],
+    "mcqs": [
+      {
+        "stem": "Seminal plasma is rich in:",
+        "options": ["Glucose and sodium", "Fructose, calcium and certain enzymes", "Sucrose and potassium", "Lactose and iron"],
+        "answer": 1,
+        "explanation": "NCERT: the secretions of the male accessory glands are rich in fructose, calcium and certain enzymes."
+      },
+      {
+        "stem": "The vas deferens receives a duct from the seminal vesicle and opens into the urethra as the:",
+        "options": ["Rete testis", "Ejaculatory duct", "Vasa efferentia", "Urethral meatus"],
+        "answer": 1,
+        "explanation": "Together they form the ejaculatory duct."
+      }
+    ]
+  },
+  {
+    "id": "prostate",
+    "concepts": ["FMA9600"],
+    "title": "Prostate gland",
+    "junior": "The prostate is a walnut-sized gland under the bladder that adds fluid to semen.",
+    "syllabus": [{ "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The prostate is a single male accessory gland surrounding the urethra just below the urinary bladder.",
+    "structure": ["Glandular tissue with smooth muscle; the urethra and ejaculatory ducts pass through it."],
+    "functions": ["Contributes to the seminal plasma."],
+    "neetPoints": ["Only the prostate is unpaired among the male accessory glands."],
+    "mcqs": [
+      {
+        "stem": "Which male accessory gland is unpaired?",
+        "options": ["Seminal vesicle", "Bulbourethral gland", "Prostate", "Cowper's gland"],
+        "answer": 2,
+        "explanation": "There are paired seminal vesicles, a single prostate and paired bulbourethral (Cowper's) glands."
+      },
+      {
+        "stem": "Secretions of the bulbourethral glands help in:",
+        "options": ["Sperm production", "Lubrication of the penis", "Hormone production", "Urine storage"],
+        "answer": 1,
+        "explanation": "NCERT: bulbourethral secretions also help in the lubrication of the penis."
+      }
+    ]
+  },
+  {
+    "id": "penis",
+    "concepts": ["BV:penis"],
+    "title": "Penis",
+    "junior": "The penis is the male external organ through which urine leaves the body.",
+    "syllabus": [{ "class": 12, "chapter": "Human Reproduction" }],
+    "definition": "The penis is the male external genitalia; it is made up of special tissue that helps in erection to facilitate insemination.",
+    "structure": ["Corpora cavernosa (paired) and corpus spongiosum (surrounding the urethra).", "Enlarged end = glans penis, covered by a loose fold of skin called the foreskin."],
+    "functions": ["Passage of urine and semen through the urethra.", "Insemination."],
+    "neetPoints": ["The urethra extends through the penis to its external opening, the urethral meatus."],
+    "mcqs": [
+      {
+        "stem": "The urethra in males passes through the:",
+        "options": ["Corpus spongiosum", "Corpora cavernosa", "Epididymis", "Seminal vesicle"],
+        "answer": 0,
+        "explanation": "The corpus spongiosum surrounds the urethra."
+      },
+      {
+        "stem": "The enlarged end of the penis is called the:",
+        "options": ["Glans penis", "Foreskin", "Urethral meatus", "Corpus cavernosum"],
+        "answer": 0,
+        "explanation": "It is covered by a loose fold of skin called the foreskin."
+      }
+    ]
+  }
+]

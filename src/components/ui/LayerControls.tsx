@@ -38,7 +38,7 @@ export function LayerControls({ mode }: { mode: AgeMode }) {
   const sliderIndex = peelIndex >= 0 ? peelIndex : Math.max(0, (peel as ViewId[]).indexOf("organs"));
 
   return (
-    <div className="pointer-events-auto flex flex-col gap-2 rounded-3xl border-2 bg-card/95 p-2 shadow-lg">
+    <div className="pointer-events-auto flex flex-col gap-2 rounded-3xl border-2 bg-card/95 p-2 shadow-lg lg:max-h-full lg:overflow-y-auto">
       <div role="group" aria-label={t("label")}>
         <label htmlFor="peel-slider" className="px-1 text-xs font-bold text-muted-foreground">
           {t("peel")}

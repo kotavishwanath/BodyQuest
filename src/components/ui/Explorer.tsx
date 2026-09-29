@@ -123,12 +123,18 @@ export function Explorer({ initialView, initialPartId, game }: ExplorerProps) {
         </div>
       </div>
 
-      {/* Below the canvas on phones; floating over it on large screens. */}
-      <div className={cn("px-3 pt-2 lg:pointer-events-none lg:absolute lg:inset-x-0 lg:bottom-6 lg:pt-0", panelOpen && "lg:pr-[440px]")}>
+      {/* Below the canvas on phones; floating over it on large screens, to the right of the layers column. */}
+      <div
+        className={cn(
+          "px-3 pt-2 lg:pointer-events-none lg:absolute lg:inset-x-0 lg:bottom-6 lg:pt-0",
+          !game && "lg:pl-[14.5rem]",
+          panelOpen && "lg:pr-[440px]",
+        )}
+      >
         <PartsList mode={ageMode} />
       </div>
       {!game && (
-        <div className="px-3 pb-8 pt-2 lg:absolute lg:left-3 lg:top-1/2 lg:w-52 lg:-translate-y-1/2 lg:p-0">
+        <div className="px-3 pb-8 pt-2 lg:pointer-events-none lg:absolute lg:bottom-6 lg:left-3 lg:top-32 lg:flex lg:w-52 lg:flex-col lg:justify-center lg:p-0">
           <LayerControls mode={ageMode} />
         </div>
       )}

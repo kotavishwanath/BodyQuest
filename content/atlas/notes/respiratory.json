@@ -1,0 +1,375 @@
+[
+  {
+    "id": "nose",
+    "concepts": ["BV:nasal-cartilages"],
+    "title": "Nose and nasal cartilages",
+    "junior": "Air enters through your nostrils. Inside, the nose warms the air, makes it moist and traps dust in sticky mucus and tiny hairs before the air travels on to your lungs.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The external nostrils open into the nasal chamber through the nasal passage; the nasal chamber opens into the pharynx. The shape of the external nose is held by hyaline cartilages (septal, lateral and alar cartilages).",
+    "structure": [
+      "External nostrils → nasal passage → nasal chamber → pharynx.",
+      "The nasal septum (cartilage in front, bone behind) divides the chamber into right and left halves.",
+      "Lateral and major alar cartilages shape the bridge and the wings of the nose."
+    ],
+    "functions": [
+      "Filters, warms and humidifies inhaled air.",
+      "Forms the first part of the conducting part of the respiratory system.",
+      "Carries olfactory (smell) receptors in its upper part."
+    ],
+    "neetPoints": [
+      "The conducting part runs from the external nostrils to the terminal bronchioles; no gas exchange happens here.",
+      "The pharynx is the common passage for food and air."
+    ],
+    "commonMistakes": ["The nasal cartilages are hyaline cartilage, not bone — only the upper bridge of the nose is bony (nasal bones)."],
+    "mcqs": [
+      {
+        "stem": "Which part of the respiratory tract is the common passage for food and air?",
+        "options": ["Larynx", "Pharynx", "Trachea", "Nasal chamber"],
+        "answer": 1,
+        "explanation": "The nasal chamber opens into the pharynx, which is shared by the respiratory and digestive tracts."
+      },
+      {
+        "stem": "The conducting part of the human respiratory system extends from the external nostrils up to the:",
+        "options": ["Primary bronchi", "Alveolar ducts", "Terminal bronchioles", "Larynx"],
+        "answer": 2,
+        "explanation": "Everything up to the terminal bronchioles only conducts air; the alveoli and their ducts form the exchange part."
+      }
+    ]
+  },
+  {
+    "id": "larynx",
+    "concepts": ["BV:larynx", "FMA55099"],
+    "title": "Larynx (sound box)",
+    "junior": "The larynx is your voice box at the top of the windpipe. Air passing over the vocal cords makes them vibrate, and that is how you talk and sing. The bump at the front of the neck (Adam's apple) is part of it.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The larynx is a cartilaginous box that helps in sound production and hence is called the sound box. It connects the pharynx to the trachea.",
+    "structure": [
+      "Framework of cartilages: thyroid (largest; its prominence is the Adam's apple), cricoid (complete ring), paired arytenoid, corniculate and cuneiform cartilages, and the epiglottis.",
+      "Vocal ligaments (vocal cords) stretch from the thyroid cartilage to the arytenoids; the gap between them is the glottis.",
+      "Intrinsic muscles (e.g. posterior crico-arytenoid, vocalis) change the tension and gap of the vocal cords."
+    ],
+    "functions": [
+      "Produces sound (phonation) when exhaled air vibrates the vocal cords.",
+      "Guards the airway: the epiglottis covers the glottis during swallowing."
+    ],
+    "neetPoints": [
+      "Larynx = sound box; it is cartilaginous.",
+      "During swallowing the glottis is covered by the epiglottis, preventing entry of food into the larynx.",
+      "The cricoid is the only complete cartilaginous ring of the airway."
+    ],
+    "keyTerms": [
+      { "term": "Glottis", "meaning": "Opening of the larynx between the vocal cords." },
+      { "term": "Adam's apple", "meaning": "Laryngeal prominence of the thyroid cartilage, larger in males after puberty." }
+    ],
+    "commonMistakes": ["The thyroid cartilage is part of the larynx; it is not the thyroid gland (which lies below it, around the trachea)."],
+    "mcqs": [
+      {
+        "stem": "The larynx is called the 'sound box' because it:",
+        "options": [
+          "Is a bony box that amplifies sound",
+          "Is a cartilaginous box containing the vocal cords",
+          "Contains the tympanic membrane",
+          "Is lined by olfactory epithelium"
+        ],
+        "answer": 1,
+        "explanation": "NCERT describes the larynx as a cartilaginous box which helps in sound production."
+      },
+      {
+        "stem": "Adam's apple is formed by the:",
+        "options": ["Cricoid cartilage", "Arytenoid cartilage", "Thyroid cartilage", "Hyoid bone"],
+        "answer": 2,
+        "explanation": "The laryngeal prominence of the thyroid cartilage forms the Adam's apple."
+      },
+      {
+        "stem": "Which is the only complete cartilaginous ring in the respiratory tract?",
+        "options": ["Thyroid cartilage", "Cricoid cartilage", "Tracheal ring", "Epiglottis"],
+        "answer": 1,
+        "explanation": "Tracheal and bronchial rings are C-shaped (incomplete); the cricoid cartilage is a complete ring."
+      }
+    ]
+  },
+  {
+    "id": "epiglottis",
+    "concepts": ["FMA55130"],
+    "title": "Epiglottis",
+    "junior": "The epiglottis is a little flap like a lid. When you swallow, it folds down over your windpipe so food goes into the food pipe instead of your lungs.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The epiglottis is a thin, elastic cartilaginous flap that covers the glottis during swallowing and prevents the entry of food into the larynx.",
+    "structure": [
+      "Leaf-shaped plate of elastic cartilage attached to the thyroid cartilage.",
+      "Projects upwards behind the root of the tongue."
+    ],
+    "functions": ["Closes the glottis during swallowing.", "Directs food into the oesophagus."],
+    "neetPoints": [
+      "Epiglottis is made of elastic cartilage (not hyaline).",
+      "Food entering the larynx triggers coughing — a protective reflex."
+    ],
+    "mcqs": [
+      {
+        "stem": "The epiglottis is made up of:",
+        "options": ["Hyaline cartilage", "Elastic cartilage", "Fibrous cartilage", "Calcified cartilage"],
+        "answer": 1,
+        "explanation": "The epiglottis is a thin elastic cartilaginous flap."
+      },
+      {
+        "stem": "The epiglottis prevents food from entering the:",
+        "options": ["Oesophagus", "Nasal chamber", "Glottis/larynx", "Eustachian tube"],
+        "answer": 2,
+        "explanation": "During swallowing it covers the glottis, so food cannot enter the larynx."
+      }
+    ]
+  },
+  {
+    "id": "trachea",
+    "concepts": ["FMA7394"],
+    "title": "Trachea (windpipe)",
+    "junior": "The trachea is your windpipe — a tube about as long as your hand that carries air from your throat down to your chest. Rings of cartilage keep it open, like the rings in a vacuum-cleaner hose.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The trachea is a straight tube extending up to the mid-thoracic cavity, where it divides at the level of the 5th thoracic vertebra into a right and a left primary bronchus.",
+    "structure": [
+      "Supported by C-shaped (incomplete) rings of hyaline cartilage; the open part faces the oesophagus.",
+      "Lined by ciliated pseudostratified epithelium with mucus-secreting goblet cells.",
+      "About 10–12 cm long in adults."
+    ],
+    "functions": [
+      "Conducts air between the larynx and the bronchi.",
+      "Cilia and mucus trap and sweep dust towards the pharynx (mucociliary escalator)."
+    ],
+    "neetPoints": [
+      "Trachea, primary, secondary and tertiary bronchi and initial bronchioles are supported by incomplete cartilaginous rings.",
+      "The trachea bifurcates at the level of the 5th thoracic vertebra."
+    ],
+    "numbers": ["Divides at T5 into two primary bronchi", "Length ≈ 10–12 cm"],
+    "commonMistakes": ["Tracheal rings are incomplete (C-shaped), not complete rings."],
+    "mcqs": [
+      {
+        "stem": "The trachea divides into right and left primary bronchi at the level of the:",
+        "options": ["3rd thoracic vertebra", "5th thoracic vertebra", "7th cervical vertebra", "1st lumbar vertebra"],
+        "answer": 1,
+        "explanation": "NCERT: the trachea divides at the level of the 5th thoracic vertebra."
+      },
+      {
+        "stem": "Why are the cartilaginous rings of the trachea incomplete?",
+        "options": [
+          "To make the trachea rigid",
+          "To let the oesophagus expand during swallowing",
+          "To allow gas exchange through the wall",
+          "Because they are made of bone"
+        ],
+        "answer": 1,
+        "explanation": "The open, muscular back of each C-ring lies against the oesophagus and lets it bulge when food passes."
+      },
+      {
+        "stem": "The epithelium lining the trachea is:",
+        "options": ["Simple squamous", "Ciliated pseudostratified columnar", "Keratinised stratified squamous", "Simple cuboidal"],
+        "answer": 1,
+        "explanation": "Ciliated pseudostratified epithelium with goblet cells lines the trachea and bronchi."
+      }
+    ]
+  },
+  {
+    "id": "bronchi",
+    "concepts": ["FMA7395", "FMA7396"],
+    "title": "Primary bronchi and the bronchial tree",
+    "junior": "At the bottom of the windpipe the tube splits in two — one branch for each lung. Inside the lungs they keep splitting into smaller and smaller tubes, like the branches of an upside-down tree.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The primary bronchi are the two branches of the trachea. Each divides repeatedly into secondary and tertiary bronchi and bronchioles, ending in very thin terminal bronchioles that give rise to alveoli.",
+    "structure": [
+      "Right main bronchus: shorter, wider and more vertical than the left.",
+      "Branching: primary → secondary (lobar) → tertiary (segmental) bronchi → bronchioles → terminal bronchioles → alveoli.",
+      "Cartilage rings are present up to the initial bronchioles."
+    ],
+    "functions": ["Conduct air to every part of the lungs.", "Clean and warm the air on its way to the alveoli."],
+    "neetPoints": [
+      "The branching network of trachea, bronchi and bronchioles is called the bronchial tree.",
+      "Asthma is a difficulty in breathing causing wheezing due to inflammation of the bronchi and bronchioles."
+    ],
+    "commonMistakes": ["Inhaled objects more often lodge in the right main bronchus because it is more vertical and wider."],
+    "disorders": [{ "name": "Asthma", "cause": "Inflammation of bronchi and bronchioles", "symptoms": "Difficulty in breathing, wheezing" }],
+    "mcqs": [
+      {
+        "stem": "Asthma is due to inflammation of the:",
+        "options": ["Alveoli", "Pleura", "Bronchi and bronchioles", "Larynx"],
+        "answer": 2,
+        "explanation": "NCERT: asthma is a difficulty in breathing causing wheezing due to inflammation of bronchi and bronchioles."
+      },
+      {
+        "stem": "Which statement about the right main bronchus is correct?",
+        "options": [
+          "It is longer and narrower than the left",
+          "It is shorter, wider and more vertical than the left",
+          "It has no cartilage",
+          "It supplies two lobes"
+        ],
+        "answer": 1,
+        "explanation": "The right main bronchus is shorter, wider and more vertical; it supplies the three lobes of the right lung."
+      }
+    ]
+  },
+  {
+    "id": "lungs",
+    "concepts": ["BV:lungs", "FMA7309", "FMA7310"],
+    "title": "Lungs",
+    "junior": "Your two lungs are soft, spongy organs in your chest. They are full of tiny air sacs called alveoli, where oxygen passes into your blood and carbon dioxide leaves it. The left lung is a bit smaller to make room for the heart.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The lungs are a pair of spongy organs in the air-tight thoracic chamber where gas exchange takes place across the alveoli, the primary sites of exchange of gases.",
+    "structure": [
+      "Covered by a double-layered pleura with pleural fluid between the layers; the outer pleural membrane touches the thoracic lining and the inner one touches the lung surface.",
+      "Right lung has 3 lobes; left lung has 2 lobes and a cardiac notch for the heart.",
+      "Each lung contains millions of thin, irregular-walled, vascularised bag-like alveoli.",
+      "Thoracic chamber: vertebral column (dorsal), sternum (ventral), ribs (lateral), dome-shaped diaphragm (below)."
+    ],
+    "functions": [
+      "Exchange of O₂ and CO₂ between alveolar air and blood by simple diffusion.",
+      "Help regulate blood pH through CO₂ removal."
+    ],
+    "neetPoints": [
+      "Pleural fluid reduces friction on the lung surface.",
+      "Alveoli and their ducts form the respiratory or exchange part.",
+      "pO₂ in alveoli ≈ 104 mm Hg; pCO₂ ≈ 40 mm Hg.",
+      "Solubility of CO₂ is 20–25 times higher than that of O₂.",
+      "Emphysema: alveolar walls are damaged so respiratory surface decreases; cigarette smoking is a major cause."
+    ],
+    "numbers": [
+      "Tidal volume ≈ 500 mL; breathing rate 12–16 per minute",
+      "IRV 2500–3000 mL; ERV 1000–1100 mL; RV 1100–1200 mL",
+      "Vital capacity = ERV + TV + IRV; Total lung capacity = VC + RV"
+    ],
+    "keyTerms": [
+      { "term": "Residual volume", "meaning": "Air remaining in the lungs even after a forcible expiration." },
+      { "term": "Functional residual capacity", "meaning": "ERV + RV: air left after a normal expiration." }
+    ],
+    "commonMistakes": ["Residual volume cannot be measured with a simple spirometer, so neither can FRC or TLC."],
+    "disorders": [
+      { "name": "Emphysema", "cause": "Damage to alveolar walls (mainly smoking)", "symptoms": "Breathlessness due to reduced respiratory surface" },
+      { "name": "Occupational lung disease", "cause": "Long exposure to dust (e.g. stone-breaking, grinding)", "symptoms": "Inflammation leading to fibrosis and serious lung damage" }
+    ],
+    "mcqs": [
+      {
+        "stem": "Vital capacity of the lungs is equal to:",
+        "options": ["TV + IRV", "TV + ERV + RV", "IRV + ERV + TV", "TLC − ERV"],
+        "answer": 2,
+        "explanation": "VC is the maximum air a person can breathe out after a forced inspiration = ERV + TV + IRV."
+      },
+      {
+        "stem": "Which of these cannot be measured using a simple spirometer?",
+        "options": ["Tidal volume", "Inspiratory reserve volume", "Residual volume", "Expiratory reserve volume"],
+        "answer": 2,
+        "explanation": "Residual volume stays in the lungs after forced expiration, so it never passes through the spirometer."
+      },
+      {
+        "stem": "The partial pressure of oxygen in alveolar air is about:",
+        "options": ["40 mm Hg", "95 mm Hg", "104 mm Hg", "159 mm Hg"],
+        "answer": 2,
+        "explanation": "Alveolar pO₂ ≈ 104 mm Hg; atmospheric air ≈ 159; deoxygenated blood ≈ 40; oxygenated blood ≈ 95."
+      }
+    ]
+  },
+  {
+    "id": "diaphragm",
+    "concepts": ["FMA13295"],
+    "title": "Diaphragm",
+    "junior": "The diaphragm is a dome-shaped muscle under your lungs. When it tightens and flattens, your chest gets bigger and air rushes in. When it relaxes, air goes out. Hiccups are little jerks of this muscle!",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The diaphragm is the dome-shaped sheet of skeletal muscle that forms the floor of the thoracic chamber and separates it from the abdominal cavity.",
+    "structure": [
+      "Central tendon with muscular fibres attached to the lower ribs, sternum and lumbar vertebrae.",
+      "Openings allow the oesophagus, aorta and inferior vena cava to pass.",
+      "Supplied by the phrenic nerves."
+    ],
+    "functions": [
+      "Main muscle of inspiration: its contraction increases the volume of the thoracic chamber in the antero-posterior axis.",
+      "Relaxation returns it to its dome shape during normal expiration."
+    ],
+    "neetPoints": [
+      "Inspiration: diaphragm and external intercostal muscles contract → thoracic volume ↑ → intrapulmonary pressure falls below atmospheric pressure → air moves in.",
+      "Expiration (normal): relaxation of diaphragm and intercostals; it is passive.",
+      "Abdominal muscles help increase the strength of forced expiration."
+    ],
+    "mcqs": [
+      {
+        "stem": "Contraction of the diaphragm increases the volume of the thoracic chamber in the:",
+        "options": ["Dorso-ventral axis", "Antero-posterior axis", "Lateral axis only", "It decreases the volume"],
+        "answer": 1,
+        "explanation": "NCERT: contraction of the diaphragm increases the volume in the antero-posterior axis; external intercostals act on the dorso-ventral axis."
+      },
+      {
+        "stem": "During normal expiration:",
+        "options": [
+          "The diaphragm contracts",
+          "External intercostal muscles contract",
+          "The diaphragm and intercostal muscles relax",
+          "Intrapulmonary pressure becomes lower than atmospheric"
+        ],
+        "answer": 2,
+        "explanation": "Normal expiration is passive: the muscles relax, thoracic volume falls and intrapulmonary pressure rises above atmospheric."
+      }
+    ]
+  },
+  {
+    "id": "intercostal-muscles",
+    "concepts": ["BV:intercostals", "FMA9756", "FMA9757"],
+    "title": "Intercostal muscles",
+    "junior": "Between your ribs are thin muscles called intercostals. They lift your ribs up and out when you breathe in deeply, a bit like opening a bucket handle.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The intercostal muscles fill the spaces between adjacent ribs; the external and internal layers change the size of the rib cage during breathing.",
+    "structure": [
+      "External intercostals: outer layer, fibres run downwards and forwards.",
+      "Internal intercostals: inner layer, fibres run at right angles to the external layer.",
+      "Innermost intercostals lie deepest."
+    ],
+    "functions": [
+      "External intercostals lift the ribs and sternum, increasing thoracic volume in the dorso-ventral axis (inspiration).",
+      "Internal intercostals pull the ribs down during forced expiration."
+    ],
+    "neetPoints": [
+      "Additional muscles in the abdomen help increase the strength of inspiration and expiration.",
+      "Breathing movements are controlled by the respiratory rhythm centre in the medulla."
+    ],
+    "commonMistakes": ["External intercostals are for inspiration; internal intercostals for forced expiration — not the other way round."],
+    "mcqs": [
+      {
+        "stem": "Contraction of the external intercostal muscles:",
+        "options": [
+          "Lowers the ribs and sternum",
+          "Lifts the ribs and sternum, increasing dorso-ventral volume",
+          "Flattens the diaphragm",
+          "Causes normal expiration"
+        ],
+        "answer": 1,
+        "explanation": "External intercostals lift the ribs and the sternum during inspiration."
+      },
+      {
+        "stem": "Which muscles are mainly used in forced expiration?",
+        "options": ["Diaphragm", "External intercostals", "Internal intercostals and abdominal muscles", "Sternocleidomastoid"],
+        "answer": 2,
+        "explanation": "Forced expiration uses internal intercostals and abdominal muscles to squeeze the thorax."
+      }
+    ]
+  },
+  {
+    "id": "vocal-cords",
+    "concepts": ["FMA55244"],
+    "title": "Vocal cords (vocal ligaments)",
+    "junior": "Your vocal cords are two stretchy bands inside your voice box. Air from your lungs makes them buzz. Tight cords make high notes; looser cords make low notes.",
+    "syllabus": [{ "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "The vocal cords are paired folds containing the vocal ligaments, stretched across the larynx between the thyroid and arytenoid cartilages; they vibrate to produce sound.",
+    "structure": ["Vocal ligament covered by mucous membrane.", "The space between the two cords is the glottis.", "The vocalis muscle lies alongside each ligament."],
+    "functions": ["Produce voice when air flows past them.", "Close the glottis tightly during coughing and straining."],
+    "neetPoints": ["Pitch depends on the length and tension of the vocal cords; males usually have longer, thicker cords and a deeper voice."],
+    "mcqs": [
+      {
+        "stem": "The vocal cords are located in the:",
+        "options": ["Pharynx", "Larynx", "Trachea", "Nasal chamber"],
+        "answer": 1,
+        "explanation": "The vocal cords are part of the larynx (sound box)."
+      },
+      {
+        "stem": "The opening between the vocal cords is called the:",
+        "options": ["Epiglottis", "Glottis", "Hilum", "Meatus"],
+        "answer": 1,
+        "explanation": "The glottis is the opening of the larynx between the vocal cords."
+      }
+    ]
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "id": "stomach",
+    "concepts": ["FMA7148"],
+    "title": "Stomach",
+    "junior": "Your stomach is a stretchy J-shaped bag. It churns food and mixes it with strong acid and juices for a few hours, turning it into a thick soup before it moves on.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The stomach is a J-shaped muscular bag in the upper left portion of the abdominal cavity where food is stored and partially digested.",
+    "structure": [
+      "Four parts: cardiac portion (oesophagus opens here), fundic region, body and pyloric portion (opens into the duodenum).",
+      "Gastro-oesophageal sphincter at entry; pyloric sphincter at exit.",
+      "Gastric glands: mucus neck cells (mucus), peptic/chief cells (pepsinogen; prorennin in infants) and parietal/oxyntic cells (HCl and intrinsic factor)."
+    ],
+    "functions": [
+      "Stores food for 4–5 hours and churns it into chyme.",
+      "HCl provides acidic pH (~1.8) optimal for pepsin; pepsinogen is activated to pepsin by HCl.",
+      "Pepsin converts proteins into proteoses and peptones."
+    ],
+    "neetPoints": [
+      "Intrinsic factor from parietal cells is essential for vitamin B₁₂ absorption.",
+      "Rennin, found in the gastric juice of infants, helps in the digestion of milk proteins.",
+      "Mucus and bicarbonates protect the mucosal lining from HCl."
+    ],
+    "commonMistakes": ["Oxyntic cells secrete HCl — not pepsinogen (that is from chief cells)."],
+    "mcqs": [
+      {
+        "stem": "HCl in the stomach is secreted by:",
+        "options": ["Chief cells", "Oxyntic (parietal) cells", "Goblet cells", "Mucus neck cells"],
+        "answer": 1,
+        "explanation": "Parietal or oxyntic cells secrete HCl and intrinsic factor."
+      },
+      {
+        "stem": "Intrinsic factor is required for the absorption of:",
+        "options": ["Vitamin A", "Vitamin B₁₂", "Vitamin D", "Iron"],
+        "answer": 1,
+        "explanation": "Intrinsic factor is essential for vitamin B₁₂ absorption."
+      }
+    ]
+  },
+  {
+    "id": "liver",
+    "concepts": ["FMA7197"],
+    "title": "Liver",
+    "junior": "Your liver is the biggest organ inside your body. It makes bile to break up fat, stores energy, cleans harmful stuff out of your blood and does hundreds of other jobs.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }, { "class": 11, "chapter": "Body Fluids and Circulation" }],
+    "definition": "The liver is the largest gland of the body, weighing about 1.2 to 1.5 kg in an adult human, situated in the abdominal cavity just below the diaphragm.",
+    "structure": [
+      "Two lobes; hepatic lobules are the structural and functional units, with hepatic cells arranged as cords.",
+      "Each lobule is covered by a thin connective-tissue sheath, Glisson's capsule.",
+      "Receives blood from the hepatic artery and the hepatic portal vein; drained by hepatic veins.",
+      "Bile flows through hepatic ducts; the cystic duct from the gall bladder joins the hepatic duct to form the common bile duct."
+    ],
+    "functions": [
+      "Secretes bile (bile pigments bilirubin and biliverdin, bile salts, cholesterol, phospholipids — but no enzymes).",
+      "Bile emulsifies fats and activates lipases.",
+      "Stores glycogen; gluconeogenesis; detoxification; makes plasma proteins."
+    ],
+    "neetPoints": [
+      "Common bile duct and pancreatic duct open together into the duodenum as the common hepato-pancreatic duct, guarded by the sphincter of Oddi.",
+      "Jaundice: the liver is affected; skin and eyes turn yellow due to deposition of bile pigments."
+    ],
+    "numbers": ["Mass 1.2–1.5 kg in adults"],
+    "disorders": [{ "name": "Jaundice", "cause": "Liver disorder; bile pigments deposit in tissues", "symptoms": "Yellow skin and eyes" }],
+    "mcqs": [
+      {
+        "stem": "The structural and functional units of the liver are:",
+        "options": ["Nephrons", "Hepatic lobules", "Acini", "Villi"],
+        "answer": 1,
+        "explanation": "Hepatic lobules, each covered by Glisson's capsule."
+      },
+      {
+        "stem": "Bile contains all of the following EXCEPT:",
+        "options": ["Bile salts", "Bilirubin", "Cholesterol", "Digestive enzymes"],
+        "answer": 3,
+        "explanation": "Bile has no enzymes; it emulsifies fats and activates lipases."
+      },
+      {
+        "stem": "The sphincter of Oddi guards the:",
+        "options": ["Cystic duct", "Common hepato-pancreatic duct", "Pyloric opening", "Oesophageal opening"],
+        "answer": 1,
+        "explanation": "It guards the opening of the common hepato-pancreatic duct into the duodenum."
+      }
+    ]
+  },
+  {
+    "id": "gallbladder",
+    "concepts": ["FMA7202"],
+    "title": "Gall bladder",
+    "junior": "The gall bladder is a small pouch under your liver. It stores bile and squeezes it into your intestine when you eat fatty food.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The gall bladder is a thin muscular sac beneath the liver that stores and concentrates bile secreted by the hepatic cells.",
+    "structure": ["Cystic duct joins the common hepatic duct to form the common bile duct."],
+    "functions": ["Stores and concentrates bile; releases it into the duodenum under the action of CCK (cholecystokinin)."],
+    "neetPoints": ["CCK acts on both the pancreas and the gall bladder, stimulating pancreatic enzymes and bile juice respectively."],
+    "mcqs": [
+      {
+        "stem": "Bile is stored and concentrated in the:",
+        "options": ["Liver", "Gall bladder", "Duodenum", "Pancreas"],
+        "answer": 1,
+        "explanation": "The gall bladder stores and concentrates bile."
+      },
+      {
+        "stem": "Which hormone causes contraction of the gall bladder?",
+        "options": ["Gastrin", "Secretin", "Cholecystokinin (CCK)", "Insulin"],
+        "answer": 2,
+        "explanation": "CCK stimulates the release of bile and pancreatic enzymes."
+      }
+    ]
+  },
+  {
+    "id": "esophagus",
+    "concepts": ["FMA7131"],
+    "title": "Oesophagus (food pipe)",
+    "junior": "The oesophagus is the food pipe from your throat to your stomach. Muscles in its walls squeeze food down in waves — so you could even swallow upside down!",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The oesophagus is a thin, long tube extending posteriorly through the neck, thorax and diaphragm, leading to the stomach.",
+    "structure": ["Lies behind the trachea.", "A muscular gastro-oesophageal sphincter regulates its opening into the stomach."],
+    "functions": ["Conducts the bolus to the stomach by peristalsis (successive waves of muscular contraction)."],
+    "neetPoints": ["No digestion takes place in the oesophagus.", "Swallowing (deglutition) is initiated voluntarily and continued involuntarily."],
+    "mcqs": [
+      {
+        "stem": "Food moves down the oesophagus by:",
+        "options": ["Gravity alone", "Peristalsis", "Cilia", "Osmosis"],
+        "answer": 1,
+        "explanation": "Successive waves of muscular contraction push the bolus down."
+      },
+      {
+        "stem": "The opening of the oesophagus into the stomach is regulated by the:",
+        "options": ["Pyloric sphincter", "Gastro-oesophageal sphincter", "Sphincter of Oddi", "Ileo-caecal valve"],
+        "answer": 1,
+        "explanation": "A muscular sphincter (gastro-oesophageal) regulates the opening."
+      }
+    ]
+  },
+  {
+    "id": "small-intestine",
+    "concepts": ["FMA7200", "FMA7206"],
+    "title": "Small intestine",
+    "junior": "Your small intestine is a very long, coiled tube — about 6 metres! Its inside is covered in tiny finger-like bumps called villi that soak up the goodness from your food into your blood.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The small intestine is the principal organ for digestion and absorption; it has three regions — a C-shaped duodenum, a long coiled middle jejunum and a highly coiled ileum.",
+    "structure": [
+      "Mucosa forms villi; villus epithelial cells have microvilli giving a brush-border appearance.",
+      "Villi contain capillaries and a large lymph vessel called the lacteal.",
+      "Crypts of Lieberkühn between the villi; Brunner's glands in the duodenal submucosa."
+    ],
+    "functions": [
+      "Final digestion by succus entericus and pancreatic juice.",
+      "Absorption of nutrients: sugars and amino acids into blood capillaries; fatty acids and glycerol (as chylomicrons) into the lacteals."
+    ],
+    "neetPoints": [
+      "The ileum opens into the large intestine.",
+      "Villi and microvilli greatly increase the surface area for absorption."
+    ],
+    "numbers": ["Duodenum ≈ 25 cm; total small intestine ≈ 6 m"],
+    "mcqs": [
+      {
+        "stem": "The C-shaped part of the small intestine is the:",
+        "options": ["Jejunum", "Ileum", "Duodenum", "Caecum"],
+        "answer": 2,
+        "explanation": "The duodenum is C-shaped; the jejunum is long and coiled; the ileum is highly coiled."
+      },
+      {
+        "stem": "Fat absorbed in the intestine enters the:",
+        "options": ["Blood capillaries directly", "Lacteals", "Hepatic artery", "Bile duct"],
+        "answer": 1,
+        "explanation": "Chylomicrons are released into the lymph vessels (lacteals) in the villi."
+      }
+    ]
+  },
+  {
+    "id": "large-intestine",
+    "concepts": ["FMA7201"],
+    "title": "Large intestine",
+    "junior": "The large intestine is wider but shorter than the small intestine. It soaks up water from leftover food and gets the waste ready to leave your body.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The large intestine consists of the caecum, colon and rectum.",
+    "structure": [
+      "Caecum: small blind sac hosting symbiotic micro-organisms; the vermiform appendix (vestigial) arises from it.",
+      "Colon: ascending, transverse, descending parts and the sigmoid colon.",
+      "Rectum opens out through the anus."
+    ],
+    "functions": ["Absorption of some water, minerals and certain drugs.", "Secretion of mucus to lubricate the passage of waste (faeces)."],
+    "neetPoints": ["No significant digestive activity occurs in the large intestine."],
+    "mcqs": [
+      {
+        "stem": "The vermiform appendix arises from the:",
+        "options": ["Ileum", "Caecum", "Rectum", "Transverse colon"],
+        "answer": 1,
+        "explanation": "A narrow finger-like projection, the vermiform appendix, arises from the caecum."
+      },
+      {
+        "stem": "The main function of the large intestine is:",
+        "options": ["Protein digestion", "Absorption of water, minerals and some drugs", "Fat emulsification", "Secretion of bile"],
+        "answer": 1,
+        "explanation": "It absorbs water and minerals and secretes mucus."
+      }
+    ]
+  },
+  {
+    "id": "teeth",
+    "concepts": ["BV:teeth"],
+    "title": "Teeth",
+    "junior": "You get two sets of teeth: 20 milk teeth, then 32 grown-up teeth. Incisors bite, canines tear, and premolars and molars grind your food.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "Human teeth are thecodont (embedded in sockets of the jaw bones), diphyodont (two sets: milk/deciduous and permanent) and heterodont (four types).",
+    "structure": ["Incisors (I), canines (C), premolars (PM) and molars (M).", "Hard chewing surface made of enamel — the hardest substance in the body."],
+    "functions": ["Mastication (chewing) of food."],
+    "neetPoints": ["Adult dental formula: 2123/2123 = 32 teeth.", "Milk teeth: 20 (no premolars)."],
+    "numbers": ["Dental formula (half upper jaw / half lower jaw) = I2 C1 PM2 M3"],
+    "mcqs": [
+      {
+        "stem": "Human teeth are described as:",
+        "options": ["Acrodont, monophyodont, homodont", "Thecodont, diphyodont, heterodont", "Pleurodont, polyphyodont, heterodont", "Thecodont, monophyodont, homodont"],
+        "answer": 1,
+        "explanation": "Embedded in sockets, two sets in a lifetime, four different types."
+      },
+      {
+        "stem": "The dental formula of an adult human is:",
+        "options": ["2102/2102", "2123/2123", "2033/2033", "3143/3143"],
+        "answer": 1,
+        "explanation": "I2 C1 PM2 M3 in each half of each jaw = 32 teeth."
+      }
+    ]
+  },
+  {
+    "id": "tongue",
+    "concepts": ["FMA54640"],
+    "title": "Tongue",
+    "junior": "Your tongue is a strong, bendy muscle. It moves food around while you chew, helps you swallow and talk, and has taste buds to tell sweet from salty and sour.",
+    "syllabus": [{ "class": 11, "chapter": "Digestion and Absorption", "ncert": false }],
+    "definition": "The tongue is a freely movable muscular organ attached to the floor of the oral cavity by the frenulum.",
+    "structure": ["Upper surface has small projections called papillae, some of which bear taste buds."],
+    "functions": ["Mixes food with saliva and forms the bolus.", "Taste; speech; swallowing."],
+    "neetPoints": ["The tongue is attached to the floor of the oral cavity by the frenulum."],
+    "mcqs": [
+      {
+        "stem": "The tongue is attached to the floor of the oral cavity by the:",
+        "options": ["Frenulum", "Uvula", "Epiglottis", "Palate"],
+        "answer": 0,
+        "explanation": "The frenulum anchors the tongue."
+      },
+      {
+        "stem": "Taste buds are present on:",
+        "options": ["All papillae equally", "Some of the papillae", "The frenulum", "The hard palate only"],
+        "answer": 1,
+        "explanation": "Some of the papillae on the upper surface bear taste buds."
+      }
+    ]
+  }
+]

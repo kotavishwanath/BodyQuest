@@ -10,6 +10,7 @@ export const dynamic = "force-static";
 const ROUTES = [
   "",
   "/explore",
+  "/atlas",
   "/games",
   "/games/find-it",
   "/games/build-skeleton",

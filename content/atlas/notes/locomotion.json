@@ -1,0 +1,629 @@
+[
+  {
+    "id": "skull",
+    "concepts": ["FMA46565"],
+    "title": "Skull",
+    "junior": "Your skull is a strong helmet of bones that protects your brain and gives your face its shape. Most of its bones are locked together by wiggly joints called sutures, which don't move.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The skull is part of the axial skeleton composed of two sets of bones — cranial and facial — totalling 22 bones.",
+    "structure": [
+      "8 cranial bones form the hard protective outer covering (cranium) for the brain.",
+      "14 facial bones form the front part of the skull.",
+      "A single U-shaped hyoid bone at the base of the buccal cavity is also included in the skull.",
+      "Each middle ear has three tiny ear ossicles: malleus, incus and stapes.",
+      "Two occipital condyles articulate with the first vertebra (dicondylic skull)."
+    ],
+    "functions": ["Protects the brain and special sense organs.", "Supports the face, teeth and jaws."],
+    "neetPoints": [
+      "Skull = 22 bones (8 cranial + 14 facial); with hyoid and 6 ear ossicles the skull region has 29 bones.",
+      "Joints between the flat skull bones are fibrous joints (sutures) that do not allow movement.",
+      "Axial skeleton has 80 bones: skull, vertebral column, sternum and ribs."
+    ],
+    "numbers": ["Cranial 8 + facial 14 = 22", "Axial skeleton 80 bones; appendicular 126; total 206"],
+    "commonMistakes": ["Ear ossicles and hyoid are counted with the skull region but are not among the 22 skull bones."],
+    "mcqs": [
+      {
+        "stem": "The number of cranial bones in the human skull is:",
+        "options": ["6", "8", "14", "22"],
+        "answer": 1,
+        "explanation": "8 cranial bones + 14 facial bones = 22 skull bones."
+      },
+      {
+        "stem": "Joints between the bones of the cranium are:",
+        "options": ["Synovial joints", "Cartilaginous joints", "Fibrous joints (sutures)", "Hinge joints"],
+        "answer": 2,
+        "explanation": "Fibrous joints such as sutures fuse the flat skull bones and allow no movement."
+      },
+      {
+        "stem": "The human skull is described as dicondylic because it:",
+        "options": [
+          "Has two ear ossicles",
+          "Articulates with the atlas by two occipital condyles",
+          "Has two jaws",
+          "Has two parietal bones"
+        ],
+        "answer": 1,
+        "explanation": "Two occipital condyles articulate with the atlas vertebra."
+      }
+    ]
+  },
+  {
+    "id": "mandible",
+    "concepts": ["FMA52748"],
+    "title": "Mandible (lower jaw)",
+    "junior": "The mandible is your lower jaw bone — the only skull bone you can move. It lets you chew, talk and yawn.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The mandible is the largest and strongest facial bone and the only movable bone of the skull; it forms the lower jaw.",
+    "structure": ["U-shaped body carrying the lower teeth.", "Two rami ending in the condylar process (joint with the temporal bone) and the coronoid process."],
+    "functions": ["Mastication (chewing) and speech.", "Holds the lower teeth."],
+    "neetPoints": ["The temporomandibular joint is a synovial joint — the only movable joint of the skull."],
+    "mcqs": [
+      {
+        "stem": "The only movable bone of the skull is the:",
+        "options": ["Maxilla", "Mandible", "Hyoid", "Nasal bone"],
+        "answer": 1,
+        "explanation": "The mandible moves at the temporomandibular joint."
+      },
+      {
+        "stem": "The mandible is a:",
+        "options": ["Cranial bone", "Facial bone", "Ear ossicle", "Vertebra"],
+        "answer": 1,
+        "explanation": "It is one of the 14 facial bones."
+      }
+    ]
+  },
+  {
+    "id": "hyoid",
+    "concepts": ["FMA52749"],
+    "title": "Hyoid bone",
+    "junior": "The hyoid is a small U-shaped bone in your neck under your tongue. It's special because it doesn't touch any other bone — it just hangs by muscles!",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The hyoid is a single U-shaped bone present at the base of the buccal cavity; it is included in the skull region.",
+    "structure": ["Body with greater and lesser horns (cornua).", "Suspended by muscles and ligaments; does not articulate with any bone."],
+    "functions": ["Anchors the tongue and muscles of the floor of the mouth.", "Supports the larynx during swallowing and speech."],
+    "neetPoints": ["Hyoid is included in the skull; it is a U-shaped bone at the base of the buccal cavity."],
+    "mcqs": [
+      {
+        "stem": "A single U-shaped bone present at the base of the buccal cavity is the:",
+        "options": ["Mandible", "Hyoid", "Vomer", "Sphenoid"],
+        "answer": 1,
+        "explanation": "NCERT: a single U-shaped bone called hyoid is present at the base of the buccal cavity."
+      },
+      {
+        "stem": "The hyoid bone is unusual because it:",
+        "options": ["Is the longest bone", "Does not articulate with any other bone", "Is part of the vertebral column", "Is made of cartilage"],
+        "answer": 1,
+        "explanation": "It is held only by muscles and ligaments."
+      }
+    ]
+  },
+  {
+    "id": "vertebral-column",
+    "concepts": ["FMA13478"],
+    "title": "Vertebral column (backbone)",
+    "junior": "Your backbone is a stack of 26 bones called vertebrae. It holds you up, lets you bend and twist, and has a tunnel inside that protects your spinal cord.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The vertebral column is formed by 26 serially arranged units called vertebrae; it is dorsally placed and extends from the base of the skull as the main framework of the trunk.",
+    "structure": [
+      "Regions: cervical (7), thoracic (12), lumbar (5), sacral (1, fused) and coccygeal (1, fused).",
+      "Each vertebra has a central hollow portion (neural canal) through which the spinal cord passes.",
+      "First vertebra = atlas (articulates with the occipital condyles); second = axis.",
+      "Adjacent vertebrae are joined by intervertebral discs (cartilaginous joints)."
+    ],
+    "functions": ["Protects the spinal cord.", "Supports the head.", "Serves as the point of attachment for the ribs and musculature of the back."],
+    "neetPoints": [
+      "The number of cervical vertebrae is seven in almost all mammals, including humans.",
+      "Vertebral formula of humans: C7 T12 L5 S1 Co1 = 26."
+    ],
+    "numbers": ["26 vertebrae in adults (33 in a child before fusion)"],
+    "commonMistakes": ["Sacrum and coccyx are each counted as one vertebra in the adult count of 26."],
+    "mcqs": [
+      {
+        "stem": "How many vertebrae form the adult human vertebral column?",
+        "options": ["24", "26", "33", "31"],
+        "answer": 1,
+        "explanation": "7 cervical + 12 thoracic + 5 lumbar + 1 sacral + 1 coccygeal = 26."
+      },
+      {
+        "stem": "The number of cervical vertebrae in humans and giraffes is:",
+        "options": ["Different", "Seven in both", "Seven in humans, fourteen in giraffes", "Twelve in both"],
+        "answer": 1,
+        "explanation": "Seven cervical vertebrae are present in almost all mammals."
+      },
+      {
+        "stem": "Which is NOT a function of the vertebral column?",
+        "options": ["Protects the spinal cord", "Supports the head", "Produces bile", "Attachment for ribs and back muscles"],
+        "answer": 2,
+        "explanation": "Bile is produced by the liver."
+      }
+    ]
+  },
+  {
+    "id": "atlas-axis",
+    "concepts": ["FMA12519", "FMA12520"],
+    "title": "Atlas and axis (C1–C2)",
+    "junior": "The top two bones of your backbone are special. The atlas holds up your skull (like the giant Atlas holding up the world!), and the axis has a peg that lets your head turn to say 'no'.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The atlas (C1) is the first cervical vertebra that articulates with the occipital condyles; the axis (C2) carries the dens (odontoid process) around which the atlas rotates.",
+    "structure": ["Atlas: ring-shaped, without a body or spine.", "Axis: dens projects upwards into the ring of the atlas."],
+    "functions": ["Atlanto-occipital joint: nodding ('yes').", "Atlanto-axial joint: rotating the head ('no')."],
+    "neetPoints": ["The joint between the atlas and the axis is a pivot joint — a type of synovial joint."],
+    "mcqs": [
+      {
+        "stem": "The joint between the atlas and the axis is a:",
+        "options": ["Hinge joint", "Pivot joint", "Saddle joint", "Gliding joint"],
+        "answer": 1,
+        "explanation": "NCERT lists the atlas–axis joint as an example of a pivot joint."
+      },
+      {
+        "stem": "The first vertebra, which articulates with the occipital condyles, is the:",
+        "options": ["Axis", "Atlas", "Sacrum", "Coccyx"],
+        "answer": 1,
+        "explanation": "The atlas articulates with the occipital condyles of the skull."
+      }
+    ]
+  },
+  {
+    "id": "intervertebral-disks",
+    "concepts": ["BV:intervertebral-disks"],
+    "title": "Intervertebral discs",
+    "junior": "Between each pair of backbone bones is a squishy cushion called a disc. Discs absorb shocks when you jump and let your back bend.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "Intervertebral discs are pads of fibrocartilage between adjacent vertebral bodies; they form cartilaginous joints.",
+    "structure": ["Outer tough annulus fibrosus.", "Inner gel-like nucleus pulposus."],
+    "functions": ["Act as shock absorbers.", "Allow limited movement between vertebrae."],
+    "neetPoints": ["Cartilaginous joints (e.g. between adjacent vertebrae) allow only limited movement.", "The pubic symphysis also contains fibrous cartilage."],
+    "mcqs": [
+      {
+        "stem": "The joint between adjacent vertebrae of the vertebral column is a:",
+        "options": ["Fibrous joint", "Cartilaginous joint", "Synovial hinge joint", "Ball and socket joint"],
+        "answer": 1,
+        "explanation": "Vertebrae are joined by cartilage (intervertebral discs) — cartilaginous joints with limited movement."
+      },
+      {
+        "stem": "Intervertebral discs are made of:",
+        "options": ["Hyaline cartilage", "Fibrocartilage", "Elastic cartilage", "Compact bone"],
+        "answer": 1,
+        "explanation": "Fibrocartilage gives both strength and cushioning."
+      }
+    ]
+  },
+  {
+    "id": "rib-cage",
+    "concepts": ["FMA7480", "FMA7574"],
+    "title": "Ribs and rib cage",
+    "junior": "Your 12 pairs of ribs curve around your chest like a cage. They protect your heart and lungs and move up and out every time you take a deep breath.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }, { "class": 11, "chapter": "Breathing and Exchange of Gases" }],
+    "definition": "There are 12 pairs of ribs; each is a thin flat bone connected dorsally to the vertebral column and ventrally to the sternum. Thoracic vertebrae, ribs and sternum together form the rib cage.",
+    "structure": [
+      "Each rib has two articulation surfaces on its dorsal end — bicephalic.",
+      "True ribs (1–7 pairs): attached to the sternum by hyaline cartilage.",
+      "Vertebrochondral (false) ribs (8th, 9th, 10th pairs): join the 7th rib by hyaline cartilage.",
+      "Floating ribs (11th and 12th pairs): not connected ventrally."
+    ],
+    "functions": ["Protects the heart, lungs and upper abdominal organs.", "Moves during breathing to change thoracic volume."],
+    "neetPoints": ["Ribs are bicephalic.", "8th–10th pairs are vertebrochondral (false) ribs; 11th–12th are floating ribs."],
+    "commonMistakes": ["False ribs do not articulate directly with the sternum — they join the 7th rib's cartilage."],
+    "mcqs": [
+      {
+        "stem": "Floating ribs are the:",
+        "options": ["1st and 2nd pairs", "8th, 9th and 10th pairs", "11th and 12th pairs", "7th pair"],
+        "answer": 2,
+        "explanation": "The last two pairs are not connected ventrally."
+      },
+      {
+        "stem": "Ribs are called bicephalic because they:",
+        "options": [
+          "Have two ends attached to the sternum",
+          "Have two articulation surfaces on their dorsal end",
+          "Are in two rows",
+          "Have two cartilages"
+        ],
+        "answer": 1,
+        "explanation": "Each rib has two articulation surfaces on its dorsal end."
+      },
+      {
+        "stem": "How many pairs of vertebrochondral ribs are present in humans?",
+        "options": ["2", "3", "5", "7"],
+        "answer": 1,
+        "explanation": "The 8th, 9th and 10th pairs are vertebrochondral (false) ribs."
+      }
+    ]
+  },
+  {
+    "id": "sternum",
+    "concepts": ["FMA7485"],
+    "title": "Sternum (breastbone)",
+    "junior": "The sternum is the flat bone in the middle of your chest. Your ribs connect to it with bendy cartilage.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The sternum is a flat bone on the ventral midline of the thorax.",
+    "structure": ["Three parts: manubrium, body and xiphoid process.", "Clavicles and the costal cartilages of the true ribs attach to it."],
+    "functions": ["Completes the rib cage in front and protects the heart.", "Moves up and forward during inspiration."],
+    "neetPoints": ["Sternum is part of the axial skeleton."],
+    "mcqs": [
+      {
+        "stem": "The sternum is a:",
+        "options": ["Long bone of the appendicular skeleton", "Flat bone on the ventral midline of the thorax", "Part of the pectoral girdle", "Irregular bone of the skull"],
+        "answer": 1,
+        "explanation": "NCERT: the sternum is a flat bone on the ventral midline of the thorax."
+      },
+      {
+        "stem": "True ribs are connected to the sternum through:",
+        "options": ["Ligaments", "Hyaline cartilage", "Fibrous joints", "Tendons"],
+        "answer": 1,
+        "explanation": "The first seven pairs are attached ventrally with the help of hyaline cartilage."
+      }
+    ]
+  },
+  {
+    "id": "clavicle",
+    "concepts": ["FMA13321"],
+    "title": "Clavicle (collar bone)",
+    "junior": "The clavicle, or collar bone, is the long thin bone you can feel at the front of your shoulder. It props your shoulder out to the side.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "Each clavicle is a long slender bone with two curvatures, commonly called the collar bone; it is part of the pectoral girdle.",
+    "structure": ["Medial end joins the sternum; lateral end joins the acromion of the scapula."],
+    "functions": ["Braces the shoulder and transmits forces from the arm to the axial skeleton."],
+    "neetPoints": ["Pectoral girdle = clavicle + scapula on each side."],
+    "mcqs": [
+      {
+        "stem": "The collar bone is the:",
+        "options": ["Scapula", "Clavicle", "Sternum", "Humerus"],
+        "answer": 1,
+        "explanation": "The clavicle is commonly called the collar bone."
+      },
+      {
+        "stem": "The clavicle articulates with which process of the scapula?",
+        "options": ["Coracoid", "Acromion", "Glenoid cavity", "Spine"],
+        "answer": 1,
+        "explanation": "The clavicle articulates with the acromion."
+      }
+    ]
+  },
+  {
+    "id": "scapula",
+    "concepts": ["FMA13394"],
+    "title": "Scapula (shoulder blade)",
+    "junior": "The scapula is your shoulder blade — a flat, triangle-shaped bone on your upper back. Your upper arm bone fits into a shallow cup on it to make your shoulder joint.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The scapula is a large triangular flat bone situated in the dorsal part of the thorax between the second and the seventh ribs.",
+    "structure": [
+      "Dorsal flat triangular body with a slightly elevated ridge called the spine, which projects as a flat expanded process, the acromion.",
+      "Below the acromion is a depression, the glenoid cavity, which articulates with the head of the humerus."
+    ],
+    "functions": ["Forms the shoulder joint.", "Attachment for many arm and back muscles."],
+    "neetPoints": ["The shoulder joint (humerus and pectoral girdle) is a ball and socket joint."],
+    "mcqs": [
+      {
+        "stem": "The glenoid cavity of the scapula articulates with the:",
+        "options": ["Head of the femur", "Head of the humerus", "Clavicle", "Radius"],
+        "answer": 1,
+        "explanation": "The glenoid cavity and the head of the humerus form the shoulder joint."
+      },
+      {
+        "stem": "The scapula lies in the dorsal part of the thorax between the:",
+        "options": ["1st and 5th ribs", "2nd and 7th ribs", "5th and 10th ribs", "7th and 12th ribs"],
+        "answer": 1,
+        "explanation": "NCERT: between the second and the seventh ribs."
+      }
+    ]
+  },
+  {
+    "id": "humerus",
+    "concepts": ["FMA13303"],
+    "title": "Humerus",
+    "junior": "The humerus is your upper arm bone, from shoulder to elbow. Its round top fits into your shoulder so your arm can swing in circles.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The humerus is the long bone of the upper arm; it is one of the 30 bones of each forelimb.",
+    "structure": ["Rounded head fits the glenoid cavity (shoulder joint).", "Lower end forms the elbow with the radius and ulna."],
+    "functions": ["Lever for arm movements; attachment for biceps, triceps and deltoid."],
+    "neetPoints": ["Forelimb bones: humerus, radius and ulna, carpals (8), metacarpals (5), phalanges (14) = 30.", "Shoulder = ball and socket joint; elbow = hinge joint."],
+    "mcqs": [
+      {
+        "stem": "Each human hand (forelimb) is made of how many bones?",
+        "options": ["27", "30", "32", "26"],
+        "answer": 1,
+        "explanation": "Humerus 1 + radius 1 + ulna 1 + carpals 8 + metacarpals 5 + phalanges 14 = 30."
+      },
+      {
+        "stem": "The joint between the humerus and the pectoral girdle is a:",
+        "options": ["Hinge joint", "Pivot joint", "Ball and socket joint", "Saddle joint"],
+        "answer": 2,
+        "explanation": "It allows movement in many directions."
+      }
+    ]
+  },
+  {
+    "id": "radius-ulna",
+    "concepts": ["FMA23463", "FMA23466"],
+    "title": "Radius and ulna",
+    "junior": "Your forearm has two bones side by side. The radius is on the thumb side and can roll over the ulna, which is why you can turn your palm up and down.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The radius (thumb side) and ulna (little-finger side) are the two long bones of the forearm.",
+    "structure": ["Ulna forms the main part of the elbow joint with the humerus (olecranon process = point of the elbow).", "Radius forms the main part of the wrist joint with the carpals."],
+    "functions": ["Pronation and supination of the forearm.", "Elbow flexion and extension."],
+    "neetPoints": ["The elbow is a hinge joint (movement in one plane)."],
+    "mcqs": [
+      {
+        "stem": "Which bone lies on the thumb side of the forearm?",
+        "options": ["Ulna", "Radius", "Humerus", "Scaphoid"],
+        "answer": 1,
+        "explanation": "The radius is lateral (thumb side)."
+      },
+      {
+        "stem": "The point of the elbow is formed by the:",
+        "options": ["Head of the radius", "Olecranon process of the ulna", "Capitulum of the humerus", "Patella"],
+        "answer": 1,
+        "explanation": "The olecranon of the ulna forms the tip of the elbow."
+      }
+    ]
+  },
+  {
+    "id": "hand-bones",
+    "concepts": ["FMA23889", "FMA9612"],
+    "title": "Carpals and metacarpals",
+    "junior": "Your wrist has 8 small bones, your palm has 5, and your fingers have 14. That's 27 bones in each hand!",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The wrist contains 8 carpal bones, the palm 5 metacarpals and the digits 14 phalanges.",
+    "structure": ["Carpals in two rows of four.", "Metacarpals I–V; phalanges: 2 in the thumb, 3 in each finger."],
+    "functions": ["Flexible wrist and precise grip."],
+    "neetPoints": ["Joints between carpals are gliding joints.", "The joint between the carpal and metacarpal of the thumb is a saddle joint."],
+    "mcqs": [
+      {
+        "stem": "The joint between the carpal and metacarpal of the thumb is a:",
+        "options": ["Pivot joint", "Gliding joint", "Saddle joint", "Hinge joint"],
+        "answer": 2,
+        "explanation": "It is the classic saddle joint, allowing the thumb to oppose."
+      },
+      {
+        "stem": "Joints between the carpal bones are:",
+        "options": ["Gliding joints", "Ball and socket joints", "Sutures", "Pivot joints"],
+        "answer": 0,
+        "explanation": "Carpals glide over each other."
+      }
+    ]
+  },
+  {
+    "id": "hip-bone",
+    "concepts": ["FMA16585", "FMA9578"],
+    "title": "Hip bone (coxal bone) and pelvis",
+    "junior": "Your hip bones form a strong bowl called the pelvis. It holds up your belly organs and your thigh bones fit into cups on each side.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The pelvic girdle consists of two coxal bones; each coxal bone is formed by the fusion of three bones — ilium, ischium and pubis.",
+    "structure": [
+      "At the point of fusion is a cavity, the acetabulum, to which the thigh bone articulates.",
+      "The two halves meet ventrally to form the pubic symphysis, containing fibrous cartilage."
+    ],
+    "functions": ["Transfers body weight to the legs.", "Supports and protects pelvic organs."],
+    "neetPoints": ["Acetabulum + head of femur = hip joint (ball and socket).", "Pubic symphysis is a cartilaginous joint."],
+    "mcqs": [
+      {
+        "stem": "The acetabulum is formed at the junction of:",
+        "options": ["Ilium, ischium and pubis", "Scapula and clavicle", "Sacrum and coccyx", "Femur and tibia"],
+        "answer": 0,
+        "explanation": "The three bones of the coxal bone fuse at the acetabulum."
+      },
+      {
+        "stem": "The pubic symphysis contains:",
+        "options": ["Synovial fluid", "Fibrous cartilage", "Bone marrow", "Elastic cartilage"],
+        "answer": 1,
+        "explanation": "NCERT: the two halves meet ventrally to form the pubic symphysis containing fibrous cartilage."
+      }
+    ]
+  },
+  {
+    "id": "femur",
+    "concepts": ["FMA9611"],
+    "title": "Femur (thigh bone)",
+    "junior": "The femur is your thigh bone — the longest and strongest bone in your body. It's about a quarter of your height!",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The femur (thigh bone) is the longest bone of the body; its head fits into the acetabulum of the hip bone.",
+    "structure": ["Head, neck, greater and lesser trochanters.", "Lower end forms the knee joint with the tibia; the patella lies in front."],
+    "functions": ["Bears body weight; lever for walking and running."],
+    "neetPoints": ["Hind limb bones: femur, tibia and fibula, tarsals (7), metatarsals (5), phalanges (14), patella (1) = 30.", "The knee joint is a hinge joint."],
+    "mcqs": [
+      {
+        "stem": "The longest bone in the human body is the:",
+        "options": ["Tibia", "Humerus", "Femur", "Fibula"],
+        "answer": 2,
+        "explanation": "NCERT: femur (thigh bone – the longest bone)."
+      },
+      {
+        "stem": "The head of the femur articulates with the:",
+        "options": ["Glenoid cavity", "Acetabulum", "Patella", "Sacrum"],
+        "answer": 1,
+        "explanation": "It forms the ball and socket hip joint with the acetabulum."
+      }
+    ]
+  },
+  {
+    "id": "patella",
+    "concepts": ["FMA24485"],
+    "title": "Patella (knee cap)",
+    "junior": "The patella is your knee cap — a small, flat bone that protects the front of your knee.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The patella is a cup-shaped bone that covers the knee ventrally (knee cap).",
+    "structure": ["A sesamoid bone embedded in the tendon of the quadriceps femoris."],
+    "functions": ["Protects the knee joint and improves the leverage of the quadriceps."],
+    "neetPoints": ["The patella is counted among the 30 bones of each hind limb."],
+    "mcqs": [
+      {
+        "stem": "The knee cap is the:",
+        "options": ["Patella", "Tarsal", "Fibula", "Acetabulum"],
+        "answer": 0,
+        "explanation": "NCERT: patella — a cup-shaped bone that covers the knee ventrally."
+      },
+      {
+        "stem": "The patella develops within the tendon of the:",
+        "options": ["Biceps brachii", "Quadriceps femoris", "Gastrocnemius", "Gluteus maximus"],
+        "answer": 1,
+        "explanation": "It is a sesamoid bone in the quadriceps tendon."
+      }
+    ]
+  },
+  {
+    "id": "tibia-fibula",
+    "concepts": ["FMA24476", "FMA24479"],
+    "title": "Tibia and fibula",
+    "junior": "Your lower leg has two bones. The thick tibia (shin bone) carries your weight; the thin fibula next to it helps hold muscles and steady your ankle.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The tibia (shin bone, medial and weight-bearing) and fibula (lateral, slender) are the bones of the lower leg.",
+    "structure": ["Tibia forms the knee joint above and the medial malleolus below.", "Fibula forms the lateral malleolus of the ankle."],
+    "functions": ["Support body weight; form the ankle joint with the tarsal bone talus."],
+    "neetPoints": ["Ankle bones = tarsals (7); sole = metatarsals (5); toes = phalanges (14)."],
+    "mcqs": [
+      {
+        "stem": "The number of tarsal bones in each foot is:",
+        "options": ["5", "7", "8", "14"],
+        "answer": 1,
+        "explanation": "There are 7 tarsals (ankle bones)."
+      },
+      {
+        "stem": "The weight-bearing bone of the lower leg is the:",
+        "options": ["Fibula", "Tibia", "Patella", "Femur"],
+        "answer": 1,
+        "explanation": "The tibia carries the body weight; the fibula mainly anchors muscles."
+      }
+    ]
+  },
+  {
+    "id": "biceps-brachii",
+    "concepts": ["BV:biceps-brachii"],
+    "title": "Biceps brachii",
+    "junior": "The biceps is the muscle that bulges on the front of your upper arm when you 'make a muscle'. It bends your elbow.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The biceps brachii is a two-headed skeletal muscle on the front of the upper arm that flexes the elbow and supinates the forearm.",
+    "structure": ["Long head from above the glenoid cavity; short head from the coracoid process of the scapula.", "Inserts on the radius (radial tuberosity)."],
+    "functions": ["Flexes the elbow; turns the palm upwards (supination)."],
+    "neetPoints": [
+      "Biceps and triceps are an antagonistic pair: when one contracts, the other relaxes.",
+      "Contraction follows the sliding filament theory: thin (actin) filaments slide over thick (myosin) filaments; Ca²⁺ binds troponin to expose myosin-binding sites."
+    ],
+    "keyTerms": [
+      { "term": "Sarcomere", "meaning": "Functional unit of contraction between two successive Z lines." },
+      { "term": "A band / I band", "meaning": "A band (anisotropic) = dark, has myosin; I band (isotropic) = light, has only actin. During contraction I bands shorten while A bands keep their length." }
+    ],
+    "commonMistakes": ["During contraction the A band length stays the same; the I band and H zone shorten."],
+    "mcqs": [
+      {
+        "stem": "During muscle contraction, which band retains its length?",
+        "options": ["I band", "H zone", "A band", "All shorten"],
+        "answer": 2,
+        "explanation": "Thin filaments slide inwards; the A band (length of thick filaments) stays constant."
+      },
+      {
+        "stem": "Calcium ions start contraction by binding to:",
+        "options": ["Actin", "Myosin", "Troponin", "Tropomyosin"],
+        "answer": 2,
+        "explanation": "Ca²⁺ binds a troponin subunit, which shifts tropomyosin and unmasks active sites on actin."
+      },
+      {
+        "stem": "Biceps and triceps brachii are examples of:",
+        "options": ["Synergistic muscles", "Antagonistic muscles", "Involuntary muscles", "Cardiac muscles"],
+        "answer": 1,
+        "explanation": "They produce opposite movements at the elbow."
+      }
+    ]
+  },
+  {
+    "id": "triceps-brachii",
+    "concepts": ["BV:triceps-brachii"],
+    "title": "Triceps brachii",
+    "junior": "The triceps is on the back of your upper arm. It straightens your elbow — the opposite job to the biceps.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The triceps brachii is a three-headed muscle on the back of the upper arm that extends the elbow.",
+    "structure": ["Long, lateral and medial heads.", "Inserts on the olecranon process of the ulna."],
+    "functions": ["Extends (straightens) the elbow."],
+    "neetPoints": ["Muscle fibres rich in myoglobin and mitochondria are red (aerobic) fibres; fibres with little myoglobin are white fibres."],
+    "mcqs": [
+      {
+        "stem": "The triceps brachii inserts on the:",
+        "options": ["Radial tuberosity", "Olecranon of the ulna", "Coracoid process", "Head of the humerus"],
+        "answer": 1,
+        "explanation": "Its tendon attaches to the olecranon, so contraction extends the elbow."
+      },
+      {
+        "stem": "Red muscle fibres are rich in:",
+        "options": ["Glycogen only", "Myoglobin and mitochondria", "Haemoglobin", "Lactic acid"],
+        "answer": 1,
+        "explanation": "High myoglobin gives the red colour; many mitochondria support aerobic ATP production."
+      }
+    ]
+  },
+  {
+    "id": "quadriceps",
+    "concepts": ["BV:quadriceps"],
+    "title": "Quadriceps femoris",
+    "junior": "The quadriceps is a big group of four muscles on the front of your thigh. They straighten your knee so you can kick a ball or stand up.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The quadriceps femoris is a group of four muscles — rectus femoris, vastus lateralis, vastus medialis and vastus intermedius — that extend the knee.",
+    "structure": ["All four join in the quadriceps tendon, which contains the patella and continues as the patellar ligament to the tibia."],
+    "functions": ["Extends the knee; rectus femoris also flexes the hip."],
+    "neetPoints": ["The knee-jerk (patellar) reflex is a monosynaptic reflex: tapping the patellar ligament stretches the quadriceps, which contracts."],
+    "mcqs": [
+      {
+        "stem": "Which of these is NOT part of the quadriceps femoris?",
+        "options": ["Rectus femoris", "Vastus lateralis", "Biceps femoris", "Vastus intermedius"],
+        "answer": 2,
+        "explanation": "Biceps femoris is a hamstring on the back of the thigh."
+      },
+      {
+        "stem": "The knee-jerk reflex is an example of a:",
+        "options": ["Conditioned reflex", "Monosynaptic reflex arc", "Voluntary action", "Hormonal response"],
+        "answer": 1,
+        "explanation": "It involves one synapse between the sensory and motor neurons in the spinal cord."
+      }
+    ]
+  },
+  {
+    "id": "gastrocnemius",
+    "concepts": ["BV:gastrocnemius"],
+    "title": "Gastrocnemius (calf muscle)",
+    "junior": "The gastrocnemius is your calf muscle. It pulls your heel up so you can stand on tiptoe, walk, run and jump.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The gastrocnemius is the two-headed superficial calf muscle that plantar-flexes the foot through the calcaneal (Achilles) tendon.",
+    "structure": ["Medial and lateral heads from the femur.", "Joins the soleus to form the calcaneal tendon attached to the heel bone."],
+    "functions": ["Plantar-flexes the ankle; helps flex the knee."],
+    "neetPoints": ["Tetany: rapid spasms (wild contractions) in muscle due to low Ca²⁺ in body fluid."],
+    "disorders": [{ "name": "Tetany", "cause": "Low Ca²⁺ in body fluid", "symptoms": "Rapid spasms in muscle" }],
+    "mcqs": [
+      {
+        "stem": "The calcaneal (Achilles) tendon attaches the calf muscles to the:",
+        "options": ["Patella", "Heel bone", "Tibia", "Femur"],
+        "answer": 1,
+        "explanation": "It inserts on the calcaneus (heel bone)."
+      },
+      {
+        "stem": "Tetany is caused by:",
+        "options": ["High Ca²⁺ in body fluid", "Low Ca²⁺ in body fluid", "Excess uric acid", "Low glucose"],
+        "answer": 1,
+        "explanation": "NCERT: rapid spasms in muscle due to low Ca²⁺ in body fluid."
+      }
+    ]
+  },
+  {
+    "id": "deltoid",
+    "concepts": ["BV:deltoid"],
+    "title": "Deltoid",
+    "junior": "The deltoid is the rounded muscle that caps your shoulder. It lifts your arm out to the side.",
+    "syllabus": [{ "class": 11, "chapter": "Locomotion and Movement" }],
+    "definition": "The deltoid is the triangular muscle covering the shoulder joint; it abducts the arm.",
+    "structure": ["Clavicular (anterior), acromial (middle) and spinal (posterior) parts.", "Inserts on the deltoid tuberosity of the humerus."],
+    "functions": ["Abducts the arm; front fibres flex and back fibres extend the shoulder."],
+    "neetPoints": ["Skeletal muscles are striated and voluntary; they are attached to bones by tendons."],
+    "mcqs": [
+      {
+        "stem": "The main action of the deltoid is to:",
+        "options": ["Flex the elbow", "Abduct the arm at the shoulder", "Extend the knee", "Rotate the head"],
+        "answer": 1,
+        "explanation": "The middle (acromial) fibres lift the arm sideways."
+      },
+      {
+        "stem": "Skeletal muscles are:",
+        "options": ["Striated and involuntary", "Striated and voluntary", "Smooth and voluntary", "Smooth and involuntary"],
+        "answer": 1,
+        "explanation": "Skeletal muscles are striated and under voluntary control."
+      }
+    ]
+  }
+]

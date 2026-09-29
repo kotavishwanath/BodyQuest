@@ -1,0 +1,211 @@
+[
+  {
+    "id": "eye",
+    "concepts": ["BV:eyeballs"],
+    "title": "Eye (eyeball)",
+    "junior": "Your eyes work like cameras. Light goes in through the clear front (cornea) and a small hole (pupil), a lens focuses it, and the retina at the back turns it into messages for your brain.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The adult human eyeball is nearly spherical; its wall has three layers — outer sclera (with the cornea in front), middle choroid (with ciliary body and iris) and inner retina.",
+    "structure": [
+      "Sclera: dense connective tissue; its transparent anterior part is the cornea.",
+      "Choroid: bluish, with many blood vessels; thickens in front into the ciliary body, which continues as the pigmented iris around the pupil.",
+      "Transparent crystalline lens held by ligaments attached to the ciliary body.",
+      "Retina has three layers of neural cells, from inside to outside: ganglion cells, bipolar cells, photoreceptor cells (rods and cones).",
+      "Aqueous chamber (between cornea and lens) with aqueous humour; vitreous chamber (between lens and retina) with vitreous humour."
+    ],
+    "functions": ["Focuses light onto the retina and converts it into nerve impulses for vision."],
+    "neetPoints": [
+      "Cones: daylight (photopic) and colour vision; three types respond to red, green and blue light.",
+      "Rods: twilight (scotopic) vision; contain rhodopsin (visual purple), a derivative of vitamin A.",
+      "Fovea (in the macula lutea) has only cones — the point of greatest visual acuity.",
+      "Blind spot: no photoreceptors."
+    ],
+    "commonMistakes": ["Light passes through ganglion and bipolar cells before reaching photoreceptors — the photoreceptors are the outermost neural layer."],
+    "mcqs": [
+      {
+        "stem": "The point of greatest visual acuity in the retina is the:",
+        "options": ["Blind spot", "Fovea", "Ciliary body", "Optic disc"],
+        "answer": 1,
+        "explanation": "The fovea is densely packed with cones and has no rods."
+      },
+      {
+        "stem": "Rhodopsin is found in:",
+        "options": ["Cones", "Rods", "Ganglion cells", "Iris muscles"],
+        "answer": 1,
+        "explanation": "Rods contain rhodopsin (visual purple), derived from vitamin A."
+      },
+      {
+        "stem": "The correct sequence of retinal neural layers from inside (vitreous side) to outside is:",
+        "options": ["Photoreceptors, bipolar, ganglion", "Ganglion, bipolar, photoreceptors", "Bipolar, ganglion, photoreceptors", "Ganglion, photoreceptors, bipolar"],
+        "answer": 1,
+        "explanation": "Ganglion cells are innermost; photoreceptors are outermost, next to the pigment layer."
+      }
+    ]
+  },
+  {
+    "id": "cornea",
+    "concepts": ["FMA58238"],
+    "title": "Cornea",
+    "junior": "The cornea is the clear window at the front of your eye. It bends light to help focus it.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The cornea is the transparent anterior portion of the sclera.",
+    "structure": ["Avascular (no blood vessels); receives oxygen from air and aqueous humour.", "Richly supplied with sensory nerves."],
+    "functions": ["Admits light and does most of the eye's refraction."],
+    "neetPoints": ["Because the cornea is avascular, corneal transplants are rarely rejected by the immune system."],
+    "mcqs": [
+      {
+        "stem": "The cornea is a modification of the:",
+        "options": ["Choroid", "Sclera", "Retina", "Iris"],
+        "answer": 1,
+        "explanation": "It is the transparent anterior part of the sclera."
+      },
+      {
+        "stem": "Corneal transplants are seldom rejected because the cornea is:",
+        "options": ["Highly vascular", "Avascular", "Made of cartilage", "Covered by the iris"],
+        "answer": 1,
+        "explanation": "With no blood vessels, immune cells rarely reach the graft."
+      }
+    ]
+  },
+  {
+    "id": "lens",
+    "concepts": ["FMA58241"],
+    "title": "Lens",
+    "junior": "The lens is a clear, bendy disc behind your pupil. Tiny muscles change its shape so you can focus on things near and far.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The lens is a transparent, biconvex crystalline structure held by ligaments (suspensory ligaments) attached to the ciliary body.",
+    "structure": ["Elastic capsule; no blood vessels.", "Separates the aqueous chamber (front) from the vitreous chamber (behind)."],
+    "functions": ["Fine focusing (accommodation) by changing its curvature."],
+    "neetPoints": ["Cataract is clouding of the lens."],
+    "disorders": [{ "name": "Cataract", "cause": "Opacity of the lens", "symptoms": "Blurred, dim vision" }],
+    "mcqs": [
+      {
+        "stem": "The lens of the eye is held in position by ligaments attached to the:",
+        "options": ["Iris", "Ciliary body", "Cornea", "Retina"],
+        "answer": 1,
+        "explanation": "Suspensory ligaments connect the lens to the ciliary body."
+      },
+      {
+        "stem": "The chamber between the lens and the retina contains:",
+        "options": ["Aqueous humour", "Vitreous humour", "Cerebrospinal fluid", "Lymph"],
+        "answer": 1,
+        "explanation": "The vitreous chamber is filled with transparent gel called vitreous humour."
+      }
+    ]
+  },
+  {
+    "id": "retina",
+    "concepts": ["FMA58604"],
+    "title": "Retina",
+    "junior": "The retina is a thin layer at the back of your eye, full of light-sensing cells called rods and cones. Rods help you see in dim light; cones see colours.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The retina is the innermost layer of the eyeball containing photoreceptor cells (rods and cones) and neurons.",
+    "structure": ["Layers of ganglion, bipolar and photoreceptor cells.", "Blind spot (optic disc) medial to and slightly above the posterior pole.", "Macula lutea with the fovea lateral to the blind spot."],
+    "functions": ["Converts light into nerve impulses: light dissociates retinal from opsin, changing membrane permeability and generating potentials."],
+    "neetPoints": ["Light induces dissociation of retinal from opsin, causing a structural change in opsin and generating action potentials."],
+    "mcqs": [
+      {
+        "stem": "Photopigments in photoreceptors are composed of opsin and:",
+        "options": ["Retinal (an aldehyde of vitamin A)", "Melanin", "Haemoglobin", "Carotene only"],
+        "answer": 0,
+        "explanation": "Photopigments are made of opsin (protein) and retinal (aldehyde of vitamin A)."
+      },
+      {
+        "stem": "Twilight (scotopic) vision is the function of:",
+        "options": ["Cones", "Rods", "Bipolar cells", "Ganglion cells"],
+        "answer": 1,
+        "explanation": "Rods are responsible for vision in dim light."
+      }
+    ]
+  },
+  {
+    "id": "iris",
+    "concepts": ["FMA58235"],
+    "title": "Iris and pupil",
+    "junior": "The iris is the coloured part of your eye. It's a ring of muscle that makes the pupil (the black hole in the middle) smaller in bright light and bigger in the dark.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The iris is the pigmented, opaque continuation of the ciliary body; the aperture it surrounds is the pupil.",
+    "structure": ["Sphincter (circular) and dilator (radial) muscle fibres.", "Pigment gives eye colour."],
+    "functions": ["Regulates the diameter of the pupil and so the amount of light entering the eye."],
+    "neetPoints": ["The iris is the visible coloured portion of the eye; pupil diameter is regulated by its muscle fibres."],
+    "mcqs": [
+      {
+        "stem": "The diameter of the pupil is regulated by:",
+        "options": ["Ciliary muscles", "Muscle fibres of the iris", "The lens", "The cornea"],
+        "answer": 1,
+        "explanation": "Sphincter and dilator muscles of the iris control pupil size."
+      },
+      {
+        "stem": "The iris is a continuation of the:",
+        "options": ["Retina", "Ciliary body (choroid layer)", "Sclera", "Conjunctiva"],
+        "answer": 1,
+        "explanation": "The ciliary body continues forward as the pigmented iris."
+      }
+    ]
+  },
+  {
+    "id": "sclera",
+    "concepts": ["FMA58269"],
+    "title": "Sclera",
+    "junior": "The sclera is the tough white outer coat of your eyeball. It protects the eye and keeps its round shape.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The sclera is the outer layer of the eyeball composed of dense connective tissue.",
+    "structure": ["Continuous in front with the transparent cornea.", "Extra-ocular muscles are attached to it."],
+    "functions": ["Protects the eye and maintains its shape."],
+    "neetPoints": ["Eyeball wall layers from outside: sclera → choroid → retina."],
+    "mcqs": [
+      {
+        "stem": "The outermost layer of the eyeball is the:",
+        "options": ["Choroid", "Retina", "Sclera", "Iris"],
+        "answer": 2,
+        "explanation": "The sclera is the outer dense connective-tissue coat."
+      },
+      {
+        "stem": "The middle, bluish, vascular layer of the eyeball is the:",
+        "options": ["Sclera", "Choroid", "Retina", "Cornea"],
+        "answer": 1,
+        "explanation": "The choroid contains many blood vessels and looks bluish."
+      }
+    ]
+  },
+  {
+    "id": "external-ear",
+    "concepts": ["FMA52781"],
+    "title": "External ear (pinna)",
+    "junior": "The outer ear, or pinna, is the curly part you can see. It collects sounds and funnels them into the ear canal towards your eardrum.",
+    "syllabus": [{ "class": 11, "chapter": "Neural Control and Coordination", "ncert": false }],
+    "definition": "The outer ear consists of the pinna and the external auditory meatus (canal); the meatus leads inwards to the tympanic membrane (eardrum).",
+    "structure": [
+      "Pinna: elastic cartilage covered by skin.",
+      "Very fine hairs and wax-secreting sebaceous glands in the skin of the pinna and meatus.",
+      "Middle ear: ossicles malleus (attached to the tympanic membrane), incus and stapes (attached to the oval window of the cochlea); Eustachian tube connects to the pharynx.",
+      "Inner ear: cochlea with the organ of Corti (hair cells on the basilar membrane) and the vestibular apparatus (three semicircular canals and the otolith organ — saccule and utricle)."
+    ],
+    "functions": ["Pinna collects vibrations in the air that produce sound.", "Cochlea: hearing; vestibular apparatus: balance and posture."],
+    "neetPoints": [
+      "The Eustachian tube helps equalise pressure on either side of the eardrum.",
+      "Ear ossicles increase the efficiency of transmission of sound waves to the inner ear.",
+      "Crista ampullaris (semicircular canals) and macula (saccule, utricle) are the receptors for balance."
+    ],
+    "mcqs": [
+      {
+        "stem": "The ear ossicle attached to the tympanic membrane is the:",
+        "options": ["Stapes", "Incus", "Malleus", "Cochlea"],
+        "answer": 2,
+        "explanation": "The malleus is attached to the tympanic membrane; the stapes to the oval window."
+      },
+      {
+        "stem": "The organ of Corti is located on the:",
+        "options": ["Tympanic membrane", "Basilar membrane of the cochlea", "Semicircular canals", "Eustachian tube"],
+        "answer": 1,
+        "explanation": "It contains hair cells that act as auditory receptors."
+      },
+      {
+        "stem": "Which structure equalises air pressure on both sides of the eardrum?",
+        "options": ["Cochlea", "Eustachian tube", "Utricle", "Pinna"],
+        "answer": 1,
+        "explanation": "The Eustachian tube connects the middle ear cavity with the pharynx."
+      }
+    ]
+  }
+]
