@@ -18,6 +18,8 @@ next-intl · Zustand · Tailwind CSS + shadcn/ui.
 | `npm run lint` | ESLint |
 | `npm run typecheck` | Generate route types and run `tsc --noEmit` |
 | `npm run models` | Rebuild the 3D anatomy GLBs from BodyParts3D (downloads ~750 MB of STL into `.cache/` on first run) |
+| `npm run atlas` | Rebuild the Anatomy Atlas from BodyParts3D 4.0 (downloads ~150 MB into `.cache/bp3d4/` on first run) |
+| `npm run check:atlas` | Check that every study note points to a real atlas structure |
 
 ## 3D anatomy models
 
@@ -29,6 +31,16 @@ circulatory) and writes `src/generated/model-index.json`. Which structures go
 into which named node is set in `scripts/anatomy-manifest.mjs`. The derived
 models keep the CC BY-SA licence (see `public/models/ATTRIBUTION.txt`).
 Reproductive structures are excluded, and the skin is shown wearing swim shorts.
+
+## Anatomy Atlas (Junior + BiPC)
+
+`/[locale]/atlas` is an in-depth 3D atlas for Junior Doctors and BiPC Scholars:
+all 2,232 meshes of **BodyParts3D 4.0** (© The Database Center for Life Science,
+**CC BY 4.0**) are individually selectable, grouped into 15 systems, searchable by
+name, and can be taken apart into an exploded inventory. `scripts/build-atlas.mjs`
+packs one GLB per system into `public/atlas/` (about 12 MB, loaded per system) plus a
+catalogue JSON. Study notes for Class 11–12 (NCERT chapter, NEET points, MCQs) live in
+`content/atlas/notes/`. Reproductive anatomy is BiPC-only and off by default.
 
 ## Routes
 
@@ -64,6 +76,17 @@ with the Web Audio API, so there are no audio files, and they follow the sound t
 
 No accounts, ads, tracking or network calls. Settings and sticker progress are
 stored in `localStorage` on the device only.
+
+## Acknowledgements
+
+- **[Human Atlas](https://github.com/ashemag/human-atlas)** by Ashe Magalhães (MIT
+  licence) — thank you! Our Anatomy Atlas was inspired by its approach: using
+  BodyParts3D 4.0 with every mesh selectable, system layers and presets, name
+  search, isolating a structure, and the “take it apart” exploded view. BodyVerse
+  has its own implementation (React Three Fiber, a per-part state texture for
+  highlighting and explode offsets) and its own study content.
+- **[BodyParts3D](https://dbarchive.biosciencedbc.jp/en/bodyparts3d/)**, © The
+  Database Center for Life Science, for the 3D anatomy data.
 
 ## Project setup (Phase 1)
 
